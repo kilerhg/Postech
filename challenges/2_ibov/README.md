@@ -62,9 +62,9 @@ challenges/
     │   │   └── silver.parquet
     │   └── gold/
     │       └── gold.parquet
-    ├── plots/
-    │   ├── plot1.png
-    │   └── plot2.png
+    └── plots/
+        ├── plot1.png
+        └── plot2.png
 ```
 
 ## Seleção Dos Índices a Serem Utilizados
