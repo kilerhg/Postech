@@ -114,11 +114,11 @@ Nesta seção, são apresentados os índices selecionados para análise, dividid
 - **VALE3**: Ações da Vale, importante para o setor de mineração.
 - **VIX**: Índice de volatilidade, medindo a expectativa de volatilidade do mercado.
 
-### Correção dos indicies selecionados com IBOV
+### Correlação dos indicies selecionados com IBOV
 
 ![correlacao_ibov_outros_indicies](plots/correlacao_ibov_outros_indicies.png)
 
-### Correção dos indicies selecionados Entre eles
+### Correlação dos indicies selecionados Entre eles
 
 ![correlacao_entre_todos_indicies](plots/correlacao_entre_todos_indicies.png)
 
