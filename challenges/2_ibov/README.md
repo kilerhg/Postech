@@ -17,15 +17,19 @@ graph LR
     subgraph Prata
         B1[Processamento de Dados]
         B2[Lidar com Dados Ausentes]
-        B3[Salvar Dados Processados]
-        B1 --> B2 --> B3
+        B3[Normalização de Dados]
+        B4[Consolidação de Dados]
+        B5[Salvar Dados Processados]
+        B1 --> B2 --> B3 --> B4 --> B5
     end
 
     subgraph Ouro
         C1[Análise de Dados]
-        C2[Modelagem]
-        C3[Visualização]
-        C1 --> C2 --> C3
+        C2[Calcular Correlações]
+        C3[Modelagem]
+        C4[Gerar Previsões]
+        C5[Visualização]
+        C1 --> C2 --> C3 --> C4 --> C5
     end
 
     Bronze --> Prata --> Ouro
