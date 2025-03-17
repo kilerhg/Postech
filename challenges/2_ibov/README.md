@@ -118,7 +118,7 @@ Nesta seção, são apresentados os índices selecionados para análise, dividid
 
 ![correlacao_ibov_outros_indicies](plots/correlacao_ibov_outros_indicies.png)
 
-### Correlação dos indicies selecionados Entre eles
+### Correlação Entre os indicies selecionados
 
 ![correlacao_entre_todos_indicies](plots/correlacao_entre_todos_indicies.png)
 
