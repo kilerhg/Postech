@@ -300,4 +300,4 @@ O modelo ARIMA é representado como ARIMA(p, d, q), onde:
 
 ### Rafael Cuer
 
-[LinkedIn]()
+[LinkedIn](https://www.linkedin.com/in/rafaelcuer/)
