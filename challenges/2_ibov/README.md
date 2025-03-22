@@ -247,6 +247,7 @@ O modelo ARIMA (AutoRegressive Integrated Moving Average) é uma técnica de an�
 - **MA (Moving Average)**: Modela o erro da previsão como uma combinação linear de erros passados.
 
 O modelo ARIMA é representado como ARIMA(p, d, q), onde:
+
 - **p**: Ordem da parte autoregressiva.
 - **d**: Número de diferenciações necessárias para tornar a série estacionária.
 - **q**: Ordem da média móvel.
