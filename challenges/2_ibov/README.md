@@ -260,6 +260,44 @@ O modelo ARIMA é representado como ARIMA(p, d, q), onde:
 
 ![comparacao_percentual_precisao_previsao_diario](plots/comparacao_percentual_precisao_previsao_diario.png)
 
+### Resultados NAIVE
+
+#### Definição NAIVE
+
+O modelo Naive é uma técnica simples para previsão de séries temporais. Ele parte da ideia de que o melhor palpite para o próximo valor é o valor mais recente da série.
+
+Na prática, se o valor da série no tempo t é Yₜ, então a previsão para o próximo ponto (t+1) será:
+- Yₜ₊₁ = Yₜ
+
+Apesar de sua simplicidade, o modelo Naive é bastante usado como ponto de partida (ou benchmark) para comparar com modelos mais sofisticados.
+
+##### Comparação Previsão X Teste
+Ao comparar as previsões do modelo Naive com os dados reais de teste, conseguimos avaliar se modelos mais avançados — como ARIMA ou algoritmos de machine learning — realmente oferecem melhorias relevantes em relação a essa previsão simples.
+
+#### Plot 1
+#### Plot 2
+#### Plot 3
+
+### Resultados SEAZONAL NAIVE
+
+#### Definição SEAZONAL NAIVE
+
+O modelo Seasonal Naive é uma variação do modelo Naive, indicada para séries temporais com padrão sazonal. Nesse caso, a previsão para um determinado período considera o valor observado no mesmo período da estação anterior.
+
+Em termos práticos, se a série tem uma sazonalidade com período s, o modelo assume que:
+- Yₜ = Yₜ₋ₛ
+
+Ou seja, a previsão para o tempo t será igual ao que foi observado s períodos atrás.
+
+O modelo é muito utilizado em setores com padrão sazonal, como varejo, turismo, produção agrícola ou séries financeiras com efeitos de calendário (ex: comportamento semanal da bolsa de valores).
+
+##### Comparação Previsão X Teste
+Ao avaliar o desempenho do modelo Seasonal Naive nos dados de teste, conseguimos entender se apenas considerar a sazonalidade já é suficiente ou se vale a pena investir em modelos mais robustos, como o SARIMA ou técnicas baseadas em machine learning.
+
+#### Plot 1
+#### Plot 2
+#### Plot 3
+
 ## Referencias
 
 ### Referencias Gerais
