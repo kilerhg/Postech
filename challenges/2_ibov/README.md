@@ -274,9 +274,8 @@ Apesar de sua simplicidade, o modelo Naive é bastante usado como ponto de parti
 ##### Comparação Previsão X Teste
 Ao comparar as previsões do modelo Naive com os dados reais de teste, conseguimos avaliar se modelos mais avançados — como ARIMA ou algoritmos de machine learning — realmente oferecem melhorias relevantes em relação a essa previsão simples.
 
-#### Plot 1
-#### Plot 2
-#### Plot 3
+#### Naive | Valores Reais X Previsão do Modelo
+![previsao_do_ibovespa_modelo_naive_zoom](plots/previsao_do_ibovespa_modelo_naive_zoom.png)
 
 ### Resultados SEAZONAL NAIVE
 
@@ -294,9 +293,11 @@ O modelo é muito utilizado em setores com padrão sazonal, como varejo, turismo
 ##### Comparação Previsão X Teste
 Ao avaliar o desempenho do modelo Seasonal Naive nos dados de teste, conseguimos entender se apenas considerar a sazonalidade já é suficiente ou se vale a pena investir em modelos mais robustos, como o SARIMA ou técnicas baseadas em machine learning.
 
-#### Plot 1
-#### Plot 2
-#### Plot 3
+#### Seazonal Naive | Valores Reais X Previsão do Modelo (Semanal)
+![previsao_do_ibovespa_modelo_seazonal_naive_semanal_zoom](plots/previsao_do_ibovespa_modelo_seazonal_naive_semanal_zoom.png)
+
+#### Seazonal Naive | Valores Reais X Previsão do Modelo (Mensal)
+![previsao_do_ibovespa_modelo_seazonal_naive_mensal_zoom](plots/previsao_do_ibovespa_modelo_seazonal_naive_mensal_zoom.png)
 
 ## Referencias
 
