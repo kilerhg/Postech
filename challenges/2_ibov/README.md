@@ -328,9 +328,13 @@ Ao avaliar o desempenho do modelo Seasonal Naive nos dados de teste, conseguimos
 
 #### Seazonal Naive | Valores Reais X Previsão do Modelo (Semanal)
 
-![previsao_do_ibovespa_modelo_naive_compare_zoom](plots/previsao_do_ibovespa_modelo_naive_compare_zoom.png)
+![previsao_do_ibovespa_modelo_seazonal_naive_semanal](plots/previsao_do_ibovespa_modelo_seazonal_naive_semanal.png)
+
+![previsao_do_ibovespa_modelo_seazonal_naive_semanal_zoom](plots/previsao_do_ibovespa_modelo_seazonal_naive_semanal_zoom.png)
 
 #### Seazonal Naive | Valores Reais X Previsão do Modelo (Mensal)
+
+![previsao_do_ibovespa_modelo_seazonal_naive_mensal](plots/previsao_do_ibovespa_modelo_seazonal_naive_mensal.png)
 
 ![previsao_do_ibovespa_modelo_seazonal_naive_mensal_zoom](plots/previsao_do_ibovespa_modelo_seazonal_naive_mensal_zoom.png)
 
