@@ -253,6 +253,10 @@ Seguindo esses passos, você será capaz de prever os valores do índice do merc
 
 ### Analise Dataset
 
+#### Dados Históricos Ibovespa
+
+![dados_historicos_ibov](plots/dados_historicos_ibov.png)
+
 #### Decomposição da Série Temporal
 
 ![decomposicao_serie_temporal](plots/decomposicao_serie_temporal.png)
