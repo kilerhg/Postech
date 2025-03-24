@@ -3,7 +3,7 @@
 
 Segundo o publicado no site do GOV através do Portal do Investidor (2022), a Bolsa de Valores é descrita como:
 
-- "Um ambiente regulado e organizado, em um espaço físico ou um sistema eletrônico, em que os investidores podem comprar e vender ativos financeiros específicos (valores mobiliários), por intermédio de instituições autorizadas, os intermediários"
+>*"Um ambiente regulado e organizado, em um espaço físico ou um sistema eletrônico,em que os investidores podem comprar e vender ativos financeiros específicos (valores mobiliários), por intermédio de instituições autorizadas, os intermediários"*
 
 São negociadas na bolsa, ações, Brazilian Depositary Receipt (BDRs), Debêntures, Cotas de fundos de investimento imobiliários (FIIs), Exchange Traded Funds (ETFs), ou Fundos de Índices com o intuito de mobilizar recursos estagnados, redistribuir a riqueza  , criar oportunidades para o pequeno investidor, angariar fundos governamentais para projetos de desenvolvimento, controlar a gestão das empresas e servir de barômetro da economia.
 
