@@ -251,6 +251,16 @@ Seguindo esses passos, você será capaz de prever os valores do índice do merc
 
 ## Previsão Dados
 
+### Analise Dataset
+
+#### Decomposição da Série Temporal
+
+![decomposicao_serie_temporal](plots/decomposicao_serie_temporal.png)
+
+#### Identificação dos parâmetros do modelo
+
+![identificacao_parametros_modelo](plots/identificacao_parametros_modelo.png)
+
 ### Resultados ARIMA
 
 #### Definição ARIMA
@@ -290,6 +300,9 @@ Apesar de sua simplicidade, o modelo Naive é bastante usado como ponto de parti
 Ao comparar as previsões do modelo Naive com os dados reais de teste, conseguimos avaliar se modelos mais avançados — como ARIMA ou algoritmos de machine learning — realmente oferecem melhorias relevantes em relação a essa previsão simples.
 
 #### Naive | Valores Reais X Previsão do Modelo
+
+![previsao_do_ibovespa_modelo_naive_compare_zoom.png](plots/previsao_do_ibovespa_modelo_naive_compare_zoom.png)
+
 ![previsao_do_ibovespa_modelo_naive_zoom](plots/previsao_do_ibovespa_modelo_naive_zoom.png)
 
 ### Resultados SEAZONAL NAIVE
@@ -311,7 +324,7 @@ Ao avaliar o desempenho do modelo Seasonal Naive nos dados de teste, conseguimos
 
 #### Seazonal Naive | Valores Reais X Previsão do Modelo (Semanal)
 
-![previsao_do_ibovespa_modelo_seazonal_naive_semanal_zoom](plots/previsao_do_ibovespa_modelo_seazonal_naive_semanal_zoom.png)
+![previsao_do_ibovespa_modelo_naive_compare_zoom](plots/previsao_do_ibovespa_modelo_naive_compare_zoom.png)
 
 #### Seazonal Naive | Valores Reais X Previsão do Modelo (Mensal)
 
