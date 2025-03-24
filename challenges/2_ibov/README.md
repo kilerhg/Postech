@@ -9,7 +9,7 @@ São negociadas na bolsa, ações, Brazilian Depositary Receipt (BDRs), Debêntu
 
 Segundo publicado no site oficial da B3, o IBOVESPA é “o principal indicador de desempenho das ações negociadas na bolsa e reúne as empresas mais importantes do mercado de capitais brasileiro” (2022), composto atualmente por 83 atuantes.
 
-Este trabalho busca por meio de análise de séries temporais, prever o resultado do fechamento deste índice, reunindo dados internos do mercado brasileiro de capitais, bem como comódites, criptomoedas, câmbio e índices de bolsas internacionais que possam direta ou indiretamente afetar o resultado final da previsão.
+Este trabalho busca por meio de análise de séries temporais, prever o resultado do fechamento deste índice, reunindo dados internos do mercado brasileiro de capitais, bem como commodities, criptomoedas, câmbio e índices de bolsas internacionais que possam direta ou indiretamente afetar o resultado final da previsão.
 
 # Predição de pontos da bolsa de valores Brasileira (IBOV)
 
@@ -342,10 +342,10 @@ O modelo SARIMA (Seasonal AutoRegressive Integrated Moving Average) é uma exten
 
 O modelo SARIMA é representado como SARIMA(p, d, q)(P, D, Q, s), onde:
 
-- **p**: Ordem da parte autoregressiva.
+- **p**: Ordem da parte autorregressiva.
 - **d**: Número de diferenciações necessárias para tornar a série estacionária.
 - **q**: Ordem da média móvel.
-- **P**: Ordem da parte autoregressiva sazonal.
+- **P**: Ordem da parte autorregressiva sazonal.
 - **D**: Número de diferenciações sazonais.
 - **Q**: Ordem da média móvel sazonal.
 - **s**: Período da sazonalidade.
