@@ -324,7 +324,7 @@ O modelo é muito utilizado em setores com padrão sazonal, como varejo, turismo
 
 ##### Comparação Previsão X Teste
 
-Ao avaliar o desempenho do modelo Seasonal Naive nos dados de teste, conseguimos entender se apenas considerar a sazonalidade já é suficiente ou se vale a pena investir em modelos mais robustos, como o SARIMA ou técnicas baseadas em machine learning.
+Ao avaliar o desempenho do modelo Seasonal Naive nos dados de teste, conseguimos entender se apenas considerar a sazonalidade já é suficiente ou se vale a pena investir em modelos mais robustos, como o SARIMA ou técnicas baseadas em machine learning. 
 
 #### Seazonal Naive | Valores Reais X Previsão do Modelo (Semanal)
 
