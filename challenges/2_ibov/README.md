@@ -141,7 +141,7 @@ Nesta seção, são apresentados os índices selecionados para análise, dividid
 
 A camada bronze envolve a ingestão inicial e a limpeza básica dos dados brutos. Os dados são lidos a partir de arquivos CSV e transformações básicas são aplicadas para limpar e normalizar os dados.
 
-- **Arquivo:** bronze/process_investing_data.ipynb
+- **Arquivo:** [bronze/process_investing_data.ipynb](code/bronze/process_investing_data.ipynb)
 - **Etapas:**
   - Ler dados brutos de arquivos CSV.
   - Renomear colunas e converter tipos de dados.
@@ -152,7 +152,7 @@ A camada bronze envolve a ingestão inicial e a limpeza básica dos dados brutos
 
 A camada prata envolve o processamento e enriquecimento adicional dos dados. Isso inclui lidar com dados ausentes, normalizar valores e criar um DataFrame consolidado com todos os índices.
 
-- **Arquivo:** silver/process_investing_data.ipynb
+- **Arquivo:** [silver/process_investing_data.ipynb](code/silver/process_investing_data.ipynb)
 - **Etapas:**
   - Ler dados da camada bronze.
   - Criar um dicionário de todos os índices e seus respectivos dados.
@@ -165,7 +165,7 @@ A camada prata envolve o processamento e enriquecimento adicional dos dados. Iss
 
 A camada ouro envolve o processamento final e a preparação dos dados para análise e modelagem. Isso inclui calcular correlações, ajustar modelos de séries temporais e gerar previsões.
 
-- **Arquivo:** gold/process_investing_data.ipynb
+- **Arquivo:** [gold/process_investing_data.ipynb](code/gold/process_investing_data.ipynb)
 - **Etapas:**
   - Ler dados da camada prata.
   - Calcular matrizes de correlação.
@@ -175,7 +175,9 @@ A camada ouro envolve o processamento final e a preparação dos dados para aná
 
 ## Configuração
 
-Para configurar o ambiente de desenvolvimento e instalar as bibliotecas necessárias, siga as instruções nos notebooks. O projeto utiliza Python, PySpark, Pandas, NumPy, Matplotlib, Seaborn e Statsmodels.
+Para configurar o ambiente de desenvolvimento e instalar as bibliotecas necessárias, siga as instruções nos notebooks. O projeto utiliza Python, PySpark, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, StatsForecast.
+
+`pip install -r requirements.txt`
 
 ## Execução
 
@@ -203,7 +205,7 @@ Seguindo esses passos, você será capaz de prever os valores do índice do merc
    - Salvar os dados limpos na camada prata.
 
 3. **Processamento**:
-   - bronze/process_investing_data.ipynb
+   - [bronze/process_investing_data.ipynb](code/bronze/process_investing_data.ipynb)
 
 4. **Output**
    - data/silver/silver.parquet
@@ -223,7 +225,7 @@ Seguindo esses passos, você será capaz de prever os valores do índice do merc
    - Salvar os dados processados na camada ouro.
 
 4. **Processamento**:
-   - silver/process_investing_data.ipynb
+   - [silver/process_investing_data.ipynb](code/silver/process_investing_data.ipynb)
 
 5. **Output**
    - data/silver/gold.parquet
@@ -242,7 +244,7 @@ Seguindo esses passos, você será capaz de prever os valores do índice do merc
    - Plotar os resultados e calcular métricas de precisão.
 
 4. **Processamento**:
-   - gold/process_investing_data.ipynb
+   - [gold/process_investing_data.ipynb](code/gold/process_investing_data.ipynb)
 
 5. **Output**
    - Modelo de predição
@@ -318,6 +320,26 @@ Ao avaliar o desempenho do modelo Seasonal Naive nos dados de teste, conseguimos
 ### Resultados Sarima
 
 #### Definição Sarima
+O modelo SARIMA (Seasonal AutoRegressive Integrated Moving Average) é uma extensão do modelo ARIMA que incorpora componentes sazonais. Ele é utilizado para modelar e prever séries temporais que apresentam padrões sazonais, ajustando-se tanto às tendências quanto às variações sazonais.
+
+- **Sazonalidade (S)**: Captura padrões que se repetem em intervalos regulares.
+- **AR (AutoRegressive)**: Utiliza a relação entre uma observação e várias observações anteriores.
+- **I (Integrated)**: Utiliza a diferenciação das observações para tornar a série temporal estacionária.
+- **MA (Moving Average)**: Modela o erro da previsão como uma combinação linear de erros passados.
+
+O modelo SARIMA é representado como SARIMA(p, d, q)(P, D, Q, s), onde:
+
+- **p**: Ordem da parte autoregressiva.
+- **d**: Número de diferenciações necessárias para tornar a série estacionária.
+- **q**: Ordem da média móvel.
+- **P**: Ordem da parte autoregressiva sazonal.
+- **D**: Número de diferenciações sazonais.
+- **Q**: Ordem da média móvel sazonal.
+- **s**: Período da sazonalidade.
+
+#### Comparação Previsão Sarima X Teste
+
+![previsao_ibov_sarima](plots/previsao_ibov_sarima.png)
 
 ### Resultado Final, Comparação entre modelos
 
