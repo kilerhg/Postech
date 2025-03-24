@@ -1,7 +1,7 @@
 
 # Bolsa de Valores Brasileira (B3) e o Índice BOVESPA
 
-Segundo o publicado no site do GOV através do Portal do Investidor (2022), a Bolsa de Valores é descrita como:
+Segundo o publicado no site do GOV através do Portal do Investidor (2022), a Bolsa de Valores é descrita como: 
 
 >*"Um ambiente regulado e organizado, em um espaço físico ou um sistema eletrônico,em que os investidores podem comprar e vender ativos financeiros específicos (valores mobiliários), por intermédio de instituições autorizadas, os intermediários"*
 
