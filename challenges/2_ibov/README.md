@@ -169,7 +169,7 @@ A camada ouro envolve o processamento final e a preparação dos dados para aná
 - **Etapas:**
   - Ler dados da camada prata.
   - Calcular matrizes de correlação.
-  - Ajustar modelos ARIMA aos dados.
+  - Ajustar modelos aos dados.
   - Gerar previsões e compará-las com os valores reais.
   - Plotar os resultados e calcular métricas de precisão.
 
@@ -304,19 +304,49 @@ Ou seja, a previsão para o tempo t será igual ao que foi observado s períodos
 O modelo é muito utilizado em setores com padrão sazonal, como varejo, turismo, produção agrícola ou séries financeiras com efeitos de calendário (ex: comportamento semanal da bolsa de valores).
 
 ##### Comparação Previsão X Teste
+
 Ao avaliar o desempenho do modelo Seasonal Naive nos dados de teste, conseguimos entender se apenas considerar a sazonalidade já é suficiente ou se vale a pena investir em modelos mais robustos, como o SARIMA ou técnicas baseadas em machine learning.
 
 #### Seazonal Naive | Valores Reais X Previsão do Modelo (Semanal)
+
 ![previsao_do_ibovespa_modelo_seazonal_naive_semanal_zoom](plots/previsao_do_ibovespa_modelo_seazonal_naive_semanal_zoom.png)
 
 #### Seazonal Naive | Valores Reais X Previsão do Modelo (Mensal)
+
 ![previsao_do_ibovespa_modelo_seazonal_naive_mensal_zoom](plots/previsao_do_ibovespa_modelo_seazonal_naive_mensal_zoom.png)
+
+### Resultados Sarima
+
+#### Definição Sarima
+
+### Resultado Final, Comparação entre modelos
+
+#### Comparação Resultado no mesmo periodo
+
+![comparacao_modelos_total_zoom](plots/comparacao_modelos_total_zoom.png)
+
+#### Comparação Valores
+
+![comparacao_todos_modelos_dados_teste_separados](plots/comparacao_todos_modelos_dados_teste_separados.png)
+
+#### Comparação Precisão
+
+![comparacao_percentual_erro_total_todos_modelos](plots/comparacao_percentual_erro_total_todos_modelos.png)
+
+## Conclusão
+
+Conforme demostrado pelo gráfico abaixo, os Modelos Naive, Arima, Seazonal Naive Semanal & Mensal tiveram precisões similares, de 96% variando 0,23% entre o maior e menor destes
+
+Porém o Seazonal Naive Mensal obteve em valores absolutos a maior precisão: 96,68%
+
+![comparacao_todos_modelos_dados_teste_separados](plots/comparacao_percentual_precisao_previsao_total_todos_modelos.png)
 
 ## Referencias
 
 ### Referencias Gerais
 
 - [Explicação Índice Ibov](https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/ibovespa.htm)
+- [Historia Bolsa](https://mub3.org.br/acervo/historia-da-bolsa)
 - [Composição Índice Ibov](https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm)
 - [Cotação Índice IBOV](https://br.investing.com/indices/bovespa)
 - [Investing - Principais Indices](https://br.investing.com/indices/major-indices)
