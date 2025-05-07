@@ -162,3 +162,7 @@ cython_debug/
 #.idea/
 
 # *.csv
+
+
+# Big csv folder, ignoring, if required rebuild bronze.parquet, download base files again
+challenges/3_covid19/data/bronze/micro_data
