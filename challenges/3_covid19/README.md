@@ -8,9 +8,9 @@ Este projeto tem como objetivo realizar o processamento de dados da PNAD COVID-1
 
 ## Estrutura do Projeto
 
-![arch](./docs/post_challenge_3_v3.png)
-
 O projeto está dividido em três etapas principais:
+
+![arch](./docs/post_challenge_3_v3.png)
 
 ## Notebooks
 
