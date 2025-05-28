@@ -14,9 +14,9 @@ O projeto está dividido em três etapas principais:
 
 ## Notebooks
 
-Ingest Notebook: [ingest](./code/ingest/ingest.ipynb)
-Bronze Notebook: [bronze](./code/bronze/pre_processing.ipynb)
-Silver Notebook: [silver](./code/silver/processing.ipynb)
+* Ingest Notebook: [ingest](./code/ingest/ingest.ipynb)
+* Bronze Notebook: [bronze](./code/bronze/pre_processing.ipynb)
+* Silver Notebook: [silver](./code/silver/processing.ipynb)
 
 ### Bronze Tier
 
