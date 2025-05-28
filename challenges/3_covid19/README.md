@@ -12,8 +12,14 @@ Este projeto tem como objetivo realizar o processamento de dados da PNAD COVID-1
 
 O projeto está dividido em três etapas principais:
 
+## Notebooks
+
+Ingest Notebook: [ingest](./code/ingest/ingest.ipynb)
+Bronze Notebook: [bronze](./code/bronze/pre_processing.ipynb)
+Silver Notebook: [silver](./code/silver/processing.ipynb)
 
 ### Bronze Tier
+
 - **Descrição**: Nesta etapa, os dados brutos são ingeridos e organizados em um formato inicial para processamento.
 - **Processos**:
   - Download dos dados brutos da PNAD COVID-19.
@@ -22,6 +28,7 @@ O projeto está dividido em três etapas principais:
 - **Saída**: Dados brutos organizados em formato Parquet.
 
 ### Silver Tier
+
 - **Descrição**: Os dados são refinados e enriquecidos nesta etapa, com foco na limpeza e estruturação.
 - **Processos**:
   - Leitura dos dados do tier Bronze.
@@ -31,6 +38,7 @@ O projeto está dividido em três etapas principais:
 - **Saída**: Dados refinados e estruturados prontos para análise.
 
 ### Gold Tier
+
 - **Descrição**: Nesta etapa, os dados são preparados para análise e visualização.
 - **Processos**:
   - Transformação dos dados refinados em métricas e indicadores relevantes.
@@ -39,6 +47,7 @@ O projeto está dividido em três etapas principais:
 - **Saída**: Dados prontos para análise e visualização.
 
 ## Ferramentas Utilizadas
+
 - **Apache Spark**: Para processamento de dados em larga escala.
 - **Python**: Para manipulação e transformação dos dados.
 - **Power BI**: Para criação de dashboards e visualização dos resultados.
