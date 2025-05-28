@@ -51,3 +51,4 @@ O projeto está dividido em três etapas principais:
 - **Apache Spark**: Para processamento de dados em larga escala.
 - **Python**: Para manipulação e transformação dos dados.
 - **Power BI**: Para criação de dashboards e visualização dos resultados.
+- **Databricks**: Uma plataforma unificada para engenharia de dados e aprendizado de máquina.
