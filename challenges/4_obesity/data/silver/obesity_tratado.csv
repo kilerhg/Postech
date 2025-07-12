@@ -1,0 +1,2112 @@
+,gender,age,height,weight,family_history,favc,fcvc,ncp,caec,smoke,ch2o,scc,faf,tue,calc,mtrans,obesity
+0,Feminino,21,1.62,64.0,True,False,2,3,1,False,2,False,0,1,0,Transporte público,1
+1,Feminino,21,1.52,56.0,True,False,3,3,1,True,3,True,3,0,1,Transporte público,1
+2,Masculino,23,1.8,77.0,True,False,2,3,1,False,2,False,2,1,2,Transporte público,1
+3,Masculino,27,1.8,87.0,False,False,3,3,1,False,2,False,2,0,2,Caminhada,2
+4,Masculino,22,1.78,89.8,False,False,2,1,1,False,2,False,0,0,1,Transporte público,3
+5,Masculino,29,1.62,53.0,False,True,2,3,1,False,2,False,0,0,1,Automóvel,1
+6,Feminino,23,1.5,55.0,True,True,3,3,1,False,2,False,1,0,1,Motocicleta,1
+7,Masculino,22,1.64,53.0,False,False,2,3,1,False,2,False,3,0,1,Transporte público,1
+8,Masculino,24,1.78,64.0,True,True,3,3,1,False,2,False,1,1,2,Transporte público,1
+9,Masculino,22,1.72,68.0,True,True,2,3,1,False,2,False,1,1,0,Transporte público,1
+10,Masculino,26,1.85,105.0,True,True,3,3,2,False,3,False,2,2,1,Transporte público,4
+11,Feminino,21,1.72,80.0,True,True,2,3,2,False,2,True,2,1,1,Transporte público,3
+12,Masculino,22,1.65,56.0,False,False,3,3,1,False,3,False,2,0,1,Transporte público,1
+13,Masculino,41,1.8,99.0,False,True,2,3,1,False,2,False,2,1,2,Automóvel,4
+14,Masculino,23,1.77,60.0,True,True,3,1,1,False,1,False,1,1,1,Transporte público,1
+15,Feminino,22,1.7,66.0,True,False,3,3,3,False,2,True,2,1,1,Transporte público,1
+16,Masculino,27,1.93,102.0,True,True,2,1,1,False,1,False,1,0,1,Transporte público,3
+17,Feminino,29,1.53,78.0,False,True,2,1,1,False,2,False,0,0,0,Automóvel,4
+18,Feminino,30,1.71,82.0,True,True,3,4,2,True,1,False,0,0,0,Automóvel,3
+19,Feminino,23,1.65,70.0,True,False,2,1,1,False,2,False,0,0,1,Transporte público,2
+20,Masculino,22,1.65,80.0,True,False,2,3,1,False,2,False,3,2,0,Caminhada,3
+21,Feminino,52,1.69,87.0,True,True,3,1,1,True,2,False,0,0,0,Automóvel,4
+22,Feminino,22,1.65,60.0,True,True,3,3,1,False,2,False,1,0,1,Automóvel,1
+23,Feminino,22,1.6,82.0,True,True,1,1,1,False,2,False,0,2,1,Transporte público,4
+24,Masculino,21,1.85,68.0,True,True,2,3,1,False,2,False,0,1,1,Transporte público,1
+25,Masculino,20,1.6,50.0,True,False,2,4,2,True,2,False,3,2,0,Transporte público,1
+26,Masculino,21,1.7,65.0,True,True,2,1,2,False,2,False,1,2,3,Caminhada,1
+27,Feminino,23,1.6,52.0,False,True,2,4,2,False,2,False,2,1,1,Automóvel,1
+28,Masculino,19,1.75,76.0,True,True,3,3,1,False,2,True,3,1,1,Transporte público,1
+29,Masculino,23,1.68,70.0,False,True,2,3,1,False,2,False,2,2,2,Caminhada,1
+30,Masculino,29,1.77,83.0,False,True,1,4,2,False,3,False,0,1,0,Motocicleta,2
+31,Feminino,31,1.58,68.0,True,False,2,1,1,False,1,False,1,0,1,Transporte público,3
+32,Feminino,24,1.77,76.0,False,False,2,3,1,False,3,False,1,1,1,Caminhada,1
+33,Masculino,39,1.79,90.0,False,False,2,1,1,False,2,False,0,0,1,Transporte público,3
+34,Masculino,22,1.65,62.0,False,True,2,4,2,False,2,False,2,0,1,Transporte público,1
+35,Feminino,21,1.5,65.0,True,False,2,3,1,False,2,False,2,2,1,Transporte público,3
+36,Feminino,22,1.56,49.0,False,True,2,3,1,False,1,True,2,0,0,Caminhada,1
+37,Feminino,21,1.6,48.0,False,True,2,3,1,False,1,False,1,0,1,Transporte público,1
+38,Masculino,23,1.65,67.0,True,True,2,3,1,False,2,False,1,1,1,Transporte público,1
+39,Feminino,21,1.75,88.0,True,True,2,3,1,False,3,False,3,0,1,Transporte público,3
+40,Feminino,21,1.67,75.0,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+41,Masculino,23,1.68,60.0,False,False,2,4,2,False,2,False,0,0,0,Caminhada,1
+42,Feminino,21,1.66,64.0,True,True,1,3,1,False,1,False,0,0,0,Transporte público,1
+43,Masculino,21,1.66,62.0,True,True,2,3,1,True,2,False,1,1,2,Transporte público,1
+44,Masculino,21,1.81,80.0,False,False,1,3,0,False,2,False,2,0,0,Transporte público,1
+45,Feminino,21,1.53,65.0,True,False,2,3,1,False,1,False,0,1,0,Transporte público,3
+46,Masculino,21,1.82,72.0,True,True,1,3,2,False,3,False,2,0,1,Transporte público,1
+47,Masculino,21,1.75,72.0,True,True,1,3,2,False,3,False,2,0,1,Transporte público,1
+48,Feminino,20,1.66,60.0,True,False,3,3,1,False,2,False,1,0,1,Caminhada,1
+49,Feminino,21,1.55,50.0,False,True,2,3,1,False,2,False,0,0,1,Transporte público,1
+50,Feminino,21,1.61,54.5,True,True,3,3,1,False,3,False,0,1,1,Caminhada,1
+51,Feminino,20,1.5,44.0,False,True,2,3,1,False,1,False,0,0,1,Automóvel,1
+52,Feminino,23,1.64,52.0,False,True,3,1,1,False,2,False,2,2,0,Transporte público,1
+53,Feminino,23,1.63,55.0,True,False,3,3,0,False,2,True,2,1,0,Transporte público,1
+54,Feminino,22,1.6,55.0,False,False,3,4,3,False,3,False,2,0,0,Transporte público,1
+55,Masculino,23,1.68,62.0,False,False,2,4,2,False,2,False,0,0,1,Automóvel,1
+56,Masculino,22,1.7,70.0,True,True,2,3,1,False,1,False,0,1,1,Automóvel,1
+57,Masculino,21,1.64,65.0,True,False,2,3,1,False,1,False,0,1,0,Transporte público,1
+58,Feminino,17,1.65,67.0,True,True,3,1,1,False,2,False,1,1,0,Caminhada,1
+59,Masculino,20,1.76,55.0,True,True,2,4,1,False,3,False,2,2,0,Transporte público,0
+60,Feminino,21,1.55,49.0,True,True,2,3,1,False,3,False,3,1,1,Transporte público,1
+61,Masculino,20,1.65,58.0,False,True,2,3,1,False,2,False,3,1,1,Transporte público,1
+62,Masculino,22,1.67,62.0,False,True,2,1,0,False,2,False,0,0,1,Transporte público,1
+63,Masculino,22,1.68,55.0,True,True,2,3,1,False,2,False,0,2,1,Automóvel,1
+64,Feminino,21,1.66,57.0,True,True,2,3,2,False,1,False,1,1,0,Transporte público,1
+65,Feminino,21,1.62,69.0,True,True,1,3,2,False,2,False,0,1,0,Transporte público,2
+66,Masculino,23,1.8,90.0,True,True,1,3,3,False,2,False,0,2,2,Transporte público,3
+67,Masculino,23,1.65,95.0,True,True,2,3,3,False,2,False,0,1,2,Automóvel,4
+68,Masculino,30,1.76,112.0,True,True,1,3,0,True,2,True,0,0,2,Automóvel,5
+69,Masculino,23,1.8,60.0,True,False,2,3,0,False,3,False,0,1,1,Transporte público,1
+70,Feminino,23,1.65,80.0,True,True,2,3,3,False,2,False,0,2,0,Transporte público,3
+71,Feminino,22,1.67,50.0,True,False,3,3,0,False,3,True,2,1,1,Transporte público,0
+72,Feminino,24,1.65,60.0,True,False,2,3,1,False,3,True,1,0,0,Transporte público,1
+73,Masculino,19,1.85,65.0,True,False,2,3,1,False,3,False,2,1,1,Bicicleta,1
+74,Masculino,24,1.7,85.0,True,True,2,3,2,False,3,False,0,1,2,Transporte público,3
+75,Feminino,23,1.63,45.0,True,False,3,3,1,False,3,True,2,0,0,Transporte público,0
+76,Feminino,24,1.6,45.0,True,False,2,3,0,False,2,False,1,0,0,Transporte público,0
+77,Feminino,24,1.7,80.0,True,True,2,3,1,False,3,False,0,0,0,Transporte público,3
+78,Feminino,23,1.65,90.0,True,True,2,3,1,False,3,False,0,1,0,Transporte público,4
+79,Masculino,23,1.65,60.0,True,False,2,3,1,False,2,False,0,0,1,Transporte público,1
+80,Feminino,19,1.63,58.0,False,False,3,3,1,False,2,True,0,0,0,Transporte público,1
+81,Masculino,30,1.8,91.0,True,True,2,3,2,False,2,False,0,0,1,Transporte público,3
+82,Masculino,23,1.67,85.5,True,True,2,3,3,False,2,False,0,1,0,Transporte público,4
+83,Feminino,19,1.6,45.0,False,False,3,3,0,False,3,True,2,0,0,Caminhada,0
+84,Masculino,25,1.7,83.0,True,True,2,3,2,False,2,False,0,1,1,Transporte público,3
+85,Masculino,23,1.65,58.5,True,False,2,3,1,False,2,False,0,0,0,Transporte público,1
+86,Masculino,21,1.85,83.0,True,True,2,1,2,False,3,False,1,0,0,Transporte público,1
+87,Masculino,19,1.82,87.0,True,True,2,3,1,False,2,False,0,0,0,Transporte público,2
+88,Feminino,22,1.65,65.0,True,True,2,3,2,False,2,True,1,0,0,Automóvel,1
+89,Feminino,29,1.7,78.0,True,True,3,3,1,False,1,False,2,1,2,Automóvel,3
+90,Feminino,25,1.63,93.0,False,False,3,4,3,False,1,False,2,0,0,Transporte público,5
+91,Feminino,20,1.61,64.0,True,False,3,3,3,False,2,True,0,1,2,Transporte público,1
+92,Masculino,55,1.78,84.0,True,False,3,4,2,False,3,True,3,0,2,Caminhada,2
+93,Feminino,20,1.6,57.0,False,False,3,3,3,False,2,False,1,0,0,Caminhada,1
+94,Feminino,24,1.6,48.0,False,True,3,3,1,False,2,False,2,0,0,Transporte público,1
+95,Masculino,26,1.7,70.0,True,False,3,1,2,False,2,False,2,0,2,Transporte público,1
+96,Feminino,23,1.66,60.0,True,False,2,3,1,False,2,False,3,0,1,Transporte público,1
+97,Feminino,21,1.52,42.0,False,False,3,1,2,False,1,False,0,0,1,Transporte público,0
+98,Feminino,21,1.52,42.0,False,False,3,1,2,False,1,False,0,0,1,Transporte público,0
+99,Masculino,23,1.72,70.0,False,False,2,3,1,False,2,False,3,1,2,Transporte público,1
+100,Feminino,21,1.69,63.0,False,True,3,1,1,False,1,False,0,0,1,Transporte público,1
+101,Masculino,22,1.7,66.4,True,False,2,3,2,False,2,False,0,0,0,Transporte público,1
+102,Feminino,21,1.55,57.0,False,True,2,4,2,False,2,True,2,0,1,Automóvel,1
+103,Feminino,22,1.65,58.0,True,True,3,4,2,False,2,False,1,0,1,Transporte público,1
+104,Feminino,38,1.56,80.0,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+105,Feminino,25,1.57,55.0,False,True,2,1,1,False,2,False,2,0,1,Transporte público,1
+106,Feminino,25,1.57,55.0,False,True,2,1,1,False,2,False,2,0,1,Transporte público,1
+107,Masculino,22,1.88,90.0,True,True,2,3,3,False,1,False,0,1,1,Automóvel,2
+108,Masculino,22,1.75,95.0,True,False,2,3,1,False,3,False,3,2,0,Caminhada,4
+109,Feminino,21,1.65,88.0,True,True,3,1,1,False,3,False,2,1,0,Transporte público,4
+110,Masculino,21,1.75,75.0,True,True,3,3,1,False,2,False,0,1,1,Transporte público,1
+111,Feminino,22,1.58,58.0,True,True,2,1,1,False,1,False,0,0,0,Transporte público,1
+112,Feminino,18,1.56,51.0,True,True,2,4,2,False,2,False,1,0,1,Transporte público,1
+113,Feminino,22,1.5,49.0,True,False,2,1,1,False,2,False,3,0,0,Caminhada,1
+114,Feminino,19,1.61,62.0,True,True,3,1,2,False,2,False,1,0,2,Transporte público,1
+115,Feminino,17,1.75,57.0,True,True,3,3,2,False,2,False,0,1,0,Transporte público,1
+116,Feminino,15,1.65,86.0,True,True,3,3,1,False,1,False,3,2,0,Caminhada,4
+117,Feminino,17,1.7,85.0,True,False,2,3,2,False,2,False,1,1,0,Transporte público,3
+118,Masculino,23,1.62,53.0,True,True,2,3,1,False,2,False,1,1,1,Transporte público,1
+119,Feminino,19,1.63,76.0,True,False,3,3,2,True,3,False,2,1,1,Automóvel,3
+120,Feminino,23,1.67,75.0,True,True,2,3,2,True,2,False,0,2,0,Caminhada,2
+121,Masculino,23,1.87,95.0,True,True,1,3,2,False,2,False,0,2,2,Transporte público,3
+122,Masculino,21,1.75,50.0,True,False,3,4,2,False,1,False,1,0,0,Caminhada,0
+123,Masculino,24,1.66,67.0,True,True,3,1,1,False,2,False,1,0,0,Transporte público,1
+124,Masculino,23,1.76,90.0,False,True,3,3,1,False,1,False,0,0,0,Transporte público,3
+125,Masculino,18,1.75,80.0,True,True,2,3,3,False,2,False,0,0,2,Transporte público,2
+126,Masculino,19,1.67,68.0,False,True,2,3,1,False,2,False,1,0,1,Transporte público,1
+127,Feminino,19,1.65,61.0,False,True,3,1,1,False,3,True,1,0,1,Transporte público,1
+128,Masculino,20,1.72,70.0,True,True,3,3,2,False,1,False,0,0,1,Transporte público,1
+129,Masculino,27,1.7,78.0,False,True,3,3,1,False,3,False,1,1,2,Transporte público,3
+130,Feminino,20,1.58,53.0,True,True,2,4,2,False,2,False,1,1,0,Transporte público,1
+131,Masculino,23,1.62,58.0,False,False,2,3,1,False,1,False,1,0,0,Transporte público,1
+132,Feminino,19,1.65,56.0,True,True,3,3,2,True,3,True,1,2,2,Transporte público,1
+133,Feminino,61,1.65,66.0,False,True,3,3,3,False,2,False,1,1,2,Transporte público,1
+134,Masculino,30,1.77,109.0,True,True,3,3,1,False,1,False,2,0,1,Automóvel,4
+135,Masculino,24,1.7,75.0,True,True,2,3,1,False,2,False,1,0,1,Automóvel,2
+136,Masculino,25,1.79,72.0,True,True,2,3,1,False,2,False,1,1,1,Transporte público,1
+137,Masculino,44,1.6,80.0,True,False,2,3,1,True,3,False,0,0,0,Motocicleta,4
+138,Masculino,31,1.76,75.0,True,False,3,3,3,False,3,True,3,0,0,Bicicleta,1
+139,Masculino,25,1.7,68.0,False,True,2,3,2,False,2,False,0,1,0,Transporte público,1
+140,Masculino,23,1.89,65.0,True,True,3,3,2,False,3,False,1,1,1,Transporte público,0
+141,Masculino,25,1.87,66.0,False,True,3,3,3,False,2,False,2,0,2,Transporte público,1
+142,Masculino,23,1.74,93.5,False,True,2,3,2,True,1,False,1,1,2,Automóvel,4
+143,Feminino,34,1.68,75.0,False,True,3,1,1,False,1,False,0,0,1,Automóvel,2
+144,Masculino,22,1.61,67.0,True,False,2,4,1,False,3,True,2,2,1,Transporte público,2
+145,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+146,Feminino,24,1.56,51.0,False,False,3,3,2,False,2,False,2,2,2,Transporte público,1
+147,Feminino,36,1.63,80.0,True,False,3,3,1,False,1,False,0,0,1,Automóvel,4
+148,Feminino,27,1.6,61.0,False,True,3,3,3,False,2,False,0,0,1,Automóvel,1
+149,Feminino,32,1.67,90.0,True,True,3,1,1,False,2,False,2,0,1,Automóvel,4
+150,Masculino,25,1.78,78.0,True,True,2,1,1,False,2,False,2,1,1,Transporte público,1
+151,Feminino,30,1.62,59.0,True,True,3,3,1,False,2,False,2,0,1,Automóvel,1
+152,Feminino,38,1.5,60.0,True,True,2,1,3,True,2,False,0,0,1,Automóvel,2
+153,Masculino,34,1.69,84.0,True,False,2,3,1,False,3,False,2,0,0,Automóvel,3
+154,Masculino,22,1.74,94.0,True,True,2,3,1,False,2,False,0,0,1,Transporte público,4
+155,Feminino,31,1.68,63.0,True,True,3,1,2,False,2,False,1,1,1,Automóvel,1
+156,Feminino,35,1.53,45.0,True,False,3,3,2,False,1,False,0,1,0,Automóvel,1
+157,Masculino,21,1.67,60.0,True,True,2,3,2,False,2,False,2,1,1,Transporte público,1
+158,Feminino,40,1.55,62.0,True,False,3,3,1,False,3,False,0,0,1,Automóvel,2
+159,Masculino,27,1.64,78.0,True,True,2,1,1,False,2,False,0,0,2,Automóvel,3
+160,Masculino,20,1.83,72.0,True,False,3,3,1,True,1,False,2,1,1,Transporte público,1
+161,Masculino,55,1.65,80.0,False,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+162,Feminino,21,1.63,60.0,True,True,3,3,3,True,2,False,2,0,1,Transporte público,1
+163,Masculino,25,1.89,75.0,False,False,3,3,2,False,2,True,3,0,0,Transporte público,1
+164,Masculino,35,1.77,85.0,True,False,3,3,2,False,3,False,2,1,1,Automóvel,3
+165,Masculino,30,1.92,130.0,True,False,2,3,1,True,1,False,1,0,1,Transporte público,5
+166,Feminino,29,1.74,72.0,True,False,3,3,3,False,2,False,0,0,1,Automóvel,1
+167,Masculino,20,1.65,80.0,True,False,2,3,1,False,2,False,1,2,0,Caminhada,3
+168,Feminino,22,1.73,79.0,True,True,2,1,1,False,2,False,1,0,1,Transporte público,2
+169,Feminino,45,1.63,77.0,True,True,2,3,2,False,1,False,0,0,0,Automóvel,3
+170,Masculino,22,1.72,82.0,False,True,2,1,1,False,2,False,2,1,1,Transporte público,3
+171,Masculino,18,1.6,58.0,True,True,2,3,2,False,2,False,1,0,1,Transporte público,1
+172,Feminino,23,1.65,59.0,False,False,3,1,1,False,2,False,1,2,1,Transporte público,1
+173,Masculino,18,1.74,64.0,False,False,3,3,1,False,2,True,0,1,0,Transporte público,1
+174,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+175,Feminino,38,1.64,59.8,True,True,2,3,1,False,2,False,2,0,0,Transporte público,1
+176,Feminino,18,1.57,48.0,True,True,3,1,3,False,1,False,1,0,0,Transporte público,1
+177,Masculino,22,1.84,84.0,True,True,3,3,2,False,2,True,3,0,1,Transporte público,1
+178,Masculino,26,1.91,84.0,True,True,3,3,2,True,2,False,2,2,2,Transporte público,1
+179,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+180,Feminino,18,1.58,48.0,False,True,2,3,1,False,2,False,1,0,0,Transporte público,1
+181,Feminino,23,1.68,67.0,True,True,2,3,2,False,1,False,0,0,1,Transporte público,1
+182,Feminino,22,1.68,52.0,False,True,3,3,2,False,2,False,0,1,0,Transporte público,0
+183,Feminino,23,1.48,60.0,True,True,2,1,1,True,1,False,0,0,1,Transporte público,3
+184,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+185,Feminino,31,1.62,68.0,False,False,3,3,1,False,2,False,1,0,1,Automóvel,2
+186,Masculino,39,1.78,96.0,True,False,2,3,1,False,3,False,1,0,2,Automóvel,4
+187,Masculino,25,1.78,98.0,True,False,2,3,1,False,3,False,3,2,0,Transporte público,4
+188,Masculino,35,1.78,105.0,True,True,3,1,0,False,3,False,3,1,2,Automóvel,4
+189,Feminino,33,1.63,62.0,True,True,2,3,1,False,2,False,1,1,0,Transporte público,1
+190,Masculino,20,1.6,56.0,False,True,2,3,1,False,2,False,1,0,1,Transporte público,1
+191,Masculino,26,1.75,80.0,True,True,3,1,2,True,2,True,2,0,1,Transporte público,2
+192,Masculino,20,1.83,85.0,True,False,3,3,1,False,3,True,3,0,1,Automóvel,2
+193,Masculino,20,1.78,68.0,False,False,2,1,2,False,3,True,2,1,0,Transporte público,1
+194,Feminino,23,1.6,83.0,True,True,3,3,2,False,3,False,3,0,0,Transporte público,4
+195,Masculino,19,1.8,85.0,True,True,3,3,1,False,2,False,1,1,1,Caminhada,2
+196,Masculino,22,1.75,74.0,True,False,2,3,1,False,2,False,1,2,1,Bicicleta,1
+197,Masculino,41,1.75,118.0,True,True,2,3,1,False,2,False,0,0,1,Bicicleta,5
+198,Feminino,18,1.59,40.0,True,True,2,1,2,False,1,False,0,2,0,Transporte público,0
+199,Feminino,23,1.66,60.0,True,True,2,1,1,False,1,False,1,1,1,Transporte público,1
+200,Feminino,23,1.63,83.0,True,False,3,1,1,True,3,False,1,2,1,Transporte público,4
+201,Feminino,41,1.54,80.0,True,True,2,3,3,False,1,False,0,0,1,Automóvel,4
+202,Feminino,26,1.56,102.0,True,True,3,3,1,True,1,False,0,1,1,Transporte público,6
+203,Masculino,29,1.69,90.0,True,False,2,3,1,False,3,False,1,0,1,Automóvel,4
+204,Masculino,27,1.83,71.0,True,True,2,3,1,False,2,False,3,2,0,Automóvel,1
+205,Feminino,23,1.6,78.0,True,True,2,1,1,True,2,False,1,0,2,Transporte público,4
+206,Masculino,19,1.75,100.0,True,True,2,3,2,False,2,False,2,0,0,Transporte público,4
+207,Masculino,30,1.75,73.0,True,False,2,3,0,False,2,True,1,0,1,Caminhada,1
+208,Feminino,22,1.69,65.0,True,True,2,3,1,False,2,False,1,1,1,Transporte público,1
+209,Feminino,22,1.69,65.0,True,True,2,3,1,False,2,False,1,1,1,Transporte público,1
+210,Masculino,20,1.8,114.0,True,True,2,3,2,False,2,False,0,1,0,Transporte público,5
+211,Feminino,21,1.63,51.0,False,True,2,1,1,False,1,False,1,1,0,Transporte público,1
+212,Feminino,24,1.5,63.0,True,False,2,1,1,False,2,False,0,0,0,Transporte público,3
+213,Masculino,21,1.8,62.0,True,True,3,3,1,False,2,False,1,0,0,Transporte público,1
+214,Masculino,21,1.65,53.0,True,True,2,3,1,False,2,False,1,0,1,Transporte público,1
+215,Masculino,21,1.68,70.0,True,True,3,3,1,False,3,False,0,2,1,Transporte público,1
+216,Feminino,23,1.6,63.0,True,False,3,3,2,False,2,False,3,0,1,Caminhada,1
+217,Masculino,21,1.71,75.0,False,False,2,3,2,False,3,True,3,1,2,Automóvel,2
+218,Feminino,21,1.5,42.3,True,False,1,1,1,False,2,False,3,0,0,Transporte público,1
+219,Feminino,21,1.6,68.0,True,True,2,3,1,False,3,False,1,0,1,Transporte público,2
+220,Feminino,21,1.75,78.0,True,False,2,3,2,False,2,True,0,2,2,Transporte público,2
+221,Masculino,23,1.72,82.0,True,True,2,1,1,False,1,False,1,1,1,Transporte público,3
+222,Feminino,21,1.72,66.5,True,True,3,4,3,False,3,False,0,2,0,Transporte público,1
+223,Feminino,22,1.61,63.0,True,True,3,3,2,False,3,False,1,0,0,Transporte público,1
+224,Feminino,23,1.63,82.0,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+225,Masculino,25,1.83,121.0,True,False,3,3,1,False,3,False,2,0,1,Caminhada,5
+226,Feminino,20,1.6,50.0,False,True,2,3,1,False,1,False,0,1,0,Automóvel,1
+227,Feminino,24,1.62,58.0,False,True,3,3,1,False,2,False,1,1,1,Transporte público,1
+228,Feminino,40,1.68,80.0,False,False,3,3,1,False,3,False,0,0,0,Automóvel,3
+229,Masculino,32,1.75,120.0,True,False,3,3,1,False,3,False,0,2,0,Automóvel,5
+230,Masculino,20,1.9,91.0,True,True,3,4,1,False,3,False,2,0,1,Caminhada,2
+231,Feminino,21,1.63,66.0,True,True,3,1,1,True,3,False,0,0,1,Transporte público,1
+232,Feminino,51,1.59,50.0,True,False,3,3,1,True,3,True,2,0,0,Transporte público,1
+233,Feminino,34,1.68,77.0,True,False,3,1,1,False,2,False,1,0,1,Automóvel,3
+234,Feminino,19,1.59,49.0,True,True,2,1,0,False,2,False,2,0,0,Transporte público,1
+235,Feminino,19,1.69,70.0,True,False,2,1,0,False,2,False,2,0,0,Transporte público,1
+236,Feminino,21,1.66,59.0,False,True,1,3,3,False,2,True,3,0,0,Automóvel,1
+237,Feminino,19,1.64,53.0,True,True,3,3,1,False,1,False,1,1,0,Transporte público,1
+238,Feminino,20,1.62,53.0,False,True,3,1,1,False,3,False,1,1,0,Transporte público,1
+239,Feminino,19,1.7,64.0,True,True,3,3,0,False,3,True,3,1,0,Transporte público,1
+240,Feminino,17,1.63,65.0,False,True,2,1,1,False,3,False,1,1,0,Transporte público,1
+241,Masculino,22,1.6,66.0,False,True,3,3,1,False,2,False,3,0,0,Bicicleta,2
+242,Feminino,20,1.63,64.0,True,True,1,3,3,False,2,False,0,2,0,Automóvel,1
+243,Masculino,33,1.85,99.0,True,True,2,3,1,True,3,False,1,0,1,Automóvel,3
+244,Feminino,21,1.54,49.0,True,False,2,1,1,False,2,True,2,0,1,Transporte público,1
+245,Feminino,20,1.64,49.0,False,False,3,3,1,True,2,False,2,1,1,Automóvel,0
+246,Feminino,20,1.57,60.0,False,True,3,3,1,False,3,False,0,1,1,Transporte público,1
+247,Feminino,20,1.62,52.0,False,True,3,3,2,False,1,False,3,1,0,Automóvel,1
+248,Masculino,21,1.72,72.0,True,True,3,3,3,False,3,True,3,0,1,Automóvel,1
+249,Masculino,21,1.76,78.0,True,True,3,1,1,False,2,False,3,0,1,Caminhada,2
+250,Feminino,20,1.65,75.0,True,True,3,1,1,False,2,False,1,1,0,Transporte público,3
+251,Masculino,20,1.67,78.0,True,False,2,1,1,False,3,False,0,0,2,Automóvel,3
+252,Masculino,56,1.79,90.0,True,False,2,3,1,True,2,False,1,0,2,Automóvel,3
+253,Feminino,26,1.59,47.0,True,True,2,1,1,False,2,False,0,2,1,Transporte público,1
+254,Feminino,22,1.64,56.0,True,False,3,3,1,False,2,False,0,0,0,Transporte público,1
+255,Masculino,19,1.78,81.0,True,False,1,3,1,False,2,False,3,0,0,Bicicleta,2
+256,Masculino,18,1.75,85.0,True,False,2,3,1,False,3,False,1,0,1,Transporte público,3
+257,Masculino,19,1.85,115.0,False,False,2,3,1,False,3,True,1,2,0,Transporte público,4
+258,Masculino,18,1.7,80.0,False,False,3,1,1,False,1,False,1,0,0,Transporte público,3
+259,Feminino,18,1.67,91.0,True,True,1,3,2,False,1,False,0,1,1,Transporte público,4
+260,Masculino,21,1.72,75.0,False,True,2,3,1,False,1,False,1,0,0,Transporte público,2
+261,Feminino,28,1.7,73.0,True,False,2,3,2,False,2,True,2,0,1,Caminhada,2
+262,Masculino,18,1.74,70.0,False,True,2,3,1,False,2,False,1,1,1,Transporte público,1
+263,Masculino,23,1.74,53.0,False,True,2,3,2,False,1,False,3,2,0,Transporte público,0
+264,Masculino,18,1.87,67.0,True,True,3,3,2,False,3,True,1,1,1,Automóvel,1
+265,Masculino,18,1.7,50.0,False,True,1,3,2,False,1,False,2,1,1,Transporte público,0
+266,Feminino,39,1.65,50.0,False,True,3,4,2,False,2,False,0,0,1,Transporte público,0
+267,Masculino,38,1.7,78.0,False,True,3,3,2,False,2,False,0,0,2,Automóvel,3
+268,Masculino,17,1.67,60.0,False,False,2,4,3,False,2,False,0,2,0,Transporte público,1
+269,Masculino,23,1.72,66.0,True,True,2,3,1,False,2,False,0,1,1,Caminhada,1
+270,Masculino,23,1.82,107.0,False,True,2,3,1,False,3,False,0,1,1,Transporte público,4
+271,Feminino,19,1.5,50.0,False,True,2,3,2,False,1,False,0,2,1,Transporte público,1
+272,Masculino,18,1.7,60.0,False,True,2,3,1,False,2,False,2,1,0,Transporte público,1
+273,Masculino,25,1.71,71.0,True,True,2,3,2,False,2,False,0,0,1,Motocicleta,1
+274,Feminino,25,1.61,61.0,False,False,2,3,1,False,1,False,2,1,1,Transporte público,1
+275,Feminino,18,1.5,50.0,True,True,3,3,2,False,2,False,0,1,1,Transporte público,1
+276,Masculino,16,1.67,50.0,True,True,2,1,2,False,3,False,1,0,0,Transporte público,0
+277,Masculino,21,1.82,67.0,False,True,2,4,3,True,3,False,3,2,1,Caminhada,1
+278,Feminino,32,1.57,57.0,True,True,3,3,1,False,2,False,0,0,1,Automóvel,1
+279,Masculino,18,1.79,52.0,False,False,3,3,1,False,2,False,1,1,1,Transporte público,0
+280,Masculino,21,1.75,62.0,False,True,3,4,2,True,2,False,0,0,1,Transporte público,1
+281,Masculino,18,1.7,55.0,True,True,2,3,2,False,2,False,0,0,1,Transporte público,1
+282,Feminino,18,1.62,55.0,True,True,2,3,2,False,1,False,1,1,0,Transporte público,1
+283,Masculino,17,1.69,60.0,False,False,2,3,1,False,3,False,2,1,1,Caminhada,1
+284,Masculino,20,1.77,70.0,True,True,1,1,1,False,2,False,1,1,1,Transporte público,1
+285,Masculino,21,1.79,105.0,True,True,2,3,3,False,1,False,0,0,1,Transporte público,4
+286,Feminino,21,1.6,61.0,False,True,2,3,1,False,1,False,1,1,1,Transporte público,1
+287,Feminino,18,1.6,58.0,True,True,2,3,1,False,3,False,3,0,0,Transporte público,1
+288,Feminino,17,1.56,51.0,False,True,3,3,1,False,1,False,0,2,0,Transporte público,1
+289,Masculino,19,1.88,79.0,False,False,2,3,1,False,3,False,3,0,1,Automóvel,1
+290,Masculino,16,1.82,71.0,True,True,2,3,2,False,2,False,2,1,1,Transporte público,1
+291,Masculino,17,1.8,58.0,False,True,2,3,2,False,2,False,2,1,0,Caminhada,0
+292,Masculino,21,1.7,65.0,True,True,2,3,2,False,1,False,1,1,0,Transporte público,1
+293,Masculino,19,1.82,75.0,True,False,2,3,2,False,2,False,1,0,0,Transporte público,1
+294,Masculino,18,1.86,110.0,True,True,2,1,1,True,2,False,1,2,1,Transporte público,4
+295,Feminino,16,1.66,58.0,False,False,2,1,1,False,1,False,0,1,0,Caminhada,1
+296,Feminino,21,1.53,53.0,False,True,3,3,1,False,2,False,2,1,1,Transporte público,1
+297,Masculino,26,1.74,80.0,False,False,2,3,1,False,2,False,2,0,0,Automóvel,2
+298,Masculino,18,1.8,80.0,True,True,2,3,2,False,1,False,0,1,2,Transporte público,1
+299,Masculino,23,1.7,75.0,False,True,3,3,1,False,3,False,1,2,1,Transporte público,2
+300,Masculino,26,1.7,70.0,False,True,2,3,1,True,1,False,0,0,1,Transporte público,1
+301,Masculino,18,1.72,55.0,False,True,2,4,1,False,2,False,2,1,1,Transporte público,1
+302,Masculino,16,1.84,45.0,True,True,3,3,3,False,3,False,3,2,1,Caminhada,0
+303,Feminino,16,1.57,49.0,False,True,2,4,3,False,2,False,0,1,1,Transporte público,1
+304,Masculino,20,1.8,85.0,True,False,2,3,1,False,3,False,2,1,1,Transporte público,2
+305,Masculino,23,1.75,120.0,True,True,2,3,1,True,2,False,2,1,1,Transporte público,5
+306,Feminino,24,1.56,60.0,True,True,1,3,3,False,2,False,0,2,1,Transporte público,1
+307,Feminino,23,1.59,48.0,True,True,2,1,2,False,1,False,0,2,1,Transporte público,1
+308,Masculino,20,1.8,75.0,False,True,3,4,3,False,3,False,2,0,1,Transporte público,1
+309,Feminino,16,1.66,58.0,False,False,2,1,1,False,1,False,0,1,0,Caminhada,1
+310,Masculino,17,1.79,57.0,True,True,2,4,2,False,2,False,2,1,0,Transporte público,0
+311,Masculino,17,1.72,62.0,False,True,2,3,3,False,2,False,3,1,0,Transporte público,1
+312,Feminino,16,1.6,57.0,False,True,3,3,1,False,1,False,3,0,0,Transporte público,1
+313,Masculino,17,1.66,56.0,True,True,1,3,3,False,2,False,1,1,1,Transporte público,1
+314,Feminino,26,1.65,63.0,False,True,3,3,1,False,1,False,1,0,0,Caminhada,1
+315,Masculino,26,1.7,72.0,False,True,2,3,3,False,2,False,0,0,1,Transporte público,1
+316,Masculino,38,1.75,75.0,True,False,3,3,2,False,1,False,2,1,0,Automóvel,1
+317,Masculino,18,1.75,70.0,False,True,3,4,1,False,2,False,1,1,0,Transporte público,1
+318,Feminino,25,1.56,45.0,False,True,2,3,1,False,1,False,0,0,1,Transporte público,1
+319,Feminino,27,1.55,63.0,False,True,2,3,1,False,1,False,0,1,1,Automóvel,2
+320,Masculino,21,1.67,67.0,True,True,3,1,3,False,2,False,1,1,0,Transporte público,1
+321,Masculino,38,1.75,75.0,True,False,3,3,2,False,1,False,3,1,0,Automóvel,1
+322,Feminino,23,1.75,56.0,False,False,3,3,2,False,2,False,2,0,1,Transporte público,0
+323,Masculino,18,1.8,72.0,True,True,2,3,1,False,2,False,3,0,1,Automóvel,1
+324,Feminino,30,1.65,71.0,True,True,2,3,1,False,1,False,0,0,1,Transporte público,2
+325,Feminino,21,1.55,58.0,False,True,2,1,1,False,1,False,1,0,1,Transporte público,1
+326,Masculino,18,1.7,55.3,True,True,3,3,1,False,2,False,3,0,1,Transporte público,1
+327,Masculino,23,1.72,76.0,True,False,3,4,2,False,1,False,0,0,1,Transporte público,2
+328,Masculino,19,1.74,74.0,True,False,3,1,1,False,3,False,3,1,1,Caminhada,1
+329,Feminino,19,1.65,82.0,True,True,3,3,1,False,1,False,0,1,1,Transporte público,4
+330,Feminino,17,1.8,50.0,False,True,3,4,2,False,1,False,2,1,1,Transporte público,0
+331,Masculino,17,1.74,56.0,True,True,2,3,1,False,2,False,2,1,0,Transporte público,1
+332,Masculino,27,1.85,75.0,True,True,2,1,1,False,2,False,1,0,0,Caminhada,1
+333,Feminino,23,1.7,56.0,False,False,3,4,3,False,3,True,3,0,0,Automóvel,1
+334,Feminino,18,1.45,53.0,False,True,2,3,2,False,2,True,1,2,2,Transporte público,2
+335,Masculino,19,1.7,50.0,False,True,1,4,2,False,1,False,2,1,1,Transporte público,0
+336,Masculino,20,1.7,65.0,False,True,2,3,1,False,2,False,0,1,0,Transporte público,1
+337,Masculino,18,1.78,64.4,True,True,3,3,2,False,2,False,3,2,0,Caminhada,1
+338,Feminino,17,1.6,65.0,False,True,3,1,1,False,2,True,1,2,1,Transporte público,2
+339,Feminino,19,1.53,42.0,False,False,2,3,1,False,1,True,2,0,2,Transporte público,0
+340,Masculino,21,1.8,72.0,False,True,3,3,1,False,2,False,1,1,0,Transporte público,1
+341,Masculino,20,1.6,50.0,False,False,2,3,1,False,1,False,0,0,1,Transporte público,1
+342,Masculino,23,1.74,105.0,True,True,3,3,1,False,2,False,1,0,1,Transporte público,4
+343,Masculino,23,1.65,66.0,False,False,3,3,1,False,2,False,3,0,0,Transporte público,1
+344,Masculino,18,1.87,173.0,True,True,3,3,2,False,2,False,2,1,1,Transporte público,6
+345,Masculino,17,1.7,55.0,False,True,3,3,3,False,2,False,3,1,1,Transporte público,1
+346,Feminino,21,1.54,47.0,True,False,3,3,3,False,1,False,2,0,0,Transporte público,1
+347,Masculino,17,1.8,97.0,True,True,2,3,1,False,3,False,1,1,1,Caminhada,3
+348,Masculino,18,1.82,80.0,True,True,2,3,1,False,2,False,3,2,0,Caminhada,1
+349,Masculino,20,1.98,125.0,True,True,2,3,3,False,3,False,1,1,1,Transporte público,4
+350,Masculino,17,1.75,70.0,True,False,2,3,1,False,1,False,3,2,1,Caminhada,1
+351,Feminino,26,1.65,60.0,False,False,3,4,3,False,2,False,2,0,0,Caminhada,1
+352,Feminino,17,1.6,53.0,False,True,1,3,1,False,1,False,2,2,1,Caminhada,1
+353,Feminino,24,1.6,51.0,True,True,1,3,1,False,2,False,0,1,1,Automóvel,1
+354,Feminino,17,1.6,59.0,False,True,2,3,1,False,2,False,1,2,0,Transporte público,1
+355,Feminino,27,1.55,62.0,False,True,3,1,1,False,1,False,1,0,1,Transporte público,2
+356,Masculino,17,1.9,60.0,False,False,3,3,1,False,2,False,3,1,0,Caminhada,0
+357,Feminino,17,1.7,56.0,True,True,1,3,1,False,1,False,1,1,0,Automóvel,1
+358,Masculino,41,1.75,110.0,True,False,2,1,1,False,1,False,1,0,2,Automóvel,5
+359,Feminino,33,1.56,48.0,True,False,2,3,1,False,2,False,1,0,1,Transporte público,1
+360,Masculino,20,1.87,75.0,False,True,2,3,2,False,1,False,1,1,1,Transporte público,1
+361,Feminino,40,1.56,80.0,True,True,2,1,1,False,2,False,2,0,0,Transporte público,4
+362,Feminino,37,1.65,73.0,True,False,3,3,1,False,2,False,1,0,1,Automóvel,2
+363,Masculino,19,1.8,80.0,False,True,2,1,1,False,2,False,2,1,1,Transporte público,1
+364,Masculino,24,1.84,86.0,True,True,2,1,3,False,2,False,2,1,1,Transporte público,2
+365,Masculino,24,1.7,68.0,False,True,3,3,1,False,2,False,0,0,1,Motocicleta,1
+366,Masculino,33,1.72,83.0,True,True,2,1,1,False,2,False,3,0,1,Automóvel,3
+367,Feminino,40,1.58,63.0,False,True,2,3,2,False,2,False,3,1,1,Transporte público,2
+368,Feminino,37,1.68,83.0,True,True,2,1,1,False,2,False,0,0,0,Automóvel,3
+369,Masculino,20,1.58,74.0,False,False,3,3,2,False,2,False,3,1,1,Transporte público,3
+370,Masculino,19,1.8,60.0,False,True,2,3,1,False,1,False,1,1,0,Transporte público,1
+371,Masculino,17,1.62,69.0,True,True,3,1,3,False,2,True,1,2,1,Transporte público,2
+372,Feminino,18,1.62,58.0,False,True,3,3,1,False,1,False,0,2,0,Automóvel,1
+373,Feminino,21,1.54,56.0,False,True,2,1,1,False,2,False,0,2,1,Transporte público,1
+374,Masculino,18,1.76,70.0,True,True,2,4,2,False,2,False,2,1,1,Automóvel,1
+375,Masculino,41,1.8,92.0,True,True,2,1,2,False,3,False,1,0,1,Automóvel,3
+376,Feminino,36,1.58,60.0,True,False,3,3,1,False,1,False,2,0,1,Automóvel,1
+377,Masculino,18,1.76,68.0,False,False,2,4,2,False,2,False,1,1,1,Transporte público,1
+378,Masculino,18,1.73,70.0,False,True,3,3,2,False,1,False,2,1,1,Transporte público,1
+379,Masculino,17,1.7,70.0,True,True,3,3,1,False,2,False,0,2,1,Caminhada,1
+380,Masculino,25,1.7,83.0,False,True,3,3,1,False,3,True,3,0,0,Motocicleta,3
+381,Masculino,21,1.8,75.0,True,True,3,3,2,False,1,False,2,0,1,Transporte público,1
+382,Feminino,29,1.6,56.0,True,False,2,3,2,False,1,False,0,1,1,Transporte público,1
+383,Masculino,17,1.7,98.0,True,False,2,3,1,False,2,False,0,1,1,Automóvel,4
+384,Feminino,18,1.6,60.0,True,True,3,1,1,False,1,True,0,2,0,Caminhada,1
+385,Feminino,16,1.55,45.0,False,True,2,3,2,False,2,False,1,1,0,Transporte público,1
+386,Feminino,18,1.59,53.0,False,False,1,3,1,False,1,False,1,2,0,Transporte público,1
+387,Feminino,37,1.5,75.0,True,True,2,3,2,False,1,False,0,0,1,Motocicleta,4
+388,Masculino,18,1.78,108.0,True,False,2,3,1,False,3,False,1,0,0,Transporte público,4
+389,Feminino,16,1.61,65.0,True,True,1,1,1,False,2,False,0,0,0,Transporte público,2
+390,Masculino,23,1.71,50.0,True,True,2,3,3,False,3,False,0,2,0,Transporte público,0
+391,Feminino,18,1.7,50.0,False,False,2,3,1,False,2,False,0,1,1,Caminhada,0
+392,Masculino,18,1.76,69.5,False,False,3,3,2,False,3,False,2,2,0,Transporte público,1
+393,Masculino,18,1.7,78.0,False,True,1,3,1,False,2,False,0,1,1,Transporte público,3
+394,Feminino,17,1.53,55.0,True,True,2,3,1,False,1,False,0,1,0,Transporte público,1
+395,Feminino,20,1.54,39.0,True,True,1,3,1,False,2,False,3,2,1,Transporte público,0
+396,Feminino,38,1.55,59.0,True,False,3,3,1,False,1,False,2,1,2,Automóvel,1
+397,Masculino,20,1.66,60.0,False,True,2,4,2,False,3,False,0,0,0,Transporte público,1
+398,Masculino,21,1.85,125.0,True,True,3,1,3,False,1,False,0,0,1,Transporte público,5
+399,Masculino,21,1.65,60.0,False,False,3,1,2,False,1,False,0,0,1,Motocicleta,1
+400,Masculino,18,1.65,70.0,True,False,2,3,1,False,2,False,0,0,0,Transporte público,2
+401,Masculino,26,1.83,82.0,False,True,2,3,3,False,2,False,1,1,1,Transporte público,1
+402,Masculino,27,1.83,99.0,True,True,3,1,2,False,2,False,2,1,1,Caminhada,3
+403,Feminino,26,1.66,112.0,True,False,3,3,1,False,3,False,0,0,0,Automóvel,6
+404,Masculino,34,1.78,73.0,False,True,2,3,1,False,2,False,3,1,1,Automóvel,1
+405,Masculino,18,1.74,86.0,False,False,3,3,1,False,2,False,3,0,0,Transporte público,3
+406,Masculino,33,1.76,66.5,False,False,2,3,1,False,2,False,3,1,1,Automóvel,1
+407,Feminino,19,1.51,59.0,True,True,3,3,2,False,1,False,1,2,1,Caminhada,2
+408,Masculino,20,1.81,79.0,True,False,3,1,1,False,2,False,0,0,1,Transporte público,1
+409,Feminino,33,1.55,55.0,True,True,3,1,1,False,3,False,2,1,1,Transporte público,1
+410,Masculino,20,1.83,66.0,False,False,2,3,1,False,2,False,1,1,0,Transporte público,1
+411,Feminino,20,1.6,65.0,False,False,3,3,1,False,2,True,0,0,1,Transporte público,2
+412,Masculino,33,1.85,85.0,False,True,2,3,2,False,2,False,1,0,1,Automóvel,1
+413,Masculino,33,1.75,85.0,False,False,2,3,1,False,2,True,1,0,1,Transporte público,3
+414,Masculino,33,1.83,113.0,True,True,2,1,3,False,2,False,1,2,2,Automóvel,4
+415,Masculino,14,1.71,72.0,True,True,3,3,1,False,3,False,2,1,0,Caminhada,1
+416,Masculino,34,1.84,88.0,False,True,3,3,1,False,1,True,2,0,0,Automóvel,2
+417,Masculino,18,1.77,87.0,True,True,3,3,1,False,2,False,1,1,2,Transporte público,3
+418,Masculino,18,1.7,90.0,False,True,3,3,1,False,2,False,2,0,1,Transporte público,4
+419,Masculino,29,1.62,89.0,True,True,1,3,1,False,1,False,0,0,1,Transporte público,4
+420,Masculino,18,1.85,60.0,True,True,3,4,1,False,2,True,2,0,1,Automóvel,0
+421,Masculino,18,1.84,60.0,True,True,3,4,1,False,2,True,2,0,1,Automóvel,0
+422,Masculino,19,1.75,58.0,False,True,2,3,1,False,2,False,2,0,1,Bicicleta,1
+423,Masculino,33,1.85,93.0,True,True,2,3,1,False,1,False,1,1,1,Caminhada,3
+424,Masculino,33,1.74,76.0,False,False,2,3,1,False,1,False,0,2,1,Caminhada,2
+425,Feminino,19,1.61,53.8,True,True,2,3,3,False,2,False,2,1,1,Transporte público,1
+426,Masculino,22,1.75,70.0,False,False,2,3,1,False,3,False,1,1,0,Transporte público,1
+427,Feminino,20,1.67,60.0,False,True,3,3,0,False,2,False,3,0,1,Transporte público,1
+428,Masculino,23,1.7,69.0,False,True,3,1,2,False,1,False,2,1,1,Transporte público,1
+429,Masculino,26,1.9,80.0,True,True,2,3,2,False,1,True,1,0,1,Automóvel,1
+430,Masculino,18,1.65,85.0,False,True,2,3,1,False,1,False,1,0,1,Transporte público,4
+431,Feminino,18,1.6,55.0,False,True,2,4,2,False,2,False,2,1,1,Transporte público,1
+432,Masculino,19,1.8,70.0,False,True,3,3,2,False,1,False,2,0,0,Transporte público,1
+433,Feminino,18,1.64,59.0,True,True,2,3,1,False,1,False,1,1,1,Transporte público,1
+434,Masculino,19,1.89,87.0,False,True,2,4,2,False,2,False,3,1,2,Automóvel,1
+435,Feminino,19,1.76,80.0,True,True,2,1,1,False,3,False,3,1,0,Transporte público,2
+436,Feminino,18,1.56,55.0,False,True,2,3,1,False,1,False,0,0,2,Automóvel,1
+437,Feminino,18,1.6,56.0,True,True,2,1,3,False,2,False,1,0,1,Caminhada,1
+438,Feminino,19,1.67,64.0,False,True,3,3,1,False,2,False,2,1,1,Automóvel,1
+439,Feminino,19,1.6,60.0,False,True,2,3,2,False,2,False,0,1,1,Transporte público,1
+440,Feminino,18,1.55,56.0,False,True,2,3,1,False,1,False,0,0,0,Automóvel,1
+441,Feminino,18,1.55,50.0,True,True,3,3,2,False,1,False,1,2,0,Transporte público,1
+442,Masculino,26,1.72,65.0,True,True,2,3,1,False,2,False,0,1,1,Caminhada,1
+443,Masculino,18,1.72,53.0,True,True,2,3,1,False,2,False,0,2,1,Transporte público,0
+444,Masculino,19,1.7,60.0,True,True,2,1,1,False,2,False,2,0,1,Transporte público,1
+445,Feminino,19,1.51,45.0,False,True,2,4,1,False,1,False,3,0,1,Transporte público,1
+446,Masculino,19,1.83,82.0,True,True,3,3,2,False,2,False,2,0,1,Transporte público,1
+447,Masculino,19,1.8,87.0,True,True,2,4,1,False,2,False,2,1,1,Transporte público,2
+448,Feminino,24,1.6,100.5,True,True,3,1,1,False,1,False,0,2,1,Transporte público,5
+449,Feminino,18,1.63,63.0,True,True,1,3,1,False,2,False,2,2,1,Transporte público,1
+450,Masculino,19,1.71,71.0,False,True,3,3,1,False,2,False,1,1,1,Transporte público,1
+451,Masculino,19,1.7,65.0,True,False,2,3,2,False,2,False,1,0,0,Transporte público,1
+452,Masculino,23,1.75,69.0,False,False,3,3,0,False,2,False,2,1,1,Automóvel,1
+453,Feminino,18,1.62,50.0,False,True,3,3,1,False,1,False,0,0,1,Automóvel,1
+454,Feminino,20,1.68,68.0,False,True,3,1,1,False,1,False,1,0,0,Transporte público,1
+455,Masculino,18,1.85,66.0,False,True,2,3,2,False,1,False,1,1,1,Transporte público,1
+456,Feminino,33,1.59,60.0,False,True,3,1,2,False,2,False,0,0,0,Transporte público,1
+457,Feminino,19,1.5,45.0,False,True,2,3,1,False,1,False,0,0,1,Transporte público,1
+458,Masculino,19,1.69,60.0,False,True,2,3,3,False,1,False,1,1,1,Transporte público,1
+459,Masculino,19,1.76,79.0,True,True,2,3,2,False,3,False,1,2,2,Transporte público,2
+460,Feminino,18,1.62,55.0,True,True,2,3,2,False,1,False,1,1,0,Transporte público,1
+461,Masculino,21,1.71,100.0,True,True,2,1,1,False,2,False,0,2,0,Transporte público,4
+462,Masculino,27,1.72,88.0,True,True,2,1,3,False,2,False,0,0,1,Automóvel,3
+463,Masculino,17,1.8,68.0,True,False,2,3,1,False,1,False,2,1,1,Transporte público,1
+464,Masculino,18,1.93,86.0,False,False,3,4,3,False,2,False,2,0,1,Caminhada,1
+465,Feminino,18,1.6,51.0,True,True,2,3,2,False,1,False,1,1,1,Transporte público,1
+466,Masculino,22,1.74,75.0,True,True,3,3,2,False,1,False,1,0,0,Automóvel,1
+467,Masculino,22,1.74,75.0,True,True,3,3,2,False,1,False,1,0,0,Automóvel,1
+468,Feminino,20,1.62,45.0,False,True,3,3,2,False,1,False,1,0,1,Transporte público,0
+469,Feminino,19,1.54,42.0,False,True,3,1,1,False,2,False,0,1,0,Transporte público,0
+470,Feminino,20,1.56,51.5,False,True,2,3,2,False,2,False,3,0,1,Transporte público,1
+471,Feminino,18,1.6,83.0,True,True,2,3,1,False,2,True,1,0,0,Transporte público,4
+472,Feminino,18,1.54,71.0,False,False,3,4,2,False,2,False,1,1,0,Transporte público,3
+473,Feminino,18,1.63,51.0,True,True,1,3,2,False,1,False,1,0,1,Transporte público,1
+474,Masculino,19,1.78,64.0,False,True,2,3,1,False,1,False,1,0,0,Transporte público,1
+475,Feminino,18,1.62,68.0,False,False,2,1,1,False,1,False,0,2,0,Transporte público,2
+476,Feminino,18,1.71,75.0,True,True,3,3,1,False,2,False,1,0,0,Transporte público,2
+477,Feminino,18,1.64,56.0,True,True,3,3,2,False,1,True,1,1,0,Transporte público,1
+478,Masculino,19,1.69,65.0,False,True,2,3,2,False,1,False,1,1,1,Transporte público,1
+479,Feminino,17,1.58,50.0,False,True,1,4,2,False,2,False,1,2,1,Transporte público,1
+480,Feminino,18,1.57,50.0,False,True,2,3,1,False,1,False,0,1,1,Transporte público,1
+481,Masculino,18,1.74,64.0,True,True,3,4,1,False,1,True,2,0,1,Transporte público,1
+482,Feminino,20,1.58,53.5,True,True,2,1,2,False,2,False,1,1,1,Transporte público,1
+483,Feminino,18,1.5,58.0,False,True,2,3,1,False,1,False,0,0,0,Transporte público,2
+484,Feminino,36,1.65,80.0,True,True,2,3,1,False,1,False,0,2,0,Automóvel,3
+485,Masculino,21,1.8,73.0,True,True,1,3,3,False,2,False,3,1,1,Transporte público,1
+486,Masculino,23,1.75,75.0,False,True,2,3,1,False,2,False,1,0,2,Transporte público,1
+487,Masculino,20,1.84,104.0,True,False,2,3,1,False,3,False,3,0,0,Motocicleta,4
+488,Masculino,21,1.88,84.0,True,True,3,3,1,False,3,False,2,1,1,Caminhada,1
+489,Feminino,19,1.56,50.0,False,True,2,1,1,False,1,False,0,2,0,Transporte público,1
+490,Masculino,24,1.75,84.0,False,True,3,3,0,False,2,True,1,0,1,Transporte público,3
+491,Masculino,25,1.66,68.0,False,True,2,3,1,True,1,False,1,1,1,Transporte público,1
+492,Masculino,45,1.7,86.0,False,True,3,3,2,False,1,False,0,0,0,Automóvel,3
+493,Masculino,20,1.8,65.0,False,True,2,3,2,False,1,False,2,0,1,Motocicleta,1
+494,Feminino,18,1.67,66.0,False,True,3,3,1,False,2,False,0,0,1,Transporte público,1
+495,Masculino,19,1.8,60.0,True,True,3,1,3,False,1,True,0,0,0,Motocicleta,1
+496,Masculino,18,1.72,53.0,True,True,2,3,1,False,2,False,0,2,1,Transporte público,0
+497,Masculino,20,1.56,45.0,False,False,2,3,1,False,2,False,1,1,1,Transporte público,1
+498,Feminino,25,1.686306,104.572712,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+499,Feminino,19,1.683124,126.67378,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+500,Feminino,26,1.622397,110.79263,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+501,Feminino,22,1.755643,137.796884,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+502,Feminino,22,1.843419,165.057269,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+503,Feminino,18,1.7456,133.03441,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+504,Feminino,26,1.630927,111.485516,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+505,Feminino,26,1.629191,104.826776,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+506,Feminino,22,1.770612,133.963349,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+507,Masculino,20,1.743702,54.927529,True,True,2,3,1,False,3,False,2,2,1,Transporte público,0
+508,Masculino,17,1.771915,55.695036,True,True,2,4,1,False,3,False,2,1,1,Transporte público,0
+509,Masculino,22,1.75376,55.879263,True,True,2,4,1,False,2,False,2,1,1,Transporte público,0
+510,Feminino,22,1.675446,51.154201,True,True,3,3,2,False,3,False,2,1,0,Transporte público,0
+511,Feminino,21,1.666203,49.869791,True,True,3,3,2,False,3,False,2,1,0,Transporte público,0
+512,Feminino,22,1.711467,51.965521,True,True,3,3,2,False,1,False,2,1,0,Transporte público,0
+513,Feminino,21,1.598019,44.845655,False,False,3,2,2,False,2,False,1,0,0,Transporte público,0
+514,Feminino,22,1.59611,42.848033,False,False,3,3,2,False,3,False,1,0,0,Transporte público,0
+515,Feminino,22,1.57206,43.919835,False,False,3,2,2,False,3,False,1,0,0,Transporte público,0
+516,Feminino,21,1.586952,43.087508,False,False,2,2,2,False,2,False,0,0,0,Transporte público,0
+517,Feminino,23,1.59559,44.581159,False,False,3,1,2,False,1,False,0,0,0,Transporte público,0
+518,Feminino,24,1.6,45.0,False,False,3,3,2,False,2,False,2,0,0,Transporte público,0
+519,Feminino,19,1.688025,45.0,False,True,3,3,1,False,3,True,3,1,0,Transporte público,0
+520,Feminino,19,1.556211,42.339767,False,True,3,2,1,False,2,True,0,0,0,Transporte público,0
+521,Feminino,19,1.564199,42.096062,False,True,3,2,1,False,2,True,2,1,0,Transporte público,0
+522,Feminino,20,1.56948,41.324558,False,True,2,1,2,False,1,False,0,1,1,Transporte público,0
+523,Feminino,21,1.52,42.0,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+524,Feminino,20,1.550648,44.641796,False,True,3,3,2,False,1,False,1,0,1,Transporte público,0
+525,Feminino,20,1.520997,42.0,False,True,3,1,2,False,2,False,0,1,1,Transporte público,0
+526,Feminino,20,1.528011,42.0,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+527,Feminino,21,1.52,42.0,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+528,Feminino,22,1.733263,50.890363,False,False,3,4,2,False,2,False,0,1,1,Transporte público,0
+529,Feminino,21,1.722527,50.833029,False,False,3,3,2,False,2,False,1,0,1,Transporte público,0
+530,Feminino,20,1.734832,50.0,False,False,1,4,2,False,1,False,1,0,1,Transporte público,0
+531,Masculino,23,1.882779,64.106108,True,True,3,3,1,False,3,False,1,0,1,Automóvel,0
+532,Masculino,23,1.854592,63.611109,True,True,3,4,1,False,3,False,1,1,1,Automóvel,0
+533,Masculino,23,1.835643,58.854416,True,True,3,3,1,False,2,False,2,0,1,Automóvel,0
+534,Masculino,18,1.755507,52.0,True,True,3,3,2,False,2,False,1,1,0,Transporte público,0
+535,Masculino,22,1.71266,51.598593,True,True,3,3,2,False,1,False,1,0,0,Transporte público,0
+536,Masculino,18,1.694265,52.0,True,True,3,3,2,False,2,False,1,1,0,Transporte público,0
+537,Feminino,19,1.586895,41.452385,False,True,2,1,1,False,1,False,0,2,1,Transporte público,0
+538,Feminino,19,1.579561,41.890204,False,True,2,1,1,False,2,False,0,2,1,Transporte público,0
+539,Feminino,19,1.564568,41.397378,False,True,3,1,1,False,1,False,0,2,1,Transporte público,0
+540,Feminino,20,1.670635,49.742931,False,False,3,4,2,False,2,False,2,1,1,Transporte público,0
+541,Feminino,20,1.688426,49.660995,False,False,3,3,2,False,2,False,2,1,1,Transporte público,0
+542,Feminino,20,1.66084,49.039794,False,False,3,3,2,False,2,False,1,1,1,Transporte público,0
+543,Feminino,23,1.710182,50.287967,True,True,2,3,2,False,2,False,2,2,0,Transporte público,0
+544,Feminino,20,1.755978,53.699561,True,True,2,4,2,False,2,False,3,2,0,Transporte público,0
+545,Feminino,23,1.728834,51.442293,True,True,2,3,2,False,1,False,1,2,0,Transporte público,0
+546,Feminino,19,1.662017,49.838965,False,True,1,3,1,False,1,False,2,1,1,Transporte público,0
+547,Feminino,19,1.7,50.0,False,True,1,3,1,False,1,False,2,1,1,Transporte público,0
+548,Feminino,19,1.661403,49.932199,False,True,2,3,1,False,2,False,2,1,1,Transporte público,0
+549,Feminino,30,1.610863,49.516027,True,True,2,4,2,False,2,False,1,0,0,Transporte público,0
+550,Feminino,32,1.640688,46.655622,True,True,3,3,2,False,3,False,1,0,0,Transporte público,0
+551,Feminino,24,1.64603,49.839685,True,True,3,4,2,False,3,False,0,0,0,Transporte público,0
+552,Masculino,17,1.710564,51.588874,False,True,2,2,1,False,2,False,0,1,1,Transporte público,0
+553,Masculino,16,1.752755,50.0,False,True,2,4,1,False,2,False,2,1,1,Transporte público,0
+554,Masculino,16,1.691007,52.629374,False,True,2,2,1,False,3,False,1,0,1,Transporte público,0
+555,Masculino,18,1.753349,51.457226,False,True,3,3,1,False,2,False,1,1,1,Transporte público,0
+556,Masculino,18,1.781543,50.869704,False,True,2,3,1,False,2,False,1,1,1,Transporte público,0
+557,Masculino,18,1.755823,52.331172,False,True,3,3,1,False,2,False,0,1,1,Transporte público,0
+558,Masculino,17,1.836669,58.943347,True,True,3,4,1,False,2,False,2,1,0,Automóvel,0
+559,Masculino,20,1.768493,57.790381,True,True,2,4,1,False,3,False,2,2,0,Automóvel,0
+560,Masculino,18,1.777108,57.145917,True,True,2,3,1,False,2,False,2,2,0,Automóvel,0
+561,Feminino,17,1.640824,43.365005,False,True,3,3,1,False,3,False,3,1,1,Transporte público,0
+562,Feminino,17,1.584951,44.411801,False,True,3,3,1,False,2,False,2,2,1,Transporte público,0
+563,Feminino,16,1.818268,47.124717,False,True,3,3,1,False,2,False,2,1,1,Transporte público,0
+564,Masculino,18,1.793926,59.682591,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+565,Masculino,17,1.809251,58.968994,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+566,Masculino,19,1.767335,55.700497,True,True,2,4,1,False,2,False,2,2,0,Automóvel,0
+567,Feminino,22,1.699568,54.98774,True,True,3,3,2,False,2,False,0,1,0,Transporte público,0
+568,Feminino,21,1.759358,55.01045,True,True,3,4,2,False,3,False,2,1,0,Transporte público,0
+569,Feminino,23,1.740295,54.166453,True,True,3,3,2,False,2,False,2,0,0,Transporte público,0
+570,Feminino,19,1.739354,49.649613,False,True,3,4,1,False,2,False,2,1,1,Transporte público,0
+571,Feminino,17,1.647811,49.603807,False,True,3,4,1,False,1,False,2,1,1,Transporte público,0
+572,Feminino,19,1.768435,49.597765,False,True,3,4,1,False,1,False,2,1,1,Transporte público,0
+573,Feminino,18,1.7,50.0,False,True,1,4,2,False,1,False,1,1,1,Transporte público,0
+574,Feminino,20,1.699464,49.676046,False,True,1,4,2,False,2,False,2,1,1,Transporte público,0
+575,Feminino,18,1.74379,50.0,False,True,1,4,2,False,1,False,2,1,1,Transporte público,0
+576,Feminino,20,1.590317,42.367615,False,False,3,3,2,False,1,False,2,0,1,Transporte público,0
+577,Feminino,20,1.527133,42.0,False,False,3,1,2,False,1,False,1,0,1,Transporte público,0
+578,Feminino,19,1.530875,42.0,False,False,3,1,2,False,2,False,0,1,1,Transporte público,0
+579,Masculino,17,1.848294,59.409018,True,True,2,3,1,False,2,False,3,1,0,Automóvel,0
+580,Masculino,17,1.824414,59.295172,True,True,2,3,1,False,2,False,2,1,0,Automóvel,0
+581,Masculino,19,1.856633,59.258372,True,True,3,3,1,False,2,False,2,1,0,Automóvel,0
+582,Feminino,23,1.715597,50.0,True,True,2,4,2,False,1,False,1,0,0,Transporte público,0
+583,Feminino,22,1.675054,49.945233,True,True,3,3,2,False,3,False,1,1,0,Transporte público,0
+584,Feminino,23,1.717601,51.073918,True,True,2,3,2,False,1,False,2,2,0,Transporte público,0
+585,Feminino,17,1.710756,50.0,False,True,2,3,1,False,1,False,0,1,1,Transporte público,0
+586,Feminino,18,1.7,50.0,False,True,1,3,1,False,2,False,0,1,1,Transporte público,0
+587,Feminino,18,1.7,50.0,False,True,2,4,1,False,1,False,1,1,1,Transporte público,0
+588,Feminino,19,1.573816,39.850137,False,True,1,2,1,False,1,False,1,2,1,Transporte público,0
+589,Feminino,20,1.530884,39.371523,False,True,2,3,1,False,2,False,2,1,1,Transporte público,0
+590,Feminino,20,1.529724,40.343463,False,True,3,3,1,False,1,False,0,0,1,Transporte público,0
+591,Masculino,20,1.767563,56.307019,True,True,2,4,1,False,2,False,2,1,0,Automóvel,0
+592,Masculino,18,1.883364,60.0,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+593,Masculino,18,1.824655,58.621349,True,True,2,4,1,False,3,False,2,1,0,Automóvel,0
+594,Masculino,18,1.840138,60.0,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+595,Masculino,17,1.819557,58.325122,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+596,Masculino,17,1.798645,59.612717,True,True,2,4,1,False,2,False,2,0,0,Automóvel,0
+597,Masculino,18,1.7108,50.92538,True,True,2,3,1,False,2,False,0,2,1,Transporte público,0
+598,Masculino,18,1.70653,51.121749,True,True,2,3,1,False,2,False,0,1,1,Transporte público,0
+599,Masculino,18,1.716691,51.149283,True,True,2,3,1,False,1,False,1,2,1,Transporte público,0
+600,Feminino,19,1.555431,44.188767,False,False,3,3,2,False,1,True,1,0,1,Transporte público,0
+601,Feminino,19,1.603923,45.0,False,False,3,3,2,False,1,True,2,0,1,Transporte público,0
+602,Feminino,20,1.602082,45.0,False,False,3,3,2,False,3,True,1,0,1,Transporte público,0
+603,Feminino,19,1.53777,42.0,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+604,Feminino,19,1.538398,42.0,False,True,3,1,2,False,1,False,1,1,1,Transporte público,0
+605,Feminino,19,1.520862,42.0,False,True,3,1,2,False,2,False,0,1,1,Transporte público,0
+606,Masculino,18,1.717826,51.7325,True,True,1,3,1,False,1,False,0,2,1,Transporte público,0
+607,Masculino,18,1.753389,54.121925,True,True,2,3,1,False,2,False,2,2,1,Transporte público,0
+608,Masculino,18,1.70165,50.157707,True,True,2,3,1,False,1,False,1,2,1,Transporte público,0
+609,Masculino,20,1.75336,54.997374,True,True,2,3,1,False,3,False,2,2,0,Transporte público,0
+610,Feminino,22,1.672007,49.980968,True,True,3,3,2,False,3,False,1,1,0,Transporte público,0
+611,Feminino,22,1.593847,44.050251,False,False,3,3,2,False,3,False,2,0,0,Transporte público,0
+612,Feminino,23,1.584785,44.376637,False,False,2,2,2,False,2,False,1,0,0,Transporte público,0
+613,Feminino,19,1.600264,45.0,False,False,3,3,2,False,3,True,1,0,1,Transporte público,0
+614,Feminino,21,1.549311,41.557468,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+615,Feminino,20,1.534385,41.96525,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+616,Feminino,21,1.725548,49.815599,True,False,3,4,2,False,1,False,2,1,0,Transporte público,0
+617,Masculino,20,1.868931,63.199726,True,True,3,4,1,False,3,False,2,0,1,Automóvel,0
+618,Feminino,21,1.686936,51.256059,True,True,3,3,2,False,2,False,0,1,0,Transporte público,0
+619,Feminino,18,1.589829,40.202773,False,True,2,1,1,False,1,False,0,2,1,Transporte público,0
+620,Feminino,20,1.653209,49.026214,False,False,3,3,1,False,2,False,2,1,1,Transporte público,0
+621,Feminino,23,1.740108,53.65727,True,True,2,3,2,False,2,False,2,1,0,Transporte público,0
+622,Feminino,18,1.7,50.0,False,True,1,3,2,False,1,False,1,1,1,Transporte público,0
+623,Feminino,35,1.689141,50.0,True,True,3,4,2,False,2,False,0,0,0,Transporte público,0
+624,Masculino,16,1.691206,50.0,False,True,2,2,1,False,3,False,1,0,1,Transporte público,0
+625,Masculino,18,1.788459,51.552595,False,True,3,3,1,False,2,False,1,1,1,Transporte público,0
+626,Masculino,17,1.811238,58.83071,True,True,2,4,1,False,2,False,2,1,0,Automóvel,0
+627,Feminino,17,1.830068,43.534531,False,True,3,3,1,False,3,False,3,1,1,Transporte público,0
+628,Masculino,17,1.782756,56.029418,True,True,2,4,1,False,2,False,2,1,0,Automóvel,0
+629,Feminino,23,1.751691,55.967655,True,True,2,3,2,False,2,False,2,0,0,Transporte público,0
+630,Feminino,18,1.78656,50.0,False,True,3,4,1,False,1,False,2,1,1,Transporte público,0
+631,Feminino,19,1.71367,50.0,False,True,1,4,2,False,1,False,2,1,1,Transporte público,0
+632,Feminino,19,1.540375,42.006282,False,False,3,3,2,False,1,True,2,0,1,Transporte público,0
+633,Masculino,17,1.896734,59.895052,True,True,3,3,1,False,2,False,3,1,0,Automóvel,0
+634,Feminino,23,1.710129,50.079991,True,True,2,3,2,False,3,False,0,2,0,Transporte público,0
+635,Feminino,18,1.704193,50.631889,False,True,2,3,1,False,2,False,0,2,1,Transporte público,0
+636,Feminino,19,1.556611,39.695295,False,True,2,2,1,False,2,False,2,2,1,Transporte público,0
+637,Masculino,18,1.845399,60.0,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+638,Masculino,17,1.834637,59.990861,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+639,Masculino,18,1.721854,52.514302,True,True,2,3,1,False,2,False,0,2,1,Transporte público,0
+640,Feminino,20,1.605521,44.661461,False,False,3,3,2,False,1,True,1,0,1,Transporte público,0
+641,Feminino,19,1.530266,42.0,False,True,3,1,2,False,2,False,0,1,1,Transporte público,0
+642,Masculino,18,1.71889,52.058335,True,True,2,3,1,False,2,False,0,2,1,Transporte público,0
+643,Masculino,20,1.756338,54.98234,True,True,2,4,1,False,3,False,2,2,0,Transporte público,0
+644,Masculino,18,1.770324,55.695253,True,True,2,4,1,False,2,False,2,2,0,Automóvel,0
+645,Feminino,21,1.767479,56.265959,True,True,2,4,2,False,2,False,2,1,0,Transporte público,0
+646,Feminino,22,1.704223,51.437985,True,True,3,3,2,False,2,False,2,1,0,Transporte público,0
+647,Feminino,21,1.667852,49.803921,True,True,3,3,2,False,2,False,2,1,0,Transporte público,0
+648,Feminino,23,1.722461,51.881263,True,True,3,3,2,False,1,False,1,1,0,Transporte público,0
+649,Feminino,22,1.588046,44.236067,False,False,3,2,2,False,3,False,1,0,0,Transporte público,0
+650,Feminino,23,1.598612,42.993937,False,False,3,3,2,False,2,False,2,0,0,Transporte público,0
+651,Feminino,22,1.592379,44.00945,False,False,3,2,2,False,3,False,1,0,0,Transporte público,0
+652,Feminino,21,1.555778,42.3601,False,False,2,1,2,False,1,False,0,0,0,Transporte público,0
+653,Feminino,23,1.596466,44.594588,False,False,3,2,2,False,2,False,0,0,0,Transporte público,0
+654,Feminino,22,1.598393,44.918255,False,False,3,2,2,False,2,False,1,0,0,Transporte público,0
+655,Feminino,19,1.633316,45.0,False,True,3,3,1,False,3,True,1,0,1,Transporte público,0
+656,Feminino,19,1.559567,42.12617,False,True,3,2,1,False,2,False,0,0,0,Transporte público,0
+657,Feminino,19,1.546551,42.069992,False,True,3,2,1,False,2,False,1,1,0,Transporte público,0
+658,Feminino,20,1.566501,41.706283,False,True,3,1,2,False,1,False,0,1,1,Transporte público,0
+659,Feminino,21,1.52,42.0,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+660,Feminino,20,1.599486,44.810751,False,False,3,3,2,False,1,True,1,0,1,Transporte público,0
+661,Feminino,20,1.559186,41.952805,False,True,3,1,2,False,1,False,0,1,1,Transporte público,0
+662,Feminino,21,1.523426,42.0,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+663,Feminino,21,1.52,42.0,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+664,Feminino,22,1.689441,51.107925,True,True,3,4,2,False,2,False,0,1,0,Transporte público,0
+665,Feminino,21,1.737453,50.479039,True,True,3,3,2,False,1,False,1,0,0,Transporte público,0
+666,Feminino,19,1.732096,50.0,False,True,1,3,1,False,1,False,2,1,1,Transporte público,0
+667,Masculino,22,1.869098,61.411141,True,True,3,3,1,False,2,False,2,0,1,Automóvel,0
+668,Masculino,19,1.851123,61.264785,True,True,3,4,1,False,3,False,1,0,1,Automóvel,0
+669,Masculino,21,1.787264,58.585146,True,True,3,3,1,False,2,False,2,2,0,Automóvel,0
+670,Masculino,18,1.787787,52.0,True,True,3,3,1,False,2,False,1,1,1,Transporte público,0
+671,Feminino,22,1.712515,51.710723,True,True,3,3,2,False,1,False,2,0,0,Transporte público,0
+672,Masculino,18,1.698914,51.692272,True,True,3,3,1,False,2,False,1,1,1,Transporte público,0
+673,Feminino,19,1.533609,41.669346,False,True,3,1,1,False,1,False,0,1,1,Transporte público,0
+674,Feminino,19,1.567981,41.934368,False,True,2,1,1,False,2,False,0,2,1,Transporte público,0
+675,Feminino,19,1.544263,41.535047,False,True,3,1,1,False,1,False,0,1,1,Transporte público,0
+676,Feminino,19,1.670552,49.804245,False,True,3,3,1,False,2,False,2,1,1,Transporte público,0
+677,Feminino,20,1.676346,49.105025,False,False,3,3,1,False,2,False,2,1,1,Transporte público,0
+678,Feminino,20,1.667404,49.125955,False,False,3,3,1,False,2,False,2,1,1,Transporte público,0
+679,Feminino,22,1.70011,50.173425,True,True,3,3,2,False,2,False,1,2,0,Transporte público,0
+680,Masculino,20,1.75633,54.567343,True,True,2,4,1,False,3,False,2,2,0,Transporte público,0
+681,Feminino,23,1.703584,51.607091,True,True,3,3,2,False,2,False,0,2,0,Transporte público,0
+682,Feminino,19,1.690727,49.895716,False,True,1,3,1,False,1,False,2,1,1,Transporte público,0
+683,Feminino,18,1.713564,50.0,False,True,1,3,1,False,1,False,2,1,1,Transporte público,0
+684,Feminino,19,1.67231,49.713944,False,True,3,3,1,False,2,False,2,1,1,Transporte público,0
+685,Feminino,27,1.660446,49.558304,True,True,2,3,2,False,2,False,1,1,0,Transporte público,0
+686,Feminino,25,1.630379,46.062954,True,True,3,3,2,False,2,False,2,0,0,Transporte público,0
+687,Feminino,23,1.655413,50.424661,True,True,3,4,2,False,2,False,0,0,0,Transporte público,0
+688,Masculino,18,1.732862,51.216463,False,True,2,3,1,False,2,False,0,1,1,Transporte público,0
+689,Feminino,17,1.74402,50.0,False,True,2,3,1,False,1,False,1,1,1,Transporte público,0
+690,Masculino,18,1.757958,52.09432,False,True,2,3,1,False,2,False,1,1,1,Transporte público,0
+691,Masculino,18,1.786758,51.524444,False,True,3,3,1,False,2,False,1,1,1,Transporte público,0
+692,Masculino,18,1.767058,51.132809,True,True,3,3,1,False,2,False,1,1,1,Transporte público,0
+693,Masculino,18,1.699437,52.08657,True,True,3,3,1,False,2,False,1,1,1,Transporte público,0
+694,Masculino,17,1.82525,58.913579,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+695,Masculino,20,1.793315,58.19515,True,True,3,3,1,False,2,False,2,1,0,Automóvel,0
+696,Masculino,19,1.776989,57.275946,True,True,2,4,1,False,3,False,2,2,0,Automóvel,0
+697,Feminino,19,1.609495,42.656563,False,True,3,3,1,False,3,True,2,1,0,Transporte público,0
+698,Feminino,17,1.777929,44.762023,False,True,3,3,1,False,2,False,2,2,1,Transporte público,0
+699,Feminino,17,1.710948,45.248627,False,True,3,3,1,False,2,False,2,1,1,Transporte público,0
+700,Masculino,18,1.854162,59.881316,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+701,Masculino,17,1.821514,59.605028,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+702,Masculino,20,1.762073,55.511075,True,True,2,4,1,False,3,False,2,2,0,Automóvel,0
+703,Feminino,23,1.732307,54.835576,True,True,3,3,2,False,2,False,1,0,0,Transporte público,0
+704,Masculino,21,1.759933,55.003417,True,True,3,4,1,False,3,False,2,1,0,Transporte público,0
+705,Feminino,23,1.741377,54.877111,True,True,3,3,2,False,2,False,2,0,0,Transporte público,0
+706,Feminino,19,1.731195,49.650897,False,True,3,4,1,False,2,False,2,1,1,Transporte público,0
+707,Feminino,17,1.74823,49.928447,False,True,2,4,1,False,1,False,2,1,1,Transporte público,0
+708,Feminino,19,1.756865,49.699672,False,True,2,3,1,False,1,False,2,1,1,Transporte público,0
+709,Feminino,18,1.701378,50.088468,False,True,2,3,1,False,1,False,1,1,1,Transporte público,0
+710,Feminino,20,1.699956,49.98297,False,True,1,4,1,False,1,False,2,1,1,Transporte público,0
+711,Feminino,18,1.723328,50.0,False,True,1,4,2,False,1,False,2,1,1,Transporte público,0
+712,Feminino,19,1.585886,42.541794,False,False,3,3,2,False,1,True,1,0,1,Transporte público,0
+713,Feminino,21,1.524926,42.0,False,True,3,1,2,False,1,False,0,0,1,Transporte público,0
+714,Feminino,19,1.52337,42.0,False,True,3,1,2,False,2,False,0,1,1,Transporte público,0
+715,Masculino,17,1.844749,59.313525,True,True,2,3,1,False,2,False,3,1,0,Automóvel,0
+716,Masculino,17,1.853325,59.619485,True,True,3,4,1,False,2,False,2,1,0,Automóvel,0
+717,Masculino,18,1.854706,59.20945,True,True,3,4,1,False,2,False,2,1,0,Automóvel,0
+718,Feminino,21,1.72064,50.0,True,True,3,4,2,False,1,False,1,0,0,Transporte público,0
+719,Feminino,22,1.704167,50.165754,True,True,3,3,2,False,3,False,1,1,0,Transporte público,0
+720,Feminino,22,1.71746,51.491957,True,True,2,3,2,False,1,False,2,2,0,Transporte público,0
+721,Feminino,18,1.708406,50.0,False,True,2,3,1,False,1,False,0,1,1,Transporte público,0
+722,Feminino,18,1.763465,50.279053,False,True,2,3,1,False,2,False,0,1,1,Transporte público,0
+723,Feminino,18,1.7,50.0,False,True,1,3,1,False,2,False,0,1,1,Transporte público,0
+724,Feminino,19,1.574017,41.220175,False,True,2,2,1,False,2,False,0,2,1,Transporte público,0
+725,Feminino,20,1.537739,39.101805,False,True,1,3,1,False,2,False,2,2,1,Transporte público,0
+726,Feminino,20,1.534223,41.268597,False,True,3,3,2,False,1,False,0,0,1,Transporte público,0
+727,Masculino,20,1.76033,55.3707,True,True,2,4,1,False,3,False,2,2,0,Automóvel,0
+728,Masculino,18,1.841879,60.0,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+729,Masculino,18,1.856406,58.673963,True,True,2,4,1,False,2,False,2,1,0,Automóvel,0
+730,Masculino,18,1.829142,59.933015,True,True,3,4,1,False,2,False,2,0,0,Automóvel,0
+731,Masculino,17,1.822084,58.443049,True,True,3,3,1,False,2,False,2,1,0,Automóvel,0
+732,Masculino,17,1.80671,59.243506,True,True,2,4,1,False,2,False,2,0,0,Automóvel,0
+733,Masculino,18,1.707259,50.664459,True,True,2,3,1,False,2,False,1,2,1,Transporte público,0
+734,Masculino,18,1.708107,51.314659,True,True,1,3,1,False,2,False,0,2,1,Transporte público,0
+735,Masculino,18,1.739344,50.951444,True,True,2,3,1,False,2,False,1,1,1,Transporte público,0
+736,Feminino,19,1.573987,44.316254,False,False,3,3,2,False,1,True,1,0,1,Transporte público,0
+737,Feminino,19,1.58092,44.753943,False,False,3,3,2,False,1,True,1,0,1,Transporte público,0
+738,Feminino,20,1.603435,45.0,False,False,3,3,2,False,2,True,1,0,1,Transporte público,0
+739,Feminino,20,1.53535,42.0,False,True,3,1,2,False,1,False,0,1,1,Transporte público,0
+740,Feminino,19,1.53161,42.0,False,True,3,1,2,False,1,False,0,1,1,Transporte público,0
+741,Feminino,19,1.525691,42.0,False,True,3,1,2,False,2,False,0,1,1,Transporte público,0
+742,Masculino,18,1.719827,52.289828,True,True,1,3,1,False,2,False,0,2,1,Transporte público,0
+743,Masculino,18,1.722547,53.783977,True,True,2,3,1,False,2,False,1,2,1,Transporte público,0
+744,Masculino,18,1.738702,50.248677,True,True,2,3,1,False,1,False,1,1,1,Transporte público,0
+745,Masculino,27,1.816298,86.963765,False,True,2,2,1,False,2,False,2,1,0,Automóvel,2
+746,Masculino,21,1.638085,70.0,False,True,2,1,0,False,2,False,1,0,1,Transporte público,2
+747,Masculino,25,1.813678,85.637789,False,True,1,4,1,False,2,False,0,1,0,Automóvel,2
+748,Masculino,22,1.697228,75.5771,True,True,2,4,1,False,2,False,1,0,1,Transporte público,2
+749,Masculino,21,1.617469,68.869791,False,True,1,3,0,False,2,False,1,0,1,Transporte público,2
+750,Masculino,19,1.855543,88.965521,True,True,2,3,1,False,1,False,0,0,1,Transporte público,2
+751,Feminino,42,1.721854,82.919584,False,True,3,3,1,False,3,False,3,0,1,Automóvel,2
+752,Masculino,21,1.855353,86.413388,True,True,2,3,1,False,1,False,1,1,1,Transporte público,2
+753,Masculino,22,1.696336,75.0,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+754,Feminino,19,1.751631,80.0,True,True,2,2,1,False,2,False,3,1,2,Transporte público,2
+755,Masculino,24,1.698346,75.0,True,True,2,3,1,False,2,False,0,1,1,Transporte público,2
+756,Feminino,34,1.642971,74.803157,True,False,3,1,1,False,1,False,1,0,1,Automóvel,2
+757,Feminino,22,1.613668,68.126955,True,True,2,4,1,False,2,False,1,1,1,Transporte público,2
+758,Masculino,21,1.605404,68.226511,False,True,2,2,0,False,3,False,1,0,1,Transporte público,2
+759,Feminino,35,1.529834,62.903938,False,True,2,2,1,False,1,False,0,1,1,Automóvel,2
+760,Feminino,37,1.55,62.337721,True,True,2,3,1,False,3,False,0,0,1,Automóvel,2
+761,Feminino,22,1.731261,78.175706,True,True,3,1,1,False,2,False,2,0,1,Transporte público,2
+762,Masculino,23,1.629194,70.0,False,True,2,1,0,False,3,False,0,0,1,Transporte público,2
+763,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+764,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+765,Feminino,31,1.633491,68.803694,True,True,2,3,1,False,2,False,0,0,1,Automóvel,2
+766,Masculino,21,1.752391,79.109637,True,True,3,1,1,False,2,False,3,0,1,Automóvel,2
+767,Masculino,20,1.818226,85.833029,True,True,3,4,1,False,2,False,3,0,1,Transporte público,2
+768,Masculino,20,1.809101,85.0,True,True,3,3,1,False,2,False,2,1,1,Transporte público,2
+769,Masculino,21,1.709484,75.0,True,True,2,3,1,False,3,False,2,0,1,Transporte público,2
+770,Masculino,21,1.607082,67.722222,True,True,2,4,0,False,3,False,1,0,1,Transporte público,2
+771,Feminino,23,1.718939,75.951472,True,True,2,3,2,False,2,False,0,2,1,Transporte público,2
+772,Masculino,20,1.831357,89.652557,True,True,3,3,1,False,3,False,2,0,1,Transporte público,2
+773,Feminino,22,1.6,66.401407,True,True,2,3,1,False,3,False,2,0,1,Transporte público,2
+774,Feminino,21,1.754813,77.929204,True,True,3,1,1,False,2,False,1,0,1,Transporte público,2
+775,Masculino,18,1.778447,80.273807,True,True,2,3,1,False,2,False,3,0,0,Transporte público,2
+776,Masculino,21,1.709561,75.0,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+777,Feminino,29,1.674568,71.602622,True,True,2,3,1,False,2,False,2,0,1,Automóvel,2
+778,Masculino,26,1.755317,82.228794,True,True,2,4,1,False,2,False,0,1,1,Transporte público,2
+779,Masculino,23,1.708071,75.0,True,True,3,3,1,False,3,False,1,2,1,Transporte público,2
+780,Masculino,20,1.806947,85.079589,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+781,Feminino,24,1.599697,64.808022,False,True,3,3,1,False,2,False,0,0,1,Transporte público,2
+782,Feminino,33,1.721903,72.748903,True,True,2,3,1,False,1,False,0,1,1,Automóvel,2
+783,Masculino,23,1.712556,75.480764,True,True,3,4,1,False,1,False,1,2,1,Transporte público,2
+784,Feminino,17,1.551288,54.93242,False,True,2,1,1,False,2,True,0,2,1,Transporte público,2
+785,Feminino,16,1.603842,65.0,True,True,3,1,1,False,2,True,1,1,1,Transporte público,2
+786,Feminino,24,1.588597,62.339003,False,True,2,3,1,False,2,False,2,2,1,Transporte público,2
+787,Feminino,35,1.673482,73.193589,True,False,3,3,1,False,2,False,0,0,1,Automóvel,2
+788,Masculino,23,1.858624,88.675503,True,True,2,3,1,False,1,False,1,1,1,Automóvel,2
+789,Feminino,37,1.593894,63.320629,True,True,2,3,1,False,2,False,3,0,1,Automóvel,2
+790,Masculino,19,1.62,69.529625,False,True,2,1,1,False,3,False,1,1,1,Transporte público,2
+791,Feminino,16,1.616366,67.183128,True,True,2,1,1,False,2,True,1,2,0,Transporte público,2
+792,Feminino,18,1.637396,70.0,True,True,2,2,1,False,2,False,0,0,0,Transporte público,2
+793,Feminino,19,1.550723,60.628321,False,True,3,3,1,False,1,True,1,0,1,Transporte público,2
+794,Feminino,17,1.6,65.0,True,True,3,2,1,False,2,True,0,2,1,Transporte público,2
+795,Masculino,30,1.820471,87.668828,False,True,3,3,1,False,1,False,2,0,0,Automóvel,2
+796,Feminino,32,1.657496,73.641633,True,True,2,3,1,False,1,False,0,1,1,Automóvel,2
+797,Masculino,18,1.752123,80.0,True,True,2,3,1,False,2,False,0,0,0,Transporte público,2
+798,Masculino,19,1.857231,88.138777,True,True,2,4,1,False,2,False,2,0,1,Transporte público,2
+799,Feminino,19,1.76,79.544998,True,True,2,1,1,False,3,False,2,2,2,Transporte público,2
+800,Feminino,18,1.644682,68.392133,True,True,2,1,1,False,1,False,0,2,0,Transporte público,2
+801,Feminino,18,1.737165,76.699774,True,True,3,3,1,False,2,False,1,1,2,Transporte público,2
+802,Feminino,20,1.507853,64.259379,False,True,3,3,1,False,2,True,0,0,1,Transporte público,2
+803,Masculino,28,1.81006,87.286783,False,True,3,3,1,False,1,False,2,0,0,Automóvel,2
+804,Masculino,27,1.80179,86.981202,False,True,3,2,1,False,2,False,2,0,0,Automóvel,2
+805,Masculino,21,1.625891,70.0,False,True,2,1,0,False,2,False,1,0,1,Transporte público,2
+806,Masculino,22,1.64037,70.0,False,True,2,1,0,False,2,False,1,0,1,Transporte público,2
+807,Masculino,27,1.791047,83.26312,False,True,1,4,1,False,2,False,0,1,0,Automóvel,2
+808,Masculino,22,1.679306,75.0,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+809,Feminino,21,1.615145,68.653347,True,True,2,4,0,False,2,False,1,0,1,Transporte público,2
+810,Feminino,21,1.616467,68.77185,True,True,1,4,0,False,2,False,1,1,1,Transporte público,2
+811,Masculino,20,1.816783,86.522799,True,True,2,3,1,False,2,False,0,0,1,Transporte público,2
+812,Masculino,19,1.812472,86.748295,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+813,Feminino,42,1.768231,75.62931,True,True,3,3,1,False,2,False,0,0,1,Automóvel,2
+814,Masculino,22,1.870931,89.251639,True,True,2,3,1,False,1,False,0,1,1,Transporte público,2
+815,Masculino,21,1.863685,89.558854,True,True,2,3,1,False,1,False,0,1,1,Transporte público,2
+816,Masculino,23,1.670227,75.0,True,True,2,3,1,False,2,False,0,2,1,Transporte público,2
+817,Masculino,23,1.717288,75.948164,True,True,2,3,1,False,2,False,0,2,1,Transporte público,2
+818,Masculino,19,1.750359,79.828725,True,True,2,2,1,False,2,False,1,1,2,Transporte público,2
+819,Masculino,23,1.707557,75.306702,True,True,2,3,1,False,1,False,1,0,1,Transporte público,2
+820,Feminino,33,1.672446,74.812707,True,True,3,1,1,False,1,False,0,0,1,Automóvel,2
+821,Feminino,33,1.675979,74.959747,True,True,2,2,1,False,1,False,0,0,1,Automóvel,2
+822,Feminino,22,1.611239,67.939653,True,True,2,4,1,False,3,False,2,1,1,Transporte público,2
+823,Feminino,22,1.611356,68.06609,True,True,2,4,1,False,3,False,1,2,1,Transporte público,2
+824,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+825,Feminino,37,1.508908,63.183846,True,True,2,1,1,False,2,False,0,0,1,Automóvel,2
+826,Feminino,40,1.561109,62.871794,True,True,3,3,1,False,2,False,0,0,1,Automóvel,2
+827,Feminino,39,1.554728,63.011645,True,True,3,3,1,False,3,False,2,0,1,Automóvel,2
+828,Feminino,22,1.730182,78.55444,True,True,2,1,1,False,2,False,2,0,1,Transporte público,2
+829,Feminino,21,1.743841,78.88036,True,True,3,1,1,False,2,False,2,0,1,Transporte público,2
+830,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+831,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+832,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+833,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+834,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+835,Feminino,29,1.642506,69.906708,True,True,2,3,1,False,2,False,2,0,1,Automóvel,2
+836,Feminino,31,1.69308,71.927379,True,True,3,3,1,False,2,False,1,1,1,Automóvel,2
+837,Masculino,23,1.752115,79.414603,True,True,3,1,1,False,2,False,2,0,1,Transporte público,2
+838,Masculino,26,1.745033,80.0,True,True,2,1,1,False,2,False,2,0,1,Transporte público,2
+839,Masculino,20,1.820643,85.0,True,True,3,3,1,False,3,False,2,0,1,Transporte público,2
+840,Masculino,20,1.80733,85.073801,True,True,3,3,1,False,3,False,2,0,1,Transporte público,2
+841,Masculino,20,1.8,85.0,True,True,2,3,1,False,3,False,2,1,1,Transporte público,2
+842,Masculino,19,1.814255,85.255631,True,True,3,3,1,False,2,False,2,1,1,Transporte público,2
+843,Masculino,22,1.700181,75.057177,True,True,2,4,1,False,2,False,2,1,1,Transporte público,2
+844,Feminino,22,1.604697,68.016472,True,True,2,3,0,False,3,False,1,0,1,Transporte público,2
+845,Feminino,21,1.611,68.107866,True,True,2,4,0,False,2,False,1,0,1,Transporte público,2
+846,Feminino,21,1.754497,77.956921,True,True,2,2,1,False,2,False,0,2,1,Transporte público,2
+847,Feminino,21,1.752944,77.965532,True,True,3,2,1,False,2,False,1,1,1,Transporte público,2
+848,Masculino,19,1.859927,87.105828,True,True,2,4,1,False,2,False,2,1,1,Transporte público,2
+849,Masculino,22,1.896073,90.52446,True,True,2,4,1,False,3,False,2,0,1,Transporte público,2
+850,Masculino,22,1.605314,66.621646,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+851,Feminino,21,1.758628,78.370039,True,True,3,1,1,False,2,False,3,0,1,Transporte público,2
+852,Feminino,21,1.755427,78.300084,True,True,3,1,1,False,2,False,3,0,1,Transporte público,2
+853,Feminino,19,1.779882,80.091886,True,True,1,1,1,False,3,False,3,1,0,Transporte público,2
+854,Masculino,21,1.712061,75.0,True,True,2,3,1,False,1,False,1,0,1,Transporte público,2
+855,Masculino,21,1.676014,75.0,True,True,2,3,1,False,1,False,1,0,1,Transporte público,2
+856,Feminino,28,1.7,74.244004,True,True,2,3,1,False,2,False,2,0,1,Automóvel,2
+857,Masculino,29,1.765874,82.045045,True,True,1,4,1,False,2,False,1,1,1,Transporte público,2
+858,Masculino,26,1.74595,80.018571,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+859,Masculino,23,1.690196,75.0,True,True,3,3,1,False,3,False,1,2,1,Transporte público,2
+860,Masculino,20,1.81748,85.0,True,True,3,3,1,False,3,False,2,1,1,Transporte público,2
+861,Feminino,22,1.580964,65.363941,False,True,2,3,1,False,1,False,1,1,1,Transporte público,2
+862,Feminino,30,1.652084,73.575981,True,True,2,3,1,False,1,False,0,0,1,Automóvel,2
+863,Feminino,31,1.645511,69.168978,True,True,2,3,1,False,1,False,0,0,1,Automóvel,2
+864,Masculino,23,1.707968,75.383716,True,True,3,3,1,False,1,False,0,1,1,Transporte público,2
+865,Feminino,18,1.456346,55.523481,False,True,2,3,1,False,1,True,0,2,1,Transporte público,2
+866,Feminino,18,1.498561,55.376512,False,True,2,3,1,False,1,True,0,1,1,Transporte público,2
+867,Feminino,17,1.603501,65.0,True,True,3,1,1,False,2,True,1,1,0,Transporte público,2
+868,Feminino,22,1.558045,63.597633,False,True,3,2,1,False,2,False,1,0,1,Transporte público,2
+869,Feminino,27,1.55,62.877347,False,True,2,2,1,False,1,False,1,0,1,Transporte público,2
+870,Feminino,35,1.647514,73.91692,True,False,3,3,1,False,2,False,1,0,1,Automóvel,2
+871,Masculino,24,1.855779,86.098523,True,True,2,2,1,False,2,False,1,1,1,Automóvel,2
+872,Masculino,23,1.853223,87.083266,True,True,2,1,1,False,1,False,1,1,1,Automóvel,2
+873,Feminino,40,1.570811,62.211572,True,True,2,3,1,False,3,False,1,0,1,Automóvel,2
+874,Feminino,16,1.617124,67.913561,True,True,3,1,1,False,2,False,1,2,0,Transporte público,2
+875,Feminino,17,1.644053,67.439589,True,True,1,1,1,False,1,True,0,0,0,Transporte público,2
+876,Feminino,16,1.608914,65.0,True,True,1,1,1,False,2,True,0,1,0,Transporte público,2
+877,Feminino,18,1.647971,68.818893,True,True,2,1,1,False,2,False,0,1,0,Transporte público,2
+878,Feminino,19,1.624831,69.975607,True,True,2,3,1,False,2,False,1,0,0,Transporte público,2
+879,Feminino,20,1.508267,61.10403,False,True,3,3,1,False,2,True,1,1,1,Transporte público,2
+880,Feminino,19,1.518917,60.267427,False,True,3,3,1,False,1,True,1,1,1,Transporte público,2
+881,Feminino,18,1.6,65.0,True,True,3,3,1,False,2,True,0,0,1,Transporte público,2
+882,Masculino,33,1.838791,87.85785,False,True,3,3,1,False,2,False,2,1,0,Automóvel,2
+883,Feminino,33,1.730379,75.920519,True,True,2,3,1,False,1,False,1,0,1,Automóvel,2
+884,Feminino,19,1.759117,80.0,True,True,2,1,1,False,3,False,3,1,0,Transporte público,2
+885,Feminino,19,1.755254,80.0,True,True,2,1,1,False,2,False,3,1,0,Transporte público,2
+886,Masculino,19,1.804099,85.196279,True,True,2,3,1,False,2,False,2,1,1,Transporte público,2
+887,Masculino,19,1.813567,86.144904,True,True,3,4,1,False,2,False,2,0,1,Transporte público,2
+888,Feminino,21,1.75655,78.721696,True,True,2,3,1,False,3,False,0,2,2,Transporte público,2
+889,Feminino,19,1.756774,79.989789,True,True,2,3,1,False,3,False,2,1,2,Transporte público,2
+890,Feminino,18,1.62,69.3899,True,True,2,1,1,False,2,False,0,2,0,Transporte público,2
+891,Feminino,21,1.709585,75.0,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+892,Feminino,17,1.535618,57.259124,False,True,2,2,1,False,2,True,0,1,1,Transporte público,2
+893,Masculino,26,1.818848,87.032398,False,True,2,2,1,False,2,False,2,1,0,Automóvel,2
+894,Masculino,27,1.817641,87.107317,False,True,3,3,1,False,1,False,2,0,0,Automóvel,2
+895,Masculino,21,1.636592,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+896,Masculino,21,1.621412,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+897,Masculino,27,1.802871,85.770013,True,True,3,3,1,False,2,False,1,0,1,Automóvel,2
+898,Masculino,22,1.696201,75.399191,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+899,Masculino,21,1.694633,75.0522,True,True,2,4,1,False,2,False,1,0,1,Transporte público,2
+900,Feminino,21,1.618148,68.981403,True,True,1,3,0,False,2,False,1,1,1,Transporte público,2
+901,Masculino,19,1.856811,88.633616,True,True,2,4,1,False,2,False,2,0,1,Transporte público,2
+902,Feminino,39,1.738321,86.934846,False,True,3,3,1,False,1,False,3,0,1,Automóvel,2
+903,Feminino,40,1.739293,80.914382,False,True,2,3,1,False,1,False,0,1,1,Automóvel,2
+904,Masculino,20,1.807538,85.316125,True,True,2,3,1,False,2,False,1,1,1,Transporte público,2
+905,Masculino,20,1.849425,85.228116,True,True,2,3,1,False,2,False,1,1,1,Transporte público,2
+906,Masculino,21,1.712473,75.0,True,True,2,3,1,False,1,False,1,0,1,Transporte público,2
+907,Feminino,19,1.753471,80.0,True,True,2,1,1,False,3,False,3,1,0,Transporte público,2
+908,Masculino,24,1.717432,75.371244,True,True,2,3,1,False,2,False,0,2,1,Transporte público,2
+909,Masculino,23,1.677573,75.0,True,True,2,3,1,False,2,False,0,2,1,Transporte público,2
+910,Feminino,34,1.679725,74.885222,True,True,3,1,1,False,1,False,0,0,1,Automóvel,2
+911,Feminino,22,1.600914,68.058902,True,True,2,3,1,False,3,False,1,0,1,Transporte público,2
+912,Feminino,21,1.617749,68.908136,True,True,1,3,1,False,2,False,1,1,1,Transporte público,2
+913,Masculino,21,1.610209,68.865008,False,True,2,3,0,False,3,False,1,0,1,Transporte público,2
+914,Masculino,21,1.612556,69.463458,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+915,Feminino,39,1.548178,62.341438,True,True,3,3,1,False,3,False,0,1,1,Automóvel,2
+916,Feminino,39,1.568441,62.855073,True,True,2,3,1,False,3,False,0,1,1,Automóvel,2
+917,Feminino,37,1.532322,62.417228,True,True,2,3,1,False,3,False,0,1,1,Automóvel,2
+918,Feminino,22,1.730199,78.997062,True,True,2,1,1,False,2,False,1,0,1,Transporte público,2
+919,Feminino,22,1.730167,78.429312,True,True,2,1,1,False,2,False,2,0,1,Transporte público,2
+920,Masculino,22,1.627396,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+921,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+922,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+923,Masculino,21,1.62,70.0,False,True,2,1,0,False,3,False,1,0,1,Transporte público,2
+924,Feminino,30,1.638744,69.242354,True,True,2,3,1,False,2,False,0,0,1,Automóvel,2
+925,Feminino,31,1.680858,71.81338,True,True,2,3,1,False,1,False,0,0,1,Automóvel,2
+926,Feminino,21,1.758372,79.469513,True,True,3,1,1,False,3,False,3,1,1,Transporte público,2
+927,Masculino,20,1.822573,85.084364,True,True,3,3,1,False,3,False,3,0,1,Transporte público,2
+928,Masculino,20,1.815409,85.302146,True,True,3,3,1,False,2,False,2,1,1,Transporte público,2
+929,Masculino,22,1.698049,75.0,True,True,2,3,1,False,3,False,2,0,1,Transporte público,2
+930,Feminino,21,1.60681,67.773914,True,True,2,3,0,False,3,False,1,0,1,Transporte público,2
+931,Feminino,22,1.610327,67.999778,True,True,2,4,0,False,3,False,1,0,1,Transporte público,2
+932,Masculino,23,1.710415,75.142858,True,True,3,3,1,False,3,False,1,2,1,Transporte público,2
+933,Masculino,23,1.716289,75.688433,True,True,2,3,1,False,2,False,0,1,1,Transporte público,2
+934,Masculino,20,1.834715,89.429199,True,True,2,4,1,False,3,False,2,0,1,Transporte público,2
+935,Feminino,22,1.611822,67.140367,True,True,2,3,1,False,3,False,1,0,1,Transporte público,2
+936,Feminino,22,1.6,66.126964,True,True,2,3,1,False,2,False,2,0,1,Transporte público,2
+937,Feminino,21,1.753578,77.97917,True,True,2,2,1,False,2,False,1,1,1,Transporte público,2
+938,Feminino,21,1.742364,78.664618,True,True,3,1,1,False,2,False,1,0,1,Transporte público,2
+939,Masculino,19,1.775626,80.113493,True,True,2,3,1,False,2,False,3,1,0,Transporte público,2
+940,Masculino,21,1.714253,75.0,True,True,2,3,1,False,1,False,1,0,1,Transporte público,2
+941,Masculino,21,1.693628,75.0,True,True,2,3,1,False,2,False,1,0,1,Transporte público,2
+942,Feminino,29,1.659172,71.170001,True,True,2,3,1,False,1,False,2,0,1,Automóvel,2
+943,Masculino,24,1.776347,82.329047,True,True,2,3,1,False,2,False,1,1,0,Transporte público,2
+944,Masculino,26,1.767806,82.694689,True,True,2,3,1,False,2,False,1,1,0,Transporte público,2
+945,Masculino,23,1.702516,75.0,True,True,2,3,1,False,2,False,1,2,1,Transporte público,2
+946,Masculino,20,1.814182,85.301029,True,True,3,3,1,False,2,False,1,0,1,Transporte público,2
+947,Feminino,22,1.59994,65.423942,False,True,3,3,1,False,2,False,1,0,1,Transporte público,2
+948,Feminino,32,1.666023,72.906186,True,True,2,3,1,False,1,False,0,1,1,Automóvel,2
+949,Masculino,23,1.701584,75.093569,True,True,3,3,1,False,3,False,1,2,1,Transporte público,2
+950,Masculino,23,1.713343,75.828119,True,True,3,4,1,False,1,False,0,2,1,Transporte público,2
+951,Feminino,17,1.489409,53.620604,False,True,2,2,1,False,2,True,0,2,1,Transporte público,2
+952,Feminino,18,1.518067,55.822119,False,True,2,2,1,False,1,True,0,2,1,Transporte público,2
+953,Feminino,16,1.616533,65.062945,True,True,2,1,1,False,1,True,0,1,0,Transporte público,2
+954,Feminino,23,1.589616,65.127324,False,True,2,3,1,False,3,False,2,2,1,Transporte público,2
+955,Feminino,35,1.675612,73.501233,True,True,3,2,1,False,2,False,0,0,1,Automóvel,2
+956,Masculino,23,1.874061,89.754302,True,True,2,3,1,False,1,False,0,1,1,Automóvel,2
+957,Feminino,39,1.580765,62.631382,True,True,2,3,1,False,2,False,1,0,1,Automóvel,2
+958,Masculino,20,1.62,69.575315,False,True,2,1,0,False,3,False,1,1,1,Transporte público,2
+959,Feminino,16,1.613921,66.738769,True,True,2,1,1,False,2,True,1,2,0,Transporte público,2
+960,Feminino,18,1.618683,67.193585,True,True,2,1,1,False,1,True,1,2,0,Transporte público,2
+961,Masculino,19,1.637537,70.0,True,True,2,1,1,False,2,False,1,0,0,Transporte público,2
+962,Feminino,20,1.566524,61.616,False,True,3,3,1,False,2,True,1,0,1,Transporte público,2
+963,Feminino,20,1.542328,63.856193,False,True,3,3,1,False,2,True,0,0,1,Transporte público,2
+964,Feminino,17,1.6,65.0,True,True,3,2,1,False,2,True,1,2,1,Transporte público,2
+965,Feminino,17,1.600184,65.0,True,True,3,2,1,False,2,True,1,2,1,Transporte público,2
+966,Masculino,29,1.773656,87.070234,False,True,2,4,1,False,1,False,2,0,0,Automóvel,2
+967,Feminino,32,1.64602,74.147443,True,True,3,3,1,False,1,False,1,1,1,Automóvel,2
+968,Feminino,32,1.65015,73.810728,True,True,2,3,1,False,1,False,1,0,1,Automóvel,2
+969,Masculino,18,1.751029,80.0,True,True,2,3,1,False,2,False,0,0,2,Transporte público,2
+970,Masculino,20,1.838266,89.496905,True,True,2,4,1,False,3,False,2,0,1,Transporte público,2
+971,Masculino,20,1.824449,87.656029,True,True,3,4,1,False,2,False,2,0,1,Transporte público,2
+972,Feminino,19,1.76,79.349221,True,True,2,2,1,False,3,False,1,2,0,Transporte público,2
+973,Feminino,18,1.622241,68.250249,True,True,2,1,1,False,1,False,0,2,0,Transporte público,2
+974,Feminino,18,1.729996,75.816864,True,True,3,3,1,False,2,False,1,1,2,Transporte público,2
+975,Feminino,18,1.725233,75.970712,True,True,3,3,1,False,2,False,1,1,2,Transporte público,2
+976,Feminino,20,1.541039,64.726948,False,True,3,3,1,False,2,True,0,1,1,Transporte público,2
+977,Masculino,21,1.773766,89.28282,True,True,2,1,1,False,2,False,1,1,1,Transporte público,3
+978,Masculino,22,1.75463,89.068227,True,True,2,2,1,False,2,False,1,0,1,Transporte público,3
+979,Masculino,21,1.674327,80.0,True,True,2,3,1,False,2,False,2,1,0,Transporte público,3
+980,Masculino,21,1.72,80.555875,True,True,2,2,1,False,2,False,2,1,0,Transporte público,3
+981,Masculino,33,1.913241,101.482054,True,True,2,2,1,False,2,False,1,0,1,Caminhada,3
+982,Masculino,31,1.737984,82.523113,True,True,2,3,1,False,2,False,0,0,1,Automóvel,3
+983,Masculino,30,1.703688,82.207978,True,True,2,3,1,False,2,False,0,1,1,Automóvel,3
+984,Masculino,21,1.716308,80.0,True,True,2,3,1,False,2,False,3,1,0,Transporte público,3
+985,Masculino,23,1.65,80.0,True,True,2,3,1,False,2,False,0,2,0,Transporte público,3
+986,Feminino,29,1.57856,65.522744,True,False,2,2,1,False,2,False,2,2,1,Transporte público,3
+987,Masculino,39,1.780846,85.687751,True,True,3,1,1,False,3,False,1,1,1,Automóvel,3
+988,Masculino,35,1.823168,91.630257,True,True,2,3,1,False,1,False,1,1,1,Automóvel,3
+989,Feminino,20,1.525234,65.220249,True,False,2,3,1,False,2,False,2,1,0,Transporte público,3
+990,Feminino,22,1.481682,61.373868,True,False,2,3,1,False,1,False,0,1,0,Transporte público,3
+991,Masculino,19,1.768578,87.803311,True,True,3,3,1,False,3,False,2,1,1,Transporte público,3
+992,Feminino,21,1.569878,69.743323,True,False,2,3,1,False,2,False,1,1,0,Transporte público,3
+993,Feminino,21,1.568188,67.904023,True,False,3,3,1,False,1,False,0,1,0,Transporte público,3
+994,Masculino,22,1.792527,89.994415,True,True,2,2,1,False,2,False,0,1,1,Transporte público,3
+995,Masculino,23,1.795311,89.868784,True,True,2,2,1,False,2,False,0,1,1,Transporte público,3
+996,Feminino,23,1.700038,80.0,True,True,2,3,1,False,2,False,1,2,0,Transporte público,3
+997,Feminino,23,1.668649,80.458343,True,True,2,2,1,False,1,False,1,2,0,Transporte público,3
+998,Masculino,25,1.7,84.687554,True,True,2,3,1,False,2,False,0,1,1,Transporte público,3
+999,Masculino,24,1.713825,83.952968,True,True,2,3,1,False,2,False,1,1,1,Transporte público,3
+1000,Feminino,25,1.7,78.055968,True,True,3,3,1,False,3,False,1,1,1,Transporte público,3
+1001,Masculino,31,1.835381,91.059595,True,True,2,3,1,False,1,False,0,0,1,Transporte público,3
+1002,Masculino,24,1.7,80.761409,True,True,2,3,1,False,3,False,0,0,1,Transporte público,3
+1003,Feminino,29,1.7,78.0,True,True,3,3,1,False,2,False,2,1,2,Automóvel,3
+1004,Masculino,18,1.7,83.199034,True,False,2,3,1,False,2,False,1,1,0,Transporte público,3
+1005,Feminino,19,1.659877,77.272652,True,True,2,3,1,False,3,False,0,1,1,Transporte público,3
+1006,Masculino,26,1.836943,96.192662,True,True,1,2,1,False,2,False,2,2,1,Transporte público,3
+1007,Masculino,23,1.819614,93.086419,True,True,2,1,1,False,2,False,0,2,1,Transporte público,3
+1008,Masculino,23,1.717775,85.312639,True,True,3,3,1,False,3,False,0,1,1,Transporte público,3
+1009,Masculino,23,1.791867,90.0,True,True,2,3,1,False,1,False,0,2,1,Transporte público,3
+1010,Feminino,25,1.7,80.749657,True,True,3,3,1,False,2,False,1,1,2,Transporte público,3
+1011,Masculino,34,1.68108,83.568035,True,True,2,2,1,False,2,False,1,0,0,Automóvel,3
+1012,Feminino,27,1.660756,78.574786,True,True,2,3,1,False,2,False,0,0,2,Transporte público,3
+1013,Masculino,55,1.769269,80.491339,False,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+1014,Masculino,35,1.765188,85.0,True,True,3,3,1,False,3,False,2,1,0,Automóvel,3
+1015,Masculino,22,1.65,80.0,True,True,2,3,1,False,2,False,1,2,0,Transporte público,3
+1016,Masculino,18,1.654757,80.0,True,True,3,2,1,False,2,False,1,1,0,Transporte público,3
+1017,Feminino,42,1.647768,79.165306,True,True,2,3,1,False,1,False,0,1,0,Automóvel,3
+1018,Masculino,22,1.691303,80.539,True,True,2,2,1,False,2,False,3,2,1,Transporte público,3
+1019,Feminino,29,1.532897,65.031879,True,False,2,1,1,False,1,False,0,0,0,Transporte público,3
+1020,Feminino,25,1.565288,64.848627,True,False,2,1,1,False,1,False,1,0,0,Transporte público,3
+1021,Feminino,22,1.5,63.65233,True,False,2,1,1,False,2,False,0,1,0,Transporte público,3
+1022,Feminino,23,1.507106,64.814109,True,False,2,4,1,False,2,False,1,1,0,Transporte público,3
+1023,Masculino,23,1.70074,81.32297,True,True,2,3,1,False,2,False,0,1,1,Transporte público,3
+1024,Masculino,23,1.715118,81.650778,True,True,2,2,1,False,2,False,1,1,1,Transporte público,3
+1025,Feminino,38,1.696423,78.967919,True,True,3,3,1,False,3,False,0,0,0,Automóvel,3
+1026,Feminino,37,1.653088,80.0,True,True,2,3,1,False,2,False,0,2,0,Automóvel,3
+1027,Feminino,34,1.681842,77.426465,True,True,3,3,1,False,2,False,2,1,0,Automóvel,3
+1028,Feminino,34,1.652202,77.13322,True,True,3,2,1,False,2,False,1,1,0,Automóvel,3
+1029,Masculino,31,1.848683,99.0,True,True,3,3,1,False,3,False,1,1,1,Automóvel,3
+1030,Masculino,34,1.835678,96.01851,True,True,2,2,1,False,3,False,1,0,1,Automóvel,3
+1031,Feminino,19,1.560029,71.728069,True,False,3,3,1,False,2,False,1,1,1,Transporte público,3
+1032,Feminino,19,1.621048,72.105856,True,False,3,4,1,False,2,False,1,1,1,Transporte público,3
+1033,Masculino,20,1.699474,78.0,True,False,2,2,1,False,3,False,0,0,0,Transporte público,3
+1034,Masculino,51,1.745528,82.130728,True,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+1035,Masculino,18,1.720379,85.0,True,True,2,3,1,False,3,False,1,0,1,Transporte público,3
+1036,Masculino,18,1.758787,85.050558,True,True,3,3,1,False,3,False,1,0,1,Transporte público,3
+1037,Masculino,19,1.704908,81.384224,True,True,3,1,1,False,2,False,2,1,1,Transporte público,3
+1038,Feminino,34,1.691322,77.561602,True,True,3,2,1,False,2,False,0,0,0,Automóvel,3
+1039,Masculino,17,1.78629,95.277392,True,True,2,3,1,False,3,False,1,1,1,Transporte público,3
+1040,Masculino,33,1.705617,83.016968,True,True,2,3,1,False,3,False,2,0,0,Automóvel,3
+1041,Masculino,33,1.733439,84.75383,True,True,3,3,1,False,2,False,3,1,0,Automóvel,3
+1042,Feminino,36,1.701397,83.0,True,True,2,1,1,False,2,False,1,0,0,Automóvel,3
+1043,Feminino,20,1.625236,74.433362,True,False,3,1,1,False,2,False,2,0,1,Transporte público,3
+1044,Feminino,19,1.545196,72.467862,True,False,3,3,1,False,2,False,2,1,1,Transporte público,3
+1045,Masculino,34,1.843172,92.69551,True,True,2,2,1,False,3,False,1,0,1,Automóvel,3
+1046,Masculino,23,1.705813,82.011962,True,True,3,2,1,False,3,False,2,0,1,Transporte público,3
+1047,Masculino,20,1.704141,78.790936,True,False,2,3,1,False,2,False,2,1,1,Transporte público,3
+1048,Masculino,19,1.706082,78.073528,True,False,2,3,1,False,2,False,2,1,1,Transporte público,3
+1049,Masculino,30,1.842943,93.798055,True,True,2,3,1,False,2,False,2,1,1,Transporte público,3
+1050,Masculino,27,1.880992,99.623778,True,True,3,1,1,False,1,False,2,0,1,Transporte público,3
+1051,Masculino,21,1.726774,82.853749,True,True,2,3,1,False,2,False,2,1,1,Transporte público,3
+1052,Masculino,33,1.73196,84.315608,True,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+1053,Masculino,18,1.751278,86.963628,True,False,3,3,1,False,2,False,1,0,1,Transporte público,3
+1054,Masculino,31,1.780448,88.431954,True,True,2,1,1,False,2,False,1,0,1,Transporte público,3
+1055,Masculino,33,1.85,97.92035,True,True,2,3,1,False,1,False,1,1,1,Transporte público,3
+1056,Masculino,25,1.785241,88.03748,True,True,1,2,1,False,2,False,0,1,1,Transporte público,3
+1057,Masculino,24,1.718845,86.319887,True,True,2,3,1,False,3,False,0,1,1,Transporte público,3
+1058,Feminino,20,1.530248,68.85097,True,False,2,4,1,False,1,False,1,1,0,Transporte público,3
+1059,Feminino,34,1.664927,80.386078,True,True,2,3,1,False,3,False,0,2,0,Automóvel,3
+1060,Feminino,34,1.673333,77.205685,True,True,3,2,1,False,2,False,1,1,0,Automóvel,3
+1061,Masculino,23,1.725587,82.480214,True,True,3,3,1,False,2,False,1,0,1,Transporte público,3
+1062,Feminino,43,1.733875,86.94538,True,True,2,2,1,False,2,False,1,0,0,Automóvel,3
+1063,Feminino,45,1.675953,79.66832,True,True,3,3,1,False,1,False,0,0,0,Automóvel,3
+1064,Masculino,22,1.786238,89.802492,True,True,2,2,1,False,2,False,0,0,1,Transporte público,3
+1065,Masculino,21,1.718534,80.0,True,True,2,3,1,False,2,False,3,1,0,Transporte público,3
+1066,Masculino,31,1.919543,101.544589,True,True,2,1,1,False,2,False,1,0,1,Transporte público,3
+1067,Masculino,31,1.707613,82.586893,True,True,3,3,1,False,1,False,0,0,0,Automóvel,3
+1068,Masculino,22,1.658393,80.0,True,True,2,3,1,False,2,False,3,2,0,Transporte público,3
+1069,Feminino,31,1.536819,65.912688,True,False,2,3,1,False,2,False,1,0,0,Transporte público,3
+1070,Masculino,35,1.805459,90.13868,True,True,2,2,1,False,2,False,0,0,1,Automóvel,3
+1071,Feminino,21,1.521008,67.083121,True,False,2,3,1,False,2,False,1,1,0,Transporte público,3
+1072,Masculino,19,1.744733,87.27989,True,True,2,3,1,False,3,False,3,0,1,Transporte público,3
+1073,Feminino,20,1.529223,65.140408,True,False,2,3,1,False,1,False,2,1,0,Transporte público,3
+1074,Masculino,23,1.799742,89.98168,True,True,1,2,1,False,2,False,0,1,1,Transporte público,3
+1075,Feminino,23,1.681314,80.037202,True,True,2,3,1,False,2,False,0,2,0,Transporte público,3
+1076,Masculino,24,1.706912,85.743727,True,True,2,3,1,False,3,False,0,1,1,Transporte público,3
+1077,Feminino,24,1.663509,80.0,True,True,2,3,1,False,2,False,0,0,0,Transporte público,3
+1078,Masculino,29,1.752265,88.096062,True,True,2,2,1,False,2,False,0,0,1,Transporte público,3
+1079,Masculino,25,1.735343,83.337721,True,True,3,3,1,False,2,False,0,1,1,Transporte público,3
+1080,Feminino,29,1.7,78.0,True,True,3,3,1,False,2,False,2,1,2,Automóvel,3
+1081,Masculino,17,1.7,83.414072,True,False,2,3,1,False,2,False,1,1,1,Transporte público,3
+1082,Feminino,19,1.633794,77.858532,True,False,3,3,1,False,2,False,2,1,1,Transporte público,3
+1083,Masculino,24,1.856759,95.887056,True,True,1,2,1,False,2,False,1,2,1,Transporte público,3
+1084,Masculino,23,1.77433,90.0,True,True,2,3,1,False,1,False,0,1,1,Transporte público,3
+1085,Feminino,29,1.7,78.0,True,True,3,3,1,False,2,False,1,1,2,Automóvel,3
+1086,Masculino,34,1.719509,84.416515,True,True,2,3,1,False,3,False,2,0,0,Automóvel,3
+1087,Feminino,28,1.658202,78.0,True,True,3,2,1,False,2,False,1,0,2,Automóvel,3
+1088,Masculino,55,1.657221,80.993213,True,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+1089,Masculino,35,1.713348,84.722222,True,True,3,3,1,False,3,False,2,1,0,Automóvel,3
+1090,Masculino,21,1.677178,80.379575,True,True,2,3,1,False,2,False,2,1,0,Transporte público,3
+1091,Feminino,38,1.67805,77.224574,True,True,2,3,1,False,1,False,0,0,0,Automóvel,3
+1092,Masculino,22,1.717722,81.92991,True,True,2,1,1,False,2,False,1,1,1,Transporte público,3
+1093,Feminino,21,1.486484,60.117993,True,False,2,1,1,False,1,False,0,1,0,Transporte público,3
+1094,Feminino,25,1.503379,64.342459,True,False,2,1,1,False,2,False,0,0,0,Transporte público,3
+1095,Masculino,23,1.718981,81.66995,True,True,2,2,1,False,1,False,1,1,1,Transporte público,3
+1096,Feminino,39,1.688354,79.278896,True,True,3,3,1,False,3,False,0,0,0,Automóvel,3
+1097,Feminino,34,1.665807,77.098973,True,True,3,1,1,False,2,False,1,1,0,Automóvel,3
+1098,Masculino,33,1.838441,97.029249,True,True,2,2,1,False,3,False,1,0,1,Automóvel,3
+1099,Feminino,20,1.653431,75.090439,True,False,3,2,1,False,3,False,1,1,1,Transporte público,3
+1100,Masculino,19,1.699818,78.0,True,False,1,2,1,False,2,False,0,1,1,Transporte público,3
+1101,Masculino,46,1.718097,88.600878,True,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+1102,Masculino,18,1.731389,84.064875,True,False,2,3,1,False,3,False,1,1,1,Transporte público,3
+1103,Masculino,19,1.699667,79.67793,True,False,3,2,1,False,1,False,0,0,0,Transporte público,3
+1104,Feminino,38,1.698626,78.637307,True,True,3,3,1,False,3,False,0,0,0,Automóvel,3
+1105,Masculino,23,1.823765,96.945262,True,True,2,3,1,False,2,False,2,2,1,Transporte público,3
+1106,Masculino,33,1.708742,83.001642,True,True,2,1,1,False,2,False,2,0,0,Automóvel,3
+1107,Feminino,37,1.667469,80.993373,True,True,2,3,1,False,2,False,0,1,0,Automóvel,3
+1108,Feminino,19,1.588147,73.939268,True,False,3,3,1,False,2,False,3,1,1,Transporte público,3
+1109,Masculino,37,1.835024,92.368359,True,True,2,2,1,False,3,False,1,0,1,Automóvel,3
+1110,Masculino,25,1.7088,83.520113,True,True,3,3,1,False,2,False,1,1,1,Transporte público,3
+1111,Masculino,18,1.680991,79.752916,True,True,2,3,1,False,2,False,0,1,1,Transporte público,3
+1112,Masculino,27,1.835271,97.58826,True,True,3,1,1,False,2,False,2,1,1,Transporte público,3
+1113,Masculino,18,1.742819,86.565148,True,True,3,3,1,False,2,False,2,1,1,Transporte público,3
+1114,Masculino,33,1.741192,84.773349,True,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+1115,Masculino,18,1.759721,86.0805,True,True,3,3,1,False,2,False,1,1,1,Transporte público,3
+1116,Masculino,30,1.810616,92.860254,True,True,2,3,1,False,2,False,0,0,1,Transporte público,3
+1117,Masculino,25,1.763101,88.532032,True,True,2,1,1,False,2,False,0,0,1,Transporte público,3
+1118,Feminino,18,1.543338,71.799982,True,False,3,3,1,False,2,False,1,1,0,Transporte público,3
+1119,Feminino,35,1.651812,79.437921,True,True,2,3,1,False,1,False,1,2,0,Automóvel,3
+1120,Masculino,24,1.732492,84.557797,True,True,3,3,1,False,2,False,0,1,1,Transporte público,3
+1121,Feminino,39,1.706349,85.720788,True,True,3,1,1,False,2,False,1,1,0,Automóvel,3
+1122,Masculino,21,1.780679,89.667406,True,True,2,1,1,False,2,False,0,1,1,Transporte público,3
+1123,Masculino,23,1.758687,89.673648,True,True,2,3,1,False,2,False,1,0,1,Transporte público,3
+1124,Masculino,21,1.704573,80.0,True,True,2,3,1,False,2,False,3,1,0,Transporte público,3
+1125,Masculino,21,1.716545,80.005809,True,True,2,3,1,False,2,False,3,1,0,Transporte público,3
+1126,Masculino,33,1.903832,99.812443,True,True,2,2,1,False,2,False,1,0,1,Automóvel,3
+1127,Masculino,33,1.742538,83.390983,True,True,2,3,1,False,2,False,0,0,0,Automóvel,3
+1128,Masculino,30,1.747739,83.314157,True,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+1129,Masculino,21,1.717037,80.0,True,True,2,3,1,False,2,False,2,1,0,Transporte público,3
+1130,Feminino,23,1.65,80.0,True,True,2,3,1,False,2,False,0,2,0,Transporte público,3
+1131,Feminino,24,1.577921,65.293179,True,False,2,3,1,False,2,False,1,1,0,Transporte público,3
+1132,Masculino,37,1.746055,83.282232,True,True,3,1,1,False,2,False,1,1,0,Automóvel,3
+1133,Masculino,34,1.841151,91.798103,True,True,2,3,1,False,1,False,1,1,1,Automóvel,3
+1134,Feminino,21,1.517998,64.696248,True,False,2,2,1,False,2,False,2,1,0,Transporte público,3
+1135,Feminino,22,1.483284,62.894283,True,False,2,2,1,False,2,False,0,1,0,Transporte público,3
+1136,Masculino,20,1.758972,87.861431,True,True,2,3,1,False,3,False,2,0,1,Transporte público,3
+1137,Feminino,19,1.562434,70.442775,True,False,3,3,1,False,2,False,1,1,0,Transporte público,3
+1138,Feminino,21,1.547066,67.473282,True,False,2,3,1,False,1,False,2,1,0,Transporte público,3
+1139,Masculino,22,1.792435,89.998729,True,True,2,3,1,False,1,False,0,2,1,Transporte público,3
+1140,Masculino,22,1.784555,89.836692,True,True,2,2,1,False,2,False,0,1,1,Transporte público,3
+1141,Feminino,23,1.700216,80.473587,True,True,2,3,1,False,2,False,0,1,0,Transporte público,3
+1142,Masculino,23,1.672101,80.939733,True,True,2,2,1,False,1,False,1,2,0,Transporte público,3
+1143,Masculino,24,1.7,84.849349,True,True,2,3,1,False,2,False,0,1,1,Transporte público,3
+1144,Masculino,24,1.721348,83.986714,True,True,2,3,1,False,2,False,1,0,1,Transporte público,3
+1145,Feminino,27,1.7,78.008388,True,True,3,3,1,False,3,False,1,1,2,Transporte público,3
+1146,Masculino,31,1.803129,91.052215,True,True,2,3,1,False,1,False,0,0,1,Transporte público,3
+1147,Feminino,24,1.70002,80.420434,True,True,2,3,1,False,2,False,1,1,1,Transporte público,3
+1148,Feminino,26,1.7,78.041338,True,True,3,3,1,False,2,False,1,1,2,Automóvel,3
+1149,Masculino,18,1.713599,83.285753,True,True,2,3,1,False,2,False,1,1,1,Transporte público,3
+1150,Masculino,19,1.662728,77.473204,True,False,2,1,1,False,3,False,0,0,1,Transporte público,3
+1151,Masculino,25,1.837399,95.952027,True,True,1,3,1,False,2,False,1,2,1,Transporte público,3
+1152,Masculino,23,1.80827,91.363293,True,True,2,2,1,False,2,False,0,2,1,Transporte público,3
+1153,Masculino,24,1.714508,85.137113,True,True,2,3,1,False,2,False,0,1,1,Transporte público,3
+1154,Masculino,23,1.793451,89.909259,True,True,2,2,1,False,1,False,0,1,1,Transporte público,3
+1155,Feminino,24,1.700499,81.108599,True,True,2,3,1,False,2,False,1,1,1,Transporte público,3
+1156,Masculino,34,1.694997,84.451423,True,True,2,3,1,False,3,False,1,0,0,Automóvel,3
+1157,Feminino,25,1.688911,78.434492,True,True,2,3,1,False,2,False,0,1,2,Transporte público,3
+1158,Masculino,55,1.673394,80.400306,True,True,2,3,1,False,2,False,1,0,0,Automóvel,3
+1159,Masculino,35,1.769499,85.0,True,True,3,3,1,False,3,False,2,1,0,Automóvel,3
+1160,Masculino,22,1.65,80.0,True,True,2,3,1,False,2,False,1,2,0,Transporte público,3
+1161,Masculino,18,1.662669,79.863546,True,False,2,2,1,False,2,False,1,1,0,Transporte público,3
+1162,Feminino,42,1.67861,79.849252,True,True,3,3,1,False,1,False,0,1,0,Automóvel,3
+1163,Masculino,21,1.694423,80.311273,True,True,2,3,1,False,2,False,3,1,0,Transporte público,3
+1164,Feminino,28,1.505437,63.892071,True,False,2,1,1,False,1,False,0,0,0,Transporte público,3
+1165,Feminino,25,1.505387,63.715219,True,False,2,1,1,False,2,False,1,0,0,Transporte público,3
+1166,Feminino,22,1.491441,62.269912,True,False,2,1,1,False,2,False,0,1,0,Transporte público,3
+1167,Feminino,21,1.509408,64.852953,True,False,2,3,1,False,2,False,1,1,0,Transporte público,3
+1168,Masculino,23,1.685045,81.022119,True,True,2,3,1,False,2,False,0,2,0,Transporte público,3
+1169,Masculino,23,1.723072,82.338464,True,True,2,3,1,False,2,False,1,1,1,Transporte público,3
+1170,Feminino,38,1.696954,78.156035,True,True,3,3,1,False,2,False,0,0,0,Automóvel,3
+1171,Feminino,38,1.676095,79.079738,True,True,3,3,1,False,2,False,0,1,0,Automóvel,3
+1172,Feminino,34,1.681021,77.392179,True,True,3,2,1,False,2,False,1,1,0,Automóvel,3
+1173,Feminino,34,1.654067,79.697278,True,True,2,2,1,False,2,False,0,1,0,Automóvel,3
+1174,Masculino,32,1.840708,98.259423,True,True,2,2,1,False,3,False,1,0,1,Automóvel,3
+1175,Masculino,33,1.836007,97.416417,True,True,2,2,1,False,3,False,1,0,1,Automóvel,3
+1176,Feminino,19,1.556789,71.788181,True,False,3,3,1,False,2,False,2,1,0,Transporte público,3
+1177,Feminino,20,1.5891,72.713611,True,False,3,4,1,False,2,False,1,1,1,Transporte público,3
+1178,Masculino,20,1.700627,78.048207,True,False,2,3,1,False,2,False,1,1,1,Transporte público,3
+1179,Masculino,48,1.743935,84.729197,True,True,3,3,1,False,1,False,0,0,0,Automóvel,3
+1180,Masculino,18,1.742654,85.0,True,False,2,3,1,False,3,False,1,0,1,Transporte público,3
+1181,Masculino,18,1.754441,85.002884,True,True,3,3,1,False,3,False,1,0,1,Transporte público,3
+1182,Masculino,20,1.719342,80.790813,True,True,2,2,1,False,2,False,2,1,0,Transporte público,3
+1183,Feminino,34,1.682253,77.431678,True,True,3,2,1,False,2,False,2,0,0,Automóvel,3
+1184,Masculino,17,1.799902,95.419668,True,True,2,3,1,False,3,False,1,1,1,Transporte público,3
+1185,Masculino,33,1.709428,83.014033,True,True,2,1,1,False,2,False,3,0,0,Automóvel,3
+1186,Masculino,35,1.752456,84.783756,True,True,3,3,1,False,3,False,3,1,0,Automóvel,3
+1187,Masculino,36,1.685947,83.3258,True,True,2,1,1,False,2,False,1,0,0,Automóvel,3
+1188,Feminino,19,1.599999,73.513873,True,False,3,3,1,False,2,False,2,1,1,Transporte público,3
+1189,Feminino,19,1.550053,72.9518,True,False,3,3,1,False,2,False,2,1,1,Transporte público,3
+1190,Masculino,32,1.828092,91.495718,True,True,2,3,1,False,2,False,1,0,1,Automóvel,3
+1191,Masculino,23,1.71338,82.085549,True,True,3,3,1,False,3,False,2,0,1,Transporte público,3
+1192,Masculino,20,1.680764,79.621463,True,False,2,3,1,False,2,False,1,1,0,Transporte público,3
+1193,Masculino,20,1.705584,78.025625,True,False,2,3,1,False,2,False,1,1,1,Transporte público,3
+1194,Masculino,30,1.841852,93.614246,True,True,2,3,1,False,1,False,1,1,1,Transporte público,3
+1195,Masculino,27,1.834986,99.083478,True,True,3,1,1,False,1,False,2,0,1,Transporte público,3
+1196,Masculino,21,1.724839,82.27635,True,True,2,2,1,False,2,False,2,1,1,Transporte público,3
+1197,Masculino,33,1.685127,83.986895,True,True,2,2,1,False,2,False,1,0,0,Automóvel,3
+1198,Masculino,18,1.750097,86.372141,True,True,3,3,1,False,3,False,1,0,1,Transporte público,3
+1199,Masculino,32,1.757961,87.906019,True,True,2,2,1,False,2,False,1,0,1,Transporte público,3
+1200,Masculino,32,1.848965,98.912261,True,True,2,3,1,False,3,False,1,1,1,Automóvel,3
+1201,Masculino,24,1.789193,89.393589,True,True,2,2,1,False,2,False,0,1,1,Transporte público,3
+1202,Masculino,24,1.716677,85.261339,True,True,2,3,1,False,2,False,1,1,1,Transporte público,3
+1203,Feminino,19,1.550122,69.936073,True,False,3,3,1,False,1,False,1,1,0,Transporte público,3
+1204,Feminino,35,1.663178,80.135167,True,True,2,3,1,False,2,False,0,2,0,Automóvel,3
+1205,Feminino,34,1.679299,77.355417,True,True,3,2,1,False,2,False,1,1,0,Automóvel,3
+1206,Masculino,24,1.729177,82.52724,True,True,3,3,1,False,2,False,1,0,1,Transporte público,3
+1207,Masculino,40,1.719153,86.464843,True,True,2,1,1,False,2,False,1,0,0,Automóvel,3
+1208,Feminino,46,1.687326,80.413997,True,True,2,3,1,False,1,False,1,0,0,Automóvel,3
+1209,Masculino,26,1.772449,105.0,True,True,3,3,1,False,2,False,2,2,1,Transporte público,4
+1210,Masculino,26,1.837117,105.712219,True,True,3,3,1,False,3,False,2,2,1,Transporte público,4
+1211,Masculino,31,1.784377,102.872505,True,True,2,3,1,False,2,False,2,0,1,Automóvel,4
+1212,Masculino,40,1.792507,101.780099,True,True,2,2,1,False,3,False,3,1,1,Automóvel,4
+1213,Feminino,31,1.556579,78.233341,True,True,2,2,1,False,2,False,0,0,1,Transporte público,4
+1214,Feminino,26,1.585547,80.351263,True,True,2,1,1,False,2,False,0,0,1,Transporte público,4
+1215,Feminino,44,1.569234,81.827288,True,True,3,1,1,False,2,False,1,0,0,Automóvel,4
+1216,Feminino,42,1.583943,81.936398,True,True,2,3,1,False,2,False,0,0,0,Automóvel,4
+1217,Feminino,23,1.621233,82.0,True,True,1,1,1,False,2,False,0,1,1,Transporte público,4
+1218,Feminino,23,1.6084,82.603984,True,True,3,1,1,False,3,False,0,2,1,Transporte público,4
+1219,Masculino,24,1.733439,97.911865,True,True,2,3,1,False,3,False,1,1,0,Transporte público,4
+1220,Masculino,21,1.65,88.472359,True,True,2,1,1,False,3,False,1,1,0,Transporte público,4
+1221,Feminino,23,1.650052,87.272552,True,True,3,1,1,False,3,False,0,1,0,Transporte público,4
+1222,Feminino,23,1.644161,84.340406,True,True,2,3,1,False,3,False,2,0,0,Transporte público,4
+1223,Feminino,37,1.559499,77.26813,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1224,Masculino,23,1.734237,95.0,True,True,2,3,1,False,2,False,3,1,0,Transporte público,4
+1225,Masculino,23,1.775815,97.813023,True,True,2,3,1,False,3,False,3,2,0,Transporte público,4
+1226,Feminino,22,1.640426,87.344156,True,True,3,1,1,False,3,False,1,2,0,Transporte público,4
+1227,Feminino,18,1.65,82.13682,True,True,3,3,1,False,1,False,1,1,1,Transporte público,4
+1228,Masculino,26,1.753321,107.998815,True,True,3,3,1,False,2,False,2,0,1,Automóvel,4
+1229,Feminino,41,1.553026,77.74518,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1230,Masculino,23,1.706525,90.500055,True,True,2,3,1,False,2,False,1,1,0,Transporte público,4
+1231,Feminino,38,1.560648,80.0,True,True,3,1,1,False,1,False,2,0,1,Automóvel,4
+1232,Masculino,31,1.673352,90.0,True,True,2,2,1,False,2,False,2,0,1,Automóvel,4
+1233,Masculino,23,1.660324,94.189167,True,True,2,3,1,False,2,False,0,0,0,Transporte público,4
+1234,Masculino,40,1.786318,98.447311,True,True,2,3,1,False,3,False,2,1,1,Automóvel,4
+1235,Masculino,23,1.757691,95.361795,True,True,2,3,1,False,3,False,3,2,0,Transporte público,4
+1236,Masculino,22,1.712163,98.699971,True,True,2,3,1,False,2,False,3,2,0,Transporte público,4
+1237,Masculino,35,1.78,100.84763,True,True,2,1,1,False,3,False,2,0,2,Automóvel,4
+1238,Feminino,22,1.6,82.040318,True,True,1,3,1,False,2,False,2,1,0,Transporte público,4
+1239,Feminino,23,1.61082,82.532994,True,True,2,3,1,False,2,False,2,0,0,Transporte público,4
+1240,Feminino,23,1.665199,83.15115,True,True,3,1,1,False,3,False,0,2,0,Transporte público,4
+1241,Feminino,41,1.542122,80.0,True,True,2,1,1,False,1,False,2,0,1,Automóvel,4
+1242,Feminino,39,1.507867,79.58958,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1243,Masculino,26,1.660955,90.0,True,True,2,3,1,False,3,False,1,1,1,Automóvel,4
+1244,Feminino,24,1.553127,78.0,True,True,2,1,1,False,2,False,1,0,0,Transporte público,4
+1245,Masculino,21,1.781952,102.910613,True,True,2,3,1,False,2,False,1,0,0,Transporte público,4
+1246,Masculino,22,1.75,96.940255,True,True,2,3,1,False,3,False,2,1,0,Transporte público,4
+1247,Feminino,23,1.615854,80.615325,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1248,Masculino,21,1.793378,105.655037,True,True,2,3,1,False,1,False,0,1,1,Transporte público,4
+1249,Masculino,18,1.85478,114.77484,True,True,2,2,1,False,2,False,1,2,1,Transporte público,4
+1250,Feminino,18,1.685633,90.032671,True,True,2,3,1,False,2,False,1,1,1,Transporte público,4
+1251,Feminino,18,1.706343,93.348843,True,True,2,3,1,False,1,False,1,1,1,Transporte público,4
+1252,Masculino,23,1.791415,105.138073,True,True,2,3,1,False,2,False,0,1,1,Transporte público,4
+1253,Masculino,23,1.753716,106.49141,True,True,3,3,1,False,2,False,1,1,1,Transporte público,4
+1254,Masculino,21,1.780503,103.189532,True,True,2,3,1,False,2,False,0,0,0,Transporte público,4
+1255,Masculino,22,1.819867,106.038468,True,True,2,3,1,False,3,False,0,1,0,Transporte público,4
+1256,Masculino,18,1.791174,108.9606,True,True,2,1,1,False,2,False,1,2,0,Transporte público,4
+1257,Masculino,18,1.82093,108.742005,True,True,2,1,1,False,2,False,1,1,0,Transporte público,4
+1258,Feminino,19,1.627812,82.0,True,True,1,3,1,False,1,False,0,2,1,Transporte público,4
+1259,Feminino,23,1.632118,82.0,True,True,3,1,1,False,2,False,0,0,1,Transporte público,4
+1260,Masculino,22,1.773594,105.000789,True,True,2,3,1,False,3,False,1,0,1,Transporte público,4
+1261,Masculino,21,1.930416,118.560509,True,True,2,3,1,False,3,False,1,1,1,Transporte público,4
+1262,Masculino,22,1.947406,116.893105,True,True,2,3,1,False,3,False,1,1,1,Transporte público,4
+1263,Feminino,38,1.610867,80.0,True,True,2,2,1,False,2,False,2,0,1,Automóvel,4
+1264,Feminino,38,1.513202,75.410647,True,True,2,3,1,False,2,False,2,0,1,Automóvel,4
+1265,Masculino,18,1.738465,97.185474,True,True,2,3,1,False,2,False,0,0,0,Transporte público,4
+1266,Feminino,38,1.567915,76.129784,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1267,Feminino,44,1.587546,76.126112,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1268,Masculino,18,1.820385,108.395005,True,True,2,2,1,False,2,False,1,1,1,Transporte público,4
+1269,Masculino,18,1.792239,108.244379,True,True,2,2,1,False,3,False,1,0,1,Transporte público,4
+1270,Masculino,30,1.82697,108.751502,True,True,2,3,1,False,2,False,1,2,1,Automóvel,4
+1271,Feminino,18,1.670058,86.242679,True,True,3,3,1,False,2,False,1,0,0,Transporte público,4
+1272,Masculino,25,1.639383,91.267087,True,True,1,3,1,False,1,False,0,0,1,Automóvel,4
+1273,Masculino,29,1.682916,89.991671,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1274,Feminino,18,1.609321,84.493156,True,True,2,3,1,False,1,False,1,0,0,Transporte público,4
+1275,Masculino,21,1.690437,96.366777,True,True,2,3,1,False,2,False,0,2,0,Transporte público,4
+1276,Masculino,19,1.700164,99.204695,True,True,2,2,1,False,2,False,0,2,0,Transporte público,4
+1277,Feminino,18,1.60074,82.249831,True,True,3,3,1,False,1,False,0,1,0,Transporte público,4
+1278,Masculino,18,1.801848,104.741914,True,True,2,3,1,False,3,False,2,0,0,Transporte público,4
+1279,Masculino,26,1.844751,105.025808,True,True,3,3,1,False,3,False,2,2,1,Transporte público,4
+1280,Masculino,26,1.811602,106.042142,True,True,3,3,1,False,3,False,2,1,1,Transporte público,4
+1281,Masculino,37,1.787521,100.624553,True,True,2,3,1,False,3,False,2,0,2,Automóvel,4
+1282,Masculino,38,1.789109,100.066268,True,True,2,2,1,False,2,False,2,1,2,Automóvel,4
+1283,Feminino,30,1.533364,78.030383,True,True,2,2,1,False,2,False,0,0,0,Transporte público,4
+1284,Feminino,29,1.580858,79.713492,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1285,Feminino,42,1.64639,86.639861,True,True,3,2,1,False,2,False,0,0,0,Automóvel,4
+1286,Feminino,47,1.643786,81.978743,True,True,2,1,1,False,2,False,0,0,0,Automóvel,4
+1287,Feminino,23,1.634342,82.414477,True,True,2,1,1,False,2,False,0,2,1,Transporte público,4
+1288,Feminino,23,1.604893,82.0,True,True,1,1,1,False,2,False,0,1,1,Transporte público,4
+1289,Masculino,23,1.654961,94.790579,True,True,2,3,1,False,1,False,1,1,0,Transporte público,4
+1290,Masculino,23,1.701986,95.0,True,True,2,3,1,False,2,False,2,1,0,Transporte público,4
+1291,Masculino,23,1.65,89.139209,True,True,2,3,1,False,3,False,1,1,0,Transporte público,4
+1292,Masculino,24,1.657995,90.0,True,True,2,3,1,False,3,False,1,1,0,Transporte público,4
+1293,Feminino,23,1.634688,82.628,True,True,2,3,1,False,2,False,0,0,0,Transporte público,4
+1294,Feminino,23,1.628168,84.49798,True,True,2,3,1,False,2,False,1,1,0,Transporte público,4
+1295,Feminino,38,1.557808,79.661693,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1296,Feminino,38,1.560199,80.0,True,True,3,1,1,False,2,False,1,0,1,Automóvel,4
+1297,Masculino,23,1.750384,95.324282,True,True,2,3,1,False,3,False,3,2,0,Transporte público,4
+1298,Masculino,23,1.753081,95.269089,True,True,2,3,1,False,3,False,3,2,0,Transporte público,4
+1299,Feminino,21,1.65,88.126544,True,True,2,1,1,False,3,False,1,1,0,Transporte público,4
+1300,Feminino,23,1.650012,87.676154,True,True,3,1,1,False,3,False,1,1,0,Transporte público,4
+1301,Feminino,16,1.65,85.583485,True,True,3,3,1,False,1,False,2,1,0,Transporte público,4
+1302,Feminino,17,1.634832,85.803809,True,True,2,3,1,False,1,False,2,1,0,Transporte público,4
+1303,Masculino,29,1.770126,108.602715,True,True,3,3,1,False,1,False,2,2,1,Automóvel,4
+1304,Masculino,30,1.758189,108.721893,True,True,3,3,1,False,1,False,2,0,1,Automóvel,4
+1305,Feminino,44,1.595165,77.354744,True,True,2,3,1,False,2,False,0,0,0,Automóvel,4
+1306,Feminino,41,1.567756,79.493626,True,True,2,3,1,False,3,False,0,0,0,Automóvel,4
+1307,Masculino,23,1.702825,93.638318,True,True,2,3,1,False,2,False,0,0,0,Transporte público,4
+1308,Masculino,23,1.735659,93.429205,True,True,2,3,1,False,1,False,1,1,0,Transporte público,4
+1309,Feminino,38,1.62901,80.0,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1310,Feminino,38,1.615385,80.0,True,True,3,3,1,False,2,False,0,0,1,Automóvel,4
+1311,Masculino,32,1.671705,90.0,True,True,2,2,1,False,2,False,2,0,1,Automóvel,4
+1312,Masculino,32,1.676595,89.993812,True,True,3,2,1,False,2,False,1,0,1,Automóvel,4
+1313,Masculino,22,1.699998,95.564428,True,True,2,3,1,False,2,False,0,0,0,Transporte público,4
+1314,Masculino,22,1.722785,94.094184,True,True,2,3,1,False,2,False,0,1,0,Transporte público,4
+1315,Masculino,36,1.670667,90.575934,True,True,3,2,1,False,2,False,1,0,1,Automóvel,4
+1316,Masculino,40,1.789992,98.021766,True,True,2,2,1,False,3,False,1,1,1,Automóvel,4
+1317,Masculino,24,1.768834,97.449743,True,True,2,3,1,False,3,False,2,1,0,Transporte público,4
+1318,Masculino,23,1.761008,97.829344,True,True,2,3,1,False,3,False,2,2,0,Transporte público,4
+1319,Masculino,35,1.78,102.265955,True,True,3,1,1,False,3,False,3,1,1,Automóvel,4
+1320,Masculino,31,1.810215,105.254354,True,True,2,2,1,False,3,False,1,2,1,Automóvel,4
+1321,Feminino,23,1.608469,82.954796,True,True,2,3,1,False,3,False,2,0,0,Transporte público,4
+1322,Feminino,23,1.630357,83.1011,True,True,3,2,1,False,3,False,1,1,0,Transporte público,4
+1323,Feminino,23,1.62826,82.967937,True,True,2,1,1,False,2,False,1,2,1,Transporte público,4
+1324,Feminino,22,1.605662,82.470375,True,True,2,1,1,False,2,False,0,2,1,Transporte público,4
+1325,Feminino,41,1.567973,81.056851,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1326,Feminino,41,1.548403,80.0,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1327,Masculino,29,1.681855,90.0,True,True,2,3,1,False,3,False,1,0,1,Automóvel,4
+1328,Masculino,31,1.688436,90.0,True,True,2,3,1,False,3,False,1,0,1,Automóvel,4
+1329,Feminino,23,1.577115,78.0,True,True,2,1,1,False,2,False,1,0,0,Transporte público,4
+1330,Feminino,24,1.586751,79.109029,True,True,2,1,1,False,2,False,1,0,0,Transporte público,4
+1331,Masculino,17,1.710616,99.860254,True,True,2,3,1,False,2,False,0,1,0,Transporte público,4
+1332,Masculino,18,1.721384,99.430612,True,True,2,3,1,False,2,False,2,1,0,Transporte público,4
+1333,Feminino,23,1.624367,82.0,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1334,Feminino,23,1.622787,82.0,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1335,Masculino,19,1.855433,112.875283,True,True,2,2,1,False,3,False,1,2,1,Transporte público,4
+1336,Masculino,21,1.856315,118.183797,True,True,2,3,1,False,3,False,1,1,1,Transporte público,4
+1337,Feminino,19,1.681719,90.671871,True,True,2,3,1,False,1,False,0,1,1,Transporte público,4
+1338,Feminino,21,1.722884,92.949254,True,True,1,3,1,False,1,False,0,0,1,Transporte público,4
+1339,Masculino,23,1.799406,106.528811,True,True,2,3,1,False,2,False,0,1,1,Transporte público,4
+1340,Masculino,22,1.819875,106.048516,True,True,2,3,1,False,3,False,0,1,1,Transporte público,4
+1341,Masculino,21,1.790172,105.042194,True,True,2,3,1,False,1,False,0,0,1,Transporte público,4
+1342,Masculino,22,1.783782,105.000276,True,True,2,3,1,False,2,False,0,0,1,Transporte público,4
+1343,Masculino,18,1.783906,109.207614,True,True,2,2,1,False,2,False,1,1,0,Transporte público,4
+1344,Masculino,18,1.844218,109.195529,True,True,2,2,1,False,2,False,1,2,0,Transporte público,4
+1345,Feminino,19,1.631662,82.0,True,True,3,3,1,False,1,False,0,2,0,Transporte público,4
+1346,Feminino,18,1.649553,82.323954,True,True,3,3,1,False,2,False,1,0,0,Transporte público,4
+1347,Masculino,22,1.754711,105.000706,True,True,3,3,1,False,3,False,1,0,1,Transporte público,4
+1348,Masculino,22,1.762515,105.000097,True,True,2,3,1,False,2,False,1,0,1,Transporte público,4
+1349,Masculino,20,1.942725,121.657979,True,True,2,3,1,False,3,False,1,1,1,Transporte público,4
+1350,Masculino,20,1.975663,120.702935,True,True,2,3,1,False,3,False,1,1,1,Transporte público,4
+1351,Feminino,39,1.586301,80.0,True,True,2,1,1,False,2,False,2,0,1,Automóvel,4
+1352,Feminino,38,1.598448,80.0,True,True,2,1,1,False,2,False,2,0,1,Automóvel,4
+1353,Masculino,19,1.703098,98.296651,True,True,2,2,1,False,2,False,0,1,0,Transporte público,4
+1354,Masculino,17,1.706996,99.544696,True,True,2,3,1,False,2,False,2,0,0,Transporte público,4
+1355,Feminino,39,1.526472,75.150345,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1356,Feminino,39,1.501993,76.642944,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1357,Masculino,18,1.784402,108.413119,True,True,2,2,1,False,3,False,1,0,0,Transporte público,4
+1358,Masculino,18,1.792687,108.204547,True,True,2,2,1,False,3,False,1,0,0,Transporte público,4
+1359,Masculino,30,1.814052,109.411622,True,True,2,2,1,False,2,False,1,0,1,Automóvel,4
+1360,Masculino,31,1.789421,109.599453,True,True,2,2,1,False,1,False,2,1,1,Automóvel,4
+1361,Feminino,18,1.686904,90.004046,True,True,3,3,1,False,2,False,1,0,1,Transporte público,4
+1362,Feminino,18,1.703259,91.499683,True,True,2,3,1,False,1,False,1,1,1,Transporte público,4
+1363,Masculino,31,1.665798,89.738596,True,True,2,1,1,False,1,False,1,0,1,Automóvel,4
+1364,Masculino,29,1.66671,89.048151,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1365,Feminino,18,1.65,84.210535,True,True,3,3,1,False,1,False,1,1,0,Transporte público,4
+1366,Feminino,18,1.649439,84.897738,True,True,2,3,1,False,1,False,1,0,0,Transporte público,4
+1367,Masculino,21,1.702002,97.971598,True,True,2,2,1,False,2,False,0,2,0,Transporte público,4
+1368,Masculino,21,1.69382,99.530971,True,True,2,2,1,False,2,False,0,2,0,Transporte público,4
+1369,Feminino,18,1.622999,82.403076,True,True,2,3,1,False,2,False,1,1,0,Transporte público,4
+1370,Feminino,18,1.633675,82.459577,True,True,3,3,1,False,1,False,1,1,0,Transporte público,4
+1371,Masculino,20,1.836669,105.257543,True,True,2,3,1,False,3,False,2,0,0,Transporte público,4
+1372,Masculino,21,1.798354,103.705418,True,True,2,3,1,False,2,False,3,0,0,Transporte público,4
+1373,Masculino,26,1.824432,105.131956,True,True,3,3,1,False,2,False,2,2,1,Transporte público,4
+1374,Masculino,26,1.830384,105.479313,True,True,3,3,1,False,2,False,2,2,1,Transporte público,4
+1375,Masculino,26,1.829907,105.436173,True,True,3,3,1,False,2,False,2,2,1,Transporte público,4
+1376,Masculino,26,1.823755,105.800158,True,True,3,3,1,False,2,False,1,2,1,Transporte público,4
+1377,Masculino,30,1.834842,105.19936,True,True,3,3,1,False,2,False,2,1,1,Automóvel,4
+1378,Masculino,33,1.783901,103.771371,True,True,3,2,1,False,3,False,2,1,1,Automóvel,4
+1379,Masculino,39,1.782067,103.586342,True,True,3,2,1,False,3,False,3,1,2,Automóvel,4
+1380,Masculino,40,1.781032,96.303855,True,True,2,2,1,False,3,False,2,1,2,Automóvel,4
+1381,Feminino,33,1.557943,77.647716,True,True,2,2,1,False,2,False,0,0,1,Automóvel,4
+1382,Feminino,26,1.560258,78.435904,True,True,2,1,1,False,2,False,0,0,1,Automóvel,4
+1383,Feminino,23,1.596586,80.726195,True,True,2,1,1,False,2,False,0,1,0,Transporte público,4
+1384,Feminino,25,1.62093,81.718232,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1385,Feminino,43,1.571417,81.918809,True,True,3,1,1,False,2,False,1,0,0,Automóvel,4
+1386,Feminino,44,1.584322,80.986496,True,True,2,3,1,False,2,False,0,0,0,Automóvel,4
+1387,Feminino,43,1.582523,81.919454,True,True,3,1,1,False,2,False,1,0,0,Automóvel,4
+1388,Feminino,40,1.572791,80.086524,True,True,2,3,1,False,1,False,0,0,0,Automóvel,4
+1389,Feminino,23,1.627908,82.0,True,True,2,1,1,False,2,False,0,1,1,Transporte público,4
+1390,Feminino,23,1.620938,82.283185,True,True,2,1,1,False,3,False,0,2,1,Transporte público,4
+1391,Feminino,23,1.613119,82.636162,True,True,3,1,1,False,3,False,1,2,1,Transporte público,4
+1392,Feminino,23,1.62686,82.410189,True,True,3,1,1,False,2,False,0,0,1,Transporte público,4
+1393,Masculino,23,1.728183,97.959899,True,True,2,3,1,False,2,False,2,2,0,Transporte público,4
+1394,Masculino,23,1.732694,98.44113,True,True,2,3,1,False,2,False,2,2,0,Transporte público,4
+1395,Feminino,21,1.65,88.129437,True,True,3,1,1,False,3,False,1,1,0,Transporte público,4
+1396,Feminino,21,1.65,88.026943,True,True,2,1,1,False,3,False,2,1,0,Transporte público,4
+1397,Feminino,23,1.66913,86.002736,True,True,2,3,1,False,3,False,0,1,0,Transporte público,4
+1398,Feminino,23,1.669136,85.568385,True,True,2,2,1,False,2,False,0,1,0,Transporte público,4
+1399,Feminino,23,1.611058,84.191125,True,True,2,3,1,False,3,False,2,0,0,Transporte público,4
+1400,Feminino,23,1.649736,84.134712,True,True,2,1,1,False,3,False,1,0,0,Transporte público,4
+1401,Feminino,39,1.532643,77.550345,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1402,Feminino,37,1.524293,76.202761,True,True,2,3,1,False,2,False,1,0,1,Automóvel,4
+1403,Masculino,23,1.701634,95.0,True,True,2,3,1,False,2,False,1,1,0,Transporte público,4
+1404,Masculino,23,1.723921,94.743892,True,True,2,3,1,False,2,False,2,0,0,Transporte público,4
+1405,Masculino,23,1.769484,96.078462,True,True,2,3,1,False,3,False,3,2,0,Transporte público,4
+1406,Masculino,24,1.777416,97.842406,True,True,2,3,1,False,3,False,3,2,0,Transporte público,4
+1407,Feminino,22,1.64456,88.119139,True,True,3,1,1,False,3,False,1,2,0,Transporte público,4
+1408,Feminino,21,1.641149,88.079177,True,True,3,1,1,False,3,False,1,1,0,Transporte público,4
+1409,Feminino,18,1.642892,82.144405,True,True,3,3,1,False,1,False,1,1,0,Transporte público,4
+1410,Feminino,19,1.65,82.01831,True,True,3,3,1,False,1,False,0,1,0,Transporte público,4
+1411,Masculino,26,1.777251,106.452367,True,True,3,3,1,False,2,False,2,1,1,Transporte público,4
+1412,Masculino,26,1.814696,107.55963,True,True,3,3,1,False,3,False,0,0,1,Transporte público,4
+1413,Feminino,40,1.559005,77.601483,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1414,Feminino,38,1.556028,77.684229,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1415,Masculino,24,1.653751,91.204753,True,True,1,3,1,False,1,False,1,1,0,Automóvel,4
+1416,Masculino,23,1.680171,91.068054,True,True,1,3,1,False,1,False,1,1,0,Automóvel,4
+1417,Feminino,38,1.552648,80.0,True,True,3,1,1,False,1,False,2,0,1,Automóvel,4
+1418,Feminino,38,1.560215,80.0,True,True,3,2,1,False,2,False,0,0,1,Automóvel,4
+1419,Masculino,32,1.672959,90.0,True,True,3,2,1,False,2,False,2,0,1,Automóvel,4
+1420,Masculino,30,1.680058,89.994351,True,True,2,2,1,False,2,False,2,0,1,Automóvel,4
+1421,Masculino,22,1.664752,94.256547,True,True,2,3,1,False,2,False,0,1,0,Transporte público,4
+1422,Masculino,22,1.668553,94.454394,True,True,2,3,1,False,2,False,0,1,0,Transporte público,4
+1423,Masculino,40,1.785286,100.431625,True,True,3,2,1,False,3,False,3,1,2,Automóvel,4
+1424,Masculino,37,1.780725,98.790167,True,True,3,1,1,False,3,False,3,1,2,Automóvel,4
+1425,Masculino,23,1.751046,95.285898,True,True,2,3,1,False,3,False,3,1,0,Transporte público,4
+1426,Masculino,23,1.751365,95.290429,True,True,2,3,1,False,3,False,3,2,0,Transporte público,4
+1427,Masculino,22,1.717262,98.579156,True,True,2,3,1,False,2,False,3,2,0,Transporte público,4
+1428,Masculino,22,1.741393,98.182498,True,True,2,3,1,False,3,False,2,1,0,Transporte público,4
+1429,Masculino,37,1.7921,101.285765,True,True,2,2,1,False,3,False,2,0,1,Automóvel,4
+1430,Masculino,38,1.785957,99.199287,True,True,2,2,1,False,3,False,2,0,1,Automóvel,4
+1431,Feminino,22,1.609068,83.785312,True,True,2,3,1,False,2,False,2,0,0,Transporte público,4
+1432,Feminino,23,1.603963,82.012637,True,True,1,1,1,False,2,False,2,1,0,Transporte público,4
+1433,Feminino,22,1.605495,82.528575,True,True,2,3,1,False,2,False,2,1,0,Transporte público,4
+1434,Feminino,22,1.607182,82.368441,True,True,2,3,1,False,2,False,2,0,0,Transporte público,4
+1435,Feminino,23,1.661715,82.595793,True,True,1,1,1,False,3,False,0,2,1,Transporte público,4
+1436,Feminino,23,1.655742,82.46376,True,True,3,1,1,False,3,False,0,0,1,Transporte público,4
+1437,Feminino,39,1.549257,80.0,True,True,3,1,1,False,1,False,2,0,1,Automóvel,4
+1438,Feminino,41,1.549748,80.0,True,True,2,1,1,False,2,False,2,0,1,Automóvel,4
+1439,Feminino,41,1.52906,79.760922,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1440,Feminino,39,1.517248,79.843221,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1441,Masculino,26,1.65731,90.0,True,True,2,3,1,False,3,False,0,1,1,Automóvel,4
+1442,Masculino,27,1.673287,90.0,True,True,2,3,1,False,3,False,1,0,1,Automóvel,4
+1443,Feminino,24,1.581527,78.089575,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1444,Feminino,24,1.562724,80.535698,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1445,Masculino,21,1.781251,102.950929,True,True,2,3,1,False,2,False,1,0,0,Transporte público,4
+1446,Masculino,22,1.775584,103.605896,True,True,2,3,1,False,3,False,1,0,0,Transporte público,4
+1447,Masculino,23,1.746645,96.875502,True,True,2,3,1,False,3,False,3,1,0,Transporte público,4
+1448,Masculino,22,1.741353,96.738014,True,True,2,3,1,False,3,False,3,1,0,Transporte público,4
+1449,Feminino,23,1.571812,78.997166,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1450,Feminino,24,1.589027,80.553067,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1451,Masculino,21,1.803245,105.686091,True,True,2,3,1,False,2,False,0,1,1,Transporte público,4
+1452,Masculino,21,1.792646,105.619143,True,True,2,3,1,False,1,False,0,0,1,Transporte público,4
+1453,Masculino,22,1.87199,115.627554,True,True,2,2,1,False,3,False,1,1,1,Transporte público,4
+1454,Masculino,18,1.859056,111.235188,True,True,2,2,1,False,2,False,1,2,1,Transporte público,4
+1455,Feminino,18,1.692242,90.019501,True,True,3,3,1,False,2,False,2,0,1,Transporte público,4
+1456,Feminino,18,1.683,90.924208,True,True,2,3,1,False,2,False,1,1,1,Transporte público,4
+1457,Feminino,20,1.738397,93.890682,True,True,2,3,1,False,1,False,1,1,1,Transporte público,4
+1458,Feminino,18,1.694969,92.508122,True,True,2,3,1,False,1,False,1,1,1,Transporte público,4
+1459,Masculino,22,1.785718,105.055686,True,True,2,3,1,False,3,False,1,0,1,Transporte público,4
+1460,Masculino,23,1.7425,105.028665,True,True,2,3,1,False,2,False,1,0,1,Transporte público,4
+1461,Masculino,22,1.803132,106.329569,True,True,2,3,1,False,2,False,1,1,1,Transporte público,4
+1462,Masculino,23,1.774644,105.966894,True,True,2,3,1,False,2,False,1,1,1,Transporte público,4
+1463,Masculino,21,1.782269,104.97003,True,True,2,3,1,False,1,False,0,0,1,Transporte público,4
+1464,Masculino,21,1.780791,102.921218,True,True,2,3,1,False,2,False,1,0,1,Transporte público,4
+1465,Masculino,22,1.790151,106.320686,True,True,2,3,1,False,3,False,0,1,1,Transporte público,4
+1466,Masculino,22,1.818641,105.496975,True,True,2,3,1,False,3,False,0,0,1,Transporte público,4
+1467,Masculino,18,1.806827,108.829395,True,True,2,1,1,False,2,False,1,2,0,Transporte público,4
+1468,Masculino,18,1.811189,108.800964,True,True,2,1,1,False,2,False,1,1,0,Transporte público,4
+1469,Masculino,18,1.811738,108.897324,True,True,2,1,1,False,2,False,1,1,0,Transporte público,4
+1470,Masculino,18,1.799779,108.934574,True,True,2,1,1,False,2,False,1,2,0,Transporte público,4
+1471,Feminino,19,1.632605,82.0,True,True,3,3,1,False,1,False,0,1,1,Transporte público,4
+1472,Feminino,19,1.623377,82.851318,True,True,1,3,1,False,1,False,1,2,1,Transporte público,4
+1473,Feminino,23,1.618686,81.281578,True,True,2,1,1,False,2,False,0,0,0,Transporte público,4
+1474,Feminino,23,1.616085,82.582954,True,True,3,1,1,False,2,False,0,1,0,Transporte público,4
+1475,Masculino,22,1.769328,105.000576,True,True,3,3,1,False,3,False,1,0,1,Transporte público,4
+1476,Masculino,22,1.807029,105.696358,True,True,2,3,1,False,3,False,1,0,1,Transporte público,4
+1477,Masculino,21,1.882533,117.468516,True,True,2,2,1,False,2,False,1,1,1,Transporte público,4
+1478,Masculino,20,1.879144,112.932984,True,True,2,2,1,False,3,False,1,1,1,Transporte público,4
+1479,Masculino,22,1.931263,118.20313,True,True,2,3,1,False,3,False,1,1,1,Transporte público,4
+1480,Masculino,21,1.861358,115.39792,True,True,2,3,1,False,3,False,1,2,1,Transporte público,4
+1481,Feminino,39,1.567131,80.0,True,True,2,1,1,False,2,False,2,0,1,Automóvel,4
+1482,Feminino,38,1.565366,80.0,True,True,2,2,1,False,2,False,2,0,1,Automóvel,4
+1483,Feminino,38,1.516007,77.033049,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1484,Feminino,37,1.549812,76.082517,True,True,2,3,1,False,2,False,1,0,1,Automóvel,4
+1485,Masculino,19,1.714143,96.568814,True,True,2,3,1,False,2,False,0,0,0,Transporte público,4
+1486,Masculino,17,1.723191,97.350366,True,True,2,3,1,False,2,False,0,1,0,Transporte público,4
+1487,Feminino,39,1.562889,76.65949,True,True,2,3,1,False,1,False,0,0,1,Automóvel,4
+1488,Feminino,37,1.502609,75.279605,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1489,Feminino,41,1.544937,77.053948,True,True,2,3,1,False,2,False,0,0,1,Automóvel,4
+1490,Feminino,44,1.592316,77.00103,True,True,2,3,1,False,3,False,0,0,1,Automóvel,4
+1491,Masculino,18,1.787733,108.019211,True,True,2,2,1,False,3,False,1,1,0,Transporte público,4
+1492,Masculino,18,1.782722,108.044313,True,True,2,3,1,False,2,False,1,1,0,Transporte público,4
+1493,Masculino,18,1.797523,108.316462,True,True,2,2,1,False,3,False,1,1,0,Transporte público,4
+1494,Masculino,18,1.803527,108.251044,True,True,2,2,1,False,3,False,1,1,0,Transporte público,4
+1495,Masculino,29,1.801224,108.15619,True,True,2,3,1,False,2,False,1,2,1,Automóvel,4
+1496,Masculino,28,1.829239,107.10819,True,True,2,3,1,False,2,False,1,2,1,Automóvel,4
+1497,Feminino,18,1.692913,89.93889,True,True,3,3,1,False,2,False,1,0,0,Transporte público,4
+1498,Feminino,18,1.668555,85.607466,True,True,2,3,1,False,1,False,1,0,0,Transporte público,4
+1499,Masculino,23,1.652971,93.310284,True,True,1,3,1,False,2,False,0,0,0,Automóvel,4
+1500,Masculino,24,1.661277,90.744965,True,True,2,3,1,False,1,False,0,1,0,Automóvel,4
+1501,Masculino,29,1.641784,89.424947,True,True,1,3,1,False,2,False,0,0,1,Automóvel,4
+1502,Masculino,28,1.673767,89.995034,True,True,2,3,1,False,3,False,1,0,1,Automóvel,4
+1503,Feminino,18,1.617192,83.121811,True,True,3,3,1,False,1,False,1,0,0,Transporte público,4
+1504,Feminino,18,1.602129,82.412665,True,True,2,3,1,False,1,False,1,0,0,Transporte público,4
+1505,Masculino,21,1.701413,96.710735,True,True,2,3,1,False,3,False,1,1,0,Transporte público,4
+1506,Masculino,21,1.709731,95.032177,True,True,2,3,1,False,2,False,0,1,0,Transporte público,4
+1507,Masculino,20,1.698829,98.572753,True,True,2,2,1,False,2,False,0,2,0,Transporte público,4
+1508,Masculino,21,1.705304,99.873716,True,True,2,1,1,False,2,False,0,2,0,Transporte público,4
+1509,Feminino,19,1.61291,82.193405,True,True,1,3,1,False,1,False,0,1,0,Transporte público,4
+1510,Feminino,19,1.605469,82.039,True,True,3,3,1,False,1,False,0,1,0,Transporte público,4
+1511,Masculino,19,1.80416,104.40682,True,True,2,3,1,False,3,False,2,0,0,Transporte público,4
+1512,Masculino,20,1.785062,104.187314,True,True,2,3,1,False,2,False,2,0,0,Transporte público,4
+1513,Masculino,30,1.755926,112.289883,True,True,2,3,1,False,2,False,0,1,0,Automóvel,5
+1514,Masculino,25,1.787802,115.127662,True,True,2,3,1,False,2,False,2,0,0,Automóvel,5
+1515,Masculino,37,1.704877,107.94747,True,True,3,4,1,False,1,False,2,0,0,Transporte público,5
+1516,Masculino,33,1.695347,102.810704,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1517,Masculino,28,1.908608,128.828122,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1518,Masculino,30,1.819296,122.137917,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1519,Masculino,27,1.773259,118.154345,True,False,2,3,1,False,2,False,1,0,1,Automóvel,5
+1520,Masculino,34,1.774647,120.151967,True,False,3,3,1,False,2,False,1,0,1,Automóvel,5
+1521,Masculino,26,1.773664,116.160329,True,True,2,3,1,False,2,False,0,2,1,Transporte público,5
+1522,Masculino,28,1.793476,112.725005,True,True,2,3,1,False,2,False,0,0,1,Transporte público,5
+1523,Masculino,28,1.82559,120.860386,True,True,3,3,1,False,3,False,1,1,1,Transporte público,5
+1524,Masculino,25,1.885543,121.253083,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1525,Masculino,31,1.75,120.0,True,True,3,3,1,True,2,False,1,1,1,Automóvel,5
+1526,Masculino,31,1.87407,128.867444,True,True,3,3,1,True,1,False,1,2,1,Automóvel,5
+1527,Masculino,25,1.755967,112.256165,True,True,1,3,1,False,2,False,2,0,1,Transporte público,5
+1528,Masculino,25,1.757069,117.298233,True,True,1,3,1,False,2,False,1,1,1,Transporte público,5
+1529,Masculino,41,1.75,116.594351,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1530,Masculino,28,1.704028,101.634313,True,True,3,1,1,False,1,False,0,0,1,Automóvel,5
+1531,Masculino,23,1.849003,121.414744,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1532,Masculino,23,1.841989,122.024954,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1533,Masculino,24,1.613491,98.490766,True,True,3,2,1,False,1,False,2,1,0,Transporte público,5
+1534,Masculino,20,1.647821,106.509947,True,True,3,1,1,False,2,False,0,1,0,Transporte público,5
+1535,Masculino,30,1.75834,112.010504,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1536,Masculino,25,1.758398,112.089022,True,True,1,3,1,False,2,False,1,0,1,Automóvel,5
+1537,Masculino,31,1.670774,101.626189,True,True,3,4,1,False,1,False,2,0,0,Transporte público,5
+1538,Masculino,29,1.665585,98.66176,True,True,3,3,1,False,1,False,2,0,0,Transporte público,5
+1539,Masculino,31,1.914186,129.852531,True,True,2,3,1,False,1,False,1,1,1,Transporte público,5
+1540,Masculino,30,1.899588,124.269251,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1541,Masculino,32,1.75,118.102897,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1542,Masculino,37,1.75,119.434645,True,True,3,3,1,False,2,False,1,1,1,Automóvel,5
+1543,Masculino,22,1.773664,116.160329,True,True,2,3,1,False,2,False,1,1,1,Transporte público,5
+1544,Masculino,24,1.792998,116.102615,True,True,2,3,1,False,2,False,1,1,1,Transporte público,5
+1545,Masculino,24,1.82559,120.860386,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1546,Masculino,25,1.827279,120.996074,True,True,3,3,1,False,3,False,1,0,1,Transporte público,5
+1547,Masculino,32,1.775416,121.204668,True,True,3,3,1,False,2,False,0,1,1,Automóvel,5
+1548,Masculino,31,1.766975,118.363376,True,True,3,3,1,False,2,False,1,2,1,Automóvel,5
+1549,Masculino,23,1.754218,117.384745,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1550,Masculino,23,1.754996,119.087557,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1551,Masculino,41,1.748103,108.308112,True,True,2,4,1,False,1,False,2,0,0,Automóvel,5
+1552,Masculino,35,1.73325,103.669116,True,True,3,2,1,False,1,False,2,0,0,Automóvel,5
+1553,Masculino,22,1.84995,121.786485,True,True,3,2,1,False,2,False,0,0,1,Transporte público,5
+1554,Masculino,22,1.849601,122.333425,True,True,3,2,1,False,1,False,0,0,1,Transporte público,5
+1555,Masculino,24,1.606066,99.961731,True,True,3,1,1,False,1,False,1,1,0,Transporte público,5
+1556,Masculino,20,1.611434,103.175516,True,True,3,1,1,False,1,False,0,2,0,Transporte público,5
+1557,Masculino,29,1.762887,113.90198,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1558,Masculino,27,1.755938,112.287678,True,True,1,3,1,False,2,False,0,1,1,Automóvel,5
+1559,Masculino,26,1.787052,115.428276,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1560,Masculino,25,1.765258,114.330023,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1561,Masculino,31,1.726279,110.714711,True,True,2,4,1,False,2,False,1,0,0,Automóvel,5
+1562,Masculino,41,1.735851,109.889334,True,True,2,3,1,False,1,False,1,0,0,Automóvel,5
+1563,Masculino,34,1.699793,103.841672,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1564,Masculino,30,1.703202,103.0344,True,True,3,2,1,False,2,False,0,1,0,Transporte público,5
+1565,Masculino,31,1.906821,128.856677,True,True,3,3,1,False,2,False,2,0,1,Transporte público,5
+1566,Masculino,29,1.910987,129.935666,True,True,2,3,1,False,1,False,1,0,1,Transporte público,5
+1567,Masculino,31,1.784049,120.644178,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1568,Masculino,31,1.783914,120.549592,True,True,2,3,1,False,2,False,0,2,1,Automóvel,5
+1569,Masculino,27,1.863883,120.202596,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1570,Masculino,27,1.812259,118.277657,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1571,Masculino,37,1.75015,118.206565,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1572,Masculino,29,1.815347,120.399758,True,True,3,3,1,False,3,False,1,1,1,Automóvel,5
+1573,Masculino,26,1.767077,114.133149,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1574,Masculino,25,1.762461,115.531622,True,True,2,3,1,False,2,False,1,2,1,Transporte público,5
+1575,Masculino,30,1.779049,112.438508,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1576,Masculino,27,1.780731,112.957922,True,True,2,3,1,False,2,False,0,2,1,Automóvel,5
+1577,Masculino,26,1.872517,120.898397,True,True,2,3,1,False,3,False,1,1,1,Transporte público,5
+1578,Masculino,28,1.801224,119.050381,True,True,3,3,1,False,2,False,1,1,1,Transporte público,5
+1579,Masculino,23,1.876898,121.277832,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1580,Masculino,24,1.77558,120.589419,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1581,Masculino,32,1.76569,120.082941,True,True,3,3,1,False,2,False,1,0,1,Automóvel,5
+1582,Masculino,30,1.759772,118.382361,True,True,2,3,1,False,2,False,1,1,1,Automóvel,5
+1583,Masculino,31,1.823545,126.460936,True,True,3,3,1,True,1,False,1,1,1,Transporte público,5
+1584,Masculino,31,1.868923,125.064264,True,True,2,3,1,True,2,False,1,0,1,Transporte público,5
+1585,Masculino,25,1.77151,113.207124,True,True,1,3,1,False,2,False,2,0,1,Transporte público,5
+1586,Masculino,26,1.77219,114.097656,True,True,2,3,1,False,2,False,1,1,1,Transporte público,5
+1587,Masculino,25,1.858265,117.57457,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1588,Masculino,25,1.830596,118.424156,True,True,1,3,1,False,2,False,1,0,1,Transporte público,5
+1589,Masculino,39,1.765836,118.533246,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1590,Masculino,39,1.770278,117.29188,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1591,Masculino,26,1.673491,103.706181,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1592,Masculino,32,1.703346,102.686239,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1593,Masculino,23,1.842906,121.142535,True,True,3,3,1,False,3,False,1,0,1,Transporte público,5
+1594,Masculino,24,1.779547,118.740035,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1595,Masculino,24,1.873368,121.82962,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1596,Masculino,23,1.755902,120.021161,True,True,3,3,1,False,2,False,2,1,1,Transporte público,5
+1597,Masculino,24,1.617655,100.941357,True,True,3,2,1,False,1,False,0,1,0,Transporte público,5
+1598,Masculino,31,1.644517,100.004418,True,True,3,2,1,False,1,False,2,1,0,Transporte público,5
+1599,Masculino,20,1.701284,104.578255,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1600,Masculino,25,1.65891,104.548794,True,True,3,1,1,False,2,False,0,1,0,Transporte público,5
+1601,Masculino,30,1.759324,112.000381,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1602,Masculino,30,1.758382,112.10074,True,True,1,3,1,False,2,False,0,1,1,Automóvel,5
+1603,Masculino,24,1.622297,99.982541,True,True,3,4,1,False,1,False,2,1,0,Transporte público,5
+1604,Masculino,25,1.623278,97.582959,True,True,3,3,1,False,1,False,2,0,0,Transporte público,5
+1605,Masculino,30,1.918859,129.991623,True,True,2,3,1,False,1,False,1,0,1,Transporte público,5
+1606,Masculino,30,1.913252,129.232216,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1607,Masculino,37,1.75,118.07381,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1608,Masculino,39,1.75,119.029103,True,True,3,3,1,False,2,False,0,0,1,Automóvel,5
+1609,Masculino,23,1.784994,113.714521,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1610,Masculino,23,1.792533,116.157766,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1611,Masculino,25,1.829757,120.980508,True,True,3,3,1,False,3,False,2,1,1,Transporte público,5
+1612,Masculino,25,1.796415,120.988454,True,True,2,3,1,False,3,False,2,0,1,Transporte público,5
+1613,Masculino,32,1.75,120.0,True,True,3,3,1,False,2,False,1,2,1,Automóvel,5
+1614,Masculino,32,1.762389,118.548733,True,True,3,3,1,False,2,False,1,2,1,Automóvel,5
+1615,Masculino,23,1.825718,121.236915,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1616,Masculino,23,1.839699,120.431551,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1617,Masculino,41,1.749405,109.908779,True,True,2,3,1,False,1,False,1,0,0,Automóvel,5
+1618,Masculino,41,1.75,115.806977,True,True,2,3,1,False,1,False,1,0,0,Automóvel,5
+1619,Masculino,22,1.849998,122.119682,True,True,3,2,1,False,1,False,0,0,1,Transporte público,5
+1620,Masculino,22,1.84998,122.609911,True,True,3,2,1,False,1,False,0,0,1,Transporte público,5
+1621,Masculino,24,1.607939,100.618239,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1622,Masculino,24,1.603226,99.605527,True,True,3,1,1,False,1,False,1,1,0,Transporte público,5
+1623,Masculino,30,1.770663,112.471118,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1624,Masculino,29,1.758038,112.395309,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1625,Masculino,25,1.786997,115.025361,True,True,2,3,1,False,2,False,1,1,1,Transporte público,5
+1626,Masculino,25,1.771837,114.906095,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1627,Masculino,40,1.722396,109.349025,True,True,2,4,1,False,1,False,1,0,0,Automóvel,5
+1628,Masculino,34,1.701387,107.025415,True,True,3,3,1,False,1,False,2,0,0,Automóvel,5
+1629,Masculino,33,1.697421,103.017623,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1630,Masculino,30,1.696365,102.815983,True,True,3,2,1,False,1,False,1,1,0,Transporte público,5
+1631,Masculino,30,1.909198,129.679131,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1632,Masculino,29,1.909105,129.874864,True,True,2,3,1,False,1,False,1,0,1,Transporte público,5
+1633,Masculino,30,1.801368,121.094257,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1634,Masculino,30,1.860292,123.721352,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1635,Masculino,27,1.819535,118.332689,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1636,Masculino,27,1.793174,118.165082,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1637,Masculino,33,1.75015,118.299585,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1638,Masculino,32,1.754956,120.098812,True,True,3,3,1,False,3,False,1,1,1,Automóvel,5
+1639,Masculino,26,1.773115,115.089316,True,True,2,3,1,False,2,False,1,1,1,Transporte público,5
+1640,Masculino,26,1.772731,115.828167,True,True,2,3,1,False,2,False,1,2,1,Transporte público,5
+1641,Masculino,30,1.787933,112.536367,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1642,Masculino,27,1.785277,112.740797,True,True,2,3,1,False,2,False,0,2,1,Automóvel,5
+1643,Masculino,28,1.817572,120.8158,True,True,3,3,1,False,3,False,1,1,1,Transporte público,5
+1644,Masculino,27,1.84342,120.420406,True,True,3,3,1,False,3,False,1,1,1,Transporte público,5
+1645,Masculino,25,1.874519,121.244969,True,True,3,3,1,False,3,False,1,0,1,Transporte público,5
+1646,Masculino,25,1.796332,120.901591,True,True,2,3,1,False,3,False,2,0,1,Transporte público,5
+1647,Masculino,30,1.756221,119.117122,True,True,3,3,1,False,2,False,1,1,1,Automóvel,5
+1648,Masculino,31,1.757132,118.565568,True,True,3,3,1,False,2,False,1,1,1,Automóvel,5
+1649,Masculino,31,1.889104,129.157346,True,True,3,3,1,True,1,False,1,0,1,Transporte público,5
+1650,Masculino,31,1.869323,127.507411,True,True,3,3,1,True,1,False,1,1,1,Transporte público,5
+1651,Masculino,25,1.757154,112.200812,True,True,1,3,1,False,2,False,1,0,1,Transporte público,5
+1652,Masculino,25,1.764484,113.234349,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1653,Masculino,24,1.774775,117.398976,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1654,Masculino,25,1.769933,117.708705,True,True,1,3,1,False,2,False,1,0,1,Transporte público,5
+1655,Masculino,40,1.760175,117.651046,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1656,Masculino,40,1.763029,116.974504,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1657,Masculino,27,1.679515,102.872802,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1658,Masculino,30,1.699354,100.176866,True,True,3,2,1,False,1,False,1,1,0,Transporte público,5
+1659,Masculino,23,1.849307,121.658729,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1660,Masculino,24,1.86741,121.684311,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1661,Masculino,23,1.86714,121.835883,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1662,Masculino,23,1.848553,121.421121,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1663,Masculino,24,1.61981,98.54302,True,True,3,2,1,False,1,False,2,1,0,Transporte público,5
+1664,Masculino,27,1.647807,99.592225,True,True,3,2,1,False,1,False,1,1,0,Transporte público,5
+1665,Masculino,20,1.619128,104.303711,True,True,3,2,1,False,1,False,0,1,0,Transporte público,5
+1666,Masculino,23,1.64187,104.270062,True,True,3,2,1,False,2,False,0,1,0,Transporte público,5
+1667,Masculino,28,1.787379,112.173731,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1668,Masculino,30,1.758355,112.007101,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1669,Masculino,25,1.76414,113.089716,True,True,1,3,1,False,2,False,1,0,1,Transporte público,5
+1670,Masculino,25,1.767186,112.226032,True,True,1,3,1,False,2,False,1,0,1,Transporte público,5
+1671,Masculino,32,1.67782,102.022057,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1672,Masculino,31,1.668478,100.543983,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1673,Masculino,28,1.685462,99.540122,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1674,Masculino,28,1.694642,99.709329,True,True,3,2,1,False,1,False,1,0,0,Transporte público,5
+1675,Masculino,31,1.886109,129.349471,True,True,2,3,1,True,1,False,1,1,1,Transporte público,5
+1676,Masculino,31,1.915,129.966428,True,True,2,3,1,True,1,False,1,0,1,Transporte público,5
+1677,Masculino,30,1.841908,124.070717,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1678,Masculino,31,1.868127,123.172214,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1679,Masculino,32,1.751688,119.205308,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1680,Masculino,31,1.755333,118.237782,True,True,3,3,1,False,2,False,0,1,1,Automóvel,5
+1681,Masculino,38,1.754217,117.8972,True,True,3,3,1,False,2,False,1,0,1,Automóvel,5
+1682,Masculino,38,1.76071,118.668332,True,True,3,3,1,False,2,False,1,0,1,Automóvel,5
+1683,Masculino,22,1.755938,116.311962,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1684,Masculino,23,1.765137,116.669906,True,True,1,3,1,False,2,False,1,1,1,Transporte público,5
+1685,Masculino,25,1.788239,115.382519,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1686,Masculino,24,1.767121,116.164351,True,True,2,3,1,False,2,False,1,1,1,Transporte público,5
+1687,Masculino,24,1.840039,120.975489,True,True,3,3,1,False,2,False,2,0,1,Transporte público,5
+1688,Masculino,24,1.824901,120.805715,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1689,Masculino,25,1.828391,120.998266,True,True,3,3,1,False,3,False,2,0,1,Transporte público,5
+1690,Masculino,25,1.829529,120.996581,True,True,3,3,1,False,3,False,1,0,1,Transporte público,5
+1691,Masculino,31,1.779325,120.751656,True,True,3,3,1,False,2,False,0,1,1,Automóvel,5
+1692,Masculino,31,1.781139,120.794535,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1693,Masculino,31,1.764166,119.373019,True,True,3,3,1,False,3,False,0,2,1,Automóvel,5
+1694,Masculino,31,1.754796,118.805937,True,True,3,3,1,False,2,False,1,2,1,Automóvel,5
+1695,Masculino,25,1.756509,117.368716,True,True,1,3,1,False,2,False,1,1,1,Transporte público,5
+1696,Masculino,24,1.756772,117.326523,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1697,Masculino,23,1.754439,119.441207,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1698,Masculino,23,1.755142,119.192922,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1699,Masculino,40,1.706741,108.012603,True,True,2,4,1,False,1,False,2,0,0,Automóvel,5
+1700,Masculino,37,1.74285,106.421042,True,True,3,3,1,False,1,False,2,0,0,Automóvel,5
+1701,Masculino,34,1.6811,102.523111,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1702,Masculino,34,1.705682,103.067766,True,True,3,2,1,False,1,False,1,0,0,Transporte público,5
+1703,Masculino,23,1.849507,121.560938,True,True,3,2,1,False,2,False,1,0,1,Transporte público,5
+1704,Masculino,23,1.853373,121.737836,True,True,3,3,1,False,2,False,0,0,1,Transporte público,5
+1705,Masculino,23,1.84753,122.06261,True,True,3,2,1,False,2,False,1,0,1,Transporte público,5
+1706,Masculino,22,1.87034,121.458232,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1707,Masculino,24,1.607787,100.783434,True,True,3,1,1,False,1,False,1,1,0,Transporte público,5
+1708,Masculino,24,1.603091,100.209405,True,True,3,1,1,False,1,False,0,2,0,Transporte público,5
+1709,Masculino,20,1.620109,103.393354,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1710,Masculino,23,1.610647,100.642257,True,True,3,1,1,False,1,False,1,2,0,Transporte público,5
+1711,Masculino,29,1.758618,113.501549,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1712,Masculino,30,1.763259,113.215814,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1713,Masculino,27,1.764138,112.323213,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1714,Masculino,25,1.75596,112.277567,True,True,1,3,1,False,2,False,1,0,1,Automóvel,5
+1715,Masculino,26,1.783381,115.347176,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1716,Masculino,26,1.786532,114.534678,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1717,Masculino,26,1.766626,114.187096,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1718,Masculino,26,1.765464,114.144378,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1719,Masculino,30,1.75853,111.635463,True,True,1,3,1,False,2,False,0,0,1,Automóvel,5
+1720,Masculino,30,1.758539,111.950413,True,True,1,4,1,False,2,False,0,0,1,Automóvel,5
+1721,Masculino,41,1.748015,109.758736,True,True,2,3,1,False,1,False,1,0,0,Automóvel,5
+1722,Masculino,41,1.744974,111.169678,True,True,2,3,1,False,2,False,1,0,0,Automóvel,5
+1723,Masculino,30,1.701566,103.743534,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1724,Masculino,33,1.696412,103.250355,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1725,Masculino,31,1.680489,102.004554,True,True,3,2,1,False,1,False,1,1,0,Transporte público,5
+1726,Masculino,30,1.703317,102.592171,True,True,3,1,1,False,1,False,0,0,0,Transporte público,5
+1727,Masculino,31,1.877732,127.161381,True,True,3,3,1,True,1,False,1,1,1,Transporte público,5
+1728,Masculino,31,1.909639,129.013178,True,True,2,3,1,True,2,False,1,1,1,Transporte público,5
+1729,Masculino,30,1.909188,129.19449,True,True,2,3,1,False,1,False,2,0,1,Transporte público,5
+1730,Masculino,31,1.910672,129.232708,True,True,2,3,1,False,1,False,1,0,1,Transporte público,5
+1731,Masculino,31,1.779136,120.60094,True,True,3,3,1,False,2,False,1,1,1,Automóvel,5
+1732,Masculino,32,1.767485,120.158049,True,True,3,3,1,False,2,False,1,0,1,Automóvel,5
+1733,Masculino,31,1.783953,120.613561,True,True,2,3,1,False,2,False,1,1,1,Automóvel,5
+1734,Masculino,31,1.76714,120.344402,True,True,2,3,1,False,2,False,1,2,1,Automóvel,5
+1735,Masculino,27,1.816197,119.622764,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1736,Masculino,27,1.839941,119.956651,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1737,Masculino,26,1.84842,117.631707,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1738,Masculino,26,1.830317,117.75701,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1739,Masculino,38,1.750085,118.114184,True,True,2,3,1,False,2,False,0,0,1,Automóvel,5
+1740,Masculino,38,1.763582,117.86159,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1741,Masculino,28,1.816547,120.699119,True,True,3,3,1,False,3,False,1,1,1,Automóvel,5
+1742,Masculino,28,1.805445,119.484614,True,True,3,3,1,False,3,False,1,1,1,Automóvel,5
+1743,Masculino,25,1.770124,114.163921,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1744,Masculino,26,1.77274,114.254278,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1745,Masculino,26,1.763215,115.10813,True,True,2,3,1,False,2,False,1,1,1,Transporte público,5
+1746,Masculino,26,1.766547,115.45845,True,True,2,3,1,False,2,False,1,1,1,Transporte público,5
+1747,Masculino,30,1.773181,112.348722,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1748,Masculino,30,1.76003,112.409191,True,True,2,3,1,False,2,False,0,1,1,Automóvel,5
+1749,Masculino,27,1.780089,113.15464,True,True,2,3,1,False,2,False,1,2,1,Automóvel,5
+1750,Masculino,28,1.766946,113.235538,True,True,2,3,1,False,2,False,0,2,1,Automóvel,5
+1751,Masculino,26,1.885119,121.065052,True,True,2,3,1,False,3,False,1,1,1,Transporte público,5
+1752,Masculino,27,1.828276,120.872294,True,True,3,3,1,False,3,False,1,1,1,Transporte público,5
+1753,Masculino,28,1.806227,120.423567,True,True,3,3,1,False,3,False,1,1,1,Transporte público,5
+1754,Masculino,27,1.812919,119.841446,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1755,Masculino,23,1.859717,121.284533,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1756,Masculino,23,1.86516,121.527369,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1757,Masculino,24,1.783609,120.921535,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1758,Masculino,24,1.794827,120.919703,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1759,Masculino,31,1.759647,120.009392,True,True,3,3,1,False,2,False,1,1,1,Automóvel,5
+1760,Masculino,31,1.773521,120.209711,True,True,3,3,1,False,2,False,1,0,1,Automóvel,5
+1761,Masculino,32,1.753327,118.26569,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1762,Masculino,30,1.761068,118.370628,True,True,3,3,1,False,2,False,1,1,1,Automóvel,5
+1763,Masculino,31,1.848845,125.077863,True,True,2,3,1,True,2,False,1,0,1,Transporte público,5
+1764,Masculino,31,1.842812,125.973927,True,True,2,3,1,True,1,False,1,1,1,Transporte público,5
+1765,Masculino,31,1.825449,124.95278,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1766,Masculino,31,1.86198,126.418413,True,True,3,3,1,False,2,False,1,1,1,Transporte público,5
+1767,Masculino,25,1.763987,113.069667,True,True,1,3,1,False,2,False,2,0,1,Transporte público,5
+1768,Masculino,25,1.761519,112.835195,True,True,1,3,1,False,2,False,1,0,1,Transporte público,5
+1769,Masculino,25,1.772045,114.067936,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1770,Masculino,25,1.771817,114.004832,True,True,2,3,1,False,2,False,2,0,1,Transporte público,5
+1771,Masculino,26,1.79858,117.93329,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1772,Masculino,25,1.788586,117.849351,True,True,2,3,1,False,2,False,1,0,1,Transporte público,5
+1773,Masculino,25,1.803207,118.332966,True,True,1,3,1,False,2,False,1,0,1,Transporte público,5
+1774,Masculino,25,1.836592,118.377601,True,True,2,3,1,False,3,False,1,0,1,Transporte público,5
+1775,Masculino,37,1.762921,118.40174,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1776,Masculino,38,1.752863,119.201465,True,True,2,3,1,False,2,False,1,1,1,Automóvel,5
+1777,Masculino,39,1.768235,117.792268,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1778,Masculino,38,1.766888,118.134898,True,True,2,3,1,False,2,False,1,0,1,Automóvel,5
+1779,Masculino,25,1.603501,101.038263,True,True,3,1,1,False,1,False,0,2,0,Transporte público,5
+1780,Masculino,27,1.690262,103.180918,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1781,Masculino,34,1.712905,103.276087,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1782,Masculino,33,1.695735,102.784864,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1783,Masculino,24,1.829971,121.04172,True,True,3,3,1,False,3,False,1,0,1,Transporte público,5
+1784,Masculino,23,1.84629,121.248035,True,True,3,3,1,False,3,False,1,0,1,Transporte público,5
+1785,Masculino,24,1.774983,119.081804,True,True,2,3,1,False,2,False,2,1,1,Transporte público,5
+1786,Masculino,25,1.78968,118.436166,True,True,1,3,1,False,2,False,1,0,1,Transporte público,5
+1787,Masculino,25,1.852664,121.310257,True,True,3,3,1,False,2,False,1,0,1,Transporte público,5
+1788,Masculino,24,1.872561,121.471077,True,True,3,3,1,False,3,False,1,0,1,Transporte público,5
+1789,Masculino,23,1.81955,120.775439,True,True,3,3,1,False,2,False,2,0,1,Transporte público,5
+1790,Masculino,23,1.815514,120.337664,True,True,3,3,1,False,3,False,1,0,1,Transporte público,5
+1791,Masculino,24,1.614075,100.245302,True,True,3,2,1,False,1,False,1,1,0,Transporte público,5
+1792,Masculino,24,1.609418,100.078367,True,True,3,2,1,False,1,False,1,1,0,Transporte público,5
+1793,Masculino,31,1.650189,101.141277,True,True,3,2,1,False,1,False,2,0,0,Transporte público,5
+1794,Masculino,31,1.653876,102.583895,True,True,3,2,1,False,1,False,1,1,0,Transporte público,5
+1795,Masculino,20,1.657132,105.580491,True,True,3,1,1,False,2,False,0,1,0,Transporte público,5
+1796,Masculino,21,1.644751,101.067988,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1797,Masculino,26,1.660761,104.321463,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1798,Masculino,27,1.69151,102.59518,True,True,3,1,1,False,1,False,0,1,0,Transporte público,5
+1799,Feminino,26,1.611462,102.093223,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1800,Feminino,26,1.584782,105.055597,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1801,Feminino,18,1.792378,137.859737,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1802,Feminino,18,1.802257,149.935848,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1803,Feminino,26,1.65632,111.93301,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1804,Feminino,26,1.600762,105.448264,True,True,3,3,1,False,1,False,0,0,1,Transporte público,6
+1805,Feminino,26,1.678658,104.954834,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1806,Feminino,26,1.678201,109.900472,True,True,3,3,1,False,1,False,0,0,1,Transporte público,6
+1807,Feminino,22,1.65563,121.205171,True,True,3,3,1,False,1,False,0,0,1,Transporte público,6
+1808,Feminino,21,1.694952,133.76473,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1809,Feminino,26,1.622771,109.959714,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1810,Feminino,26,1.583889,110.545378,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1811,Feminino,21,1.729045,131.529267,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1812,Feminino,23,1.664622,114.465425,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1813,Feminino,21,1.747773,127.902844,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1814,Feminino,21,1.730113,152.094362,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1815,Feminino,19,1.746652,133.800129,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1816,Feminino,24,1.719365,114.511537,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1817,Feminino,26,1.632377,111.946655,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1818,Feminino,26,1.642572,111.868169,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1819,Feminino,26,1.654875,104.758713,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1820,Feminino,26,1.627567,107.482662,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1821,Feminino,21,1.736276,130.927138,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1822,Feminino,24,1.737056,132.527011,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1823,Feminino,26,1.580968,102.003378,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1824,Feminino,26,1.607128,103.026858,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1825,Feminino,18,1.821566,142.102468,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1826,Feminino,18,1.82773,152.720545,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1827,Feminino,26,1.656504,111.993054,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1828,Feminino,26,1.637725,111.208963,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1829,Feminino,26,1.669701,104.585783,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1830,Feminino,26,1.668709,104.754958,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1831,Feminino,21,1.668642,124.704781,True,True,3,3,1,False,1,False,1,0,1,Transporte público,6
+1832,Feminino,21,1.690614,129.769141,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1833,Feminino,26,1.622418,110.676343,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1834,Feminino,26,1.643332,110.824698,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1835,Feminino,22,1.733383,135.524857,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1836,Feminino,21,1.748313,133.573787,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1837,Feminino,21,1.812963,138.730619,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1838,Feminino,21,1.80734,155.872093,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1839,Feminino,18,1.745644,133.665587,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1840,Feminino,21,1.753266,133.852432,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1841,Feminino,26,1.632193,111.886611,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1842,Feminino,26,1.641098,111.818345,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1843,Feminino,26,1.640741,104.808542,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1844,Feminino,26,1.618573,104.928643,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1845,Feminino,23,1.757442,133.365094,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1846,Feminino,20,1.763343,133.952675,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1847,Feminino,26,1.610086,102.38745,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1848,Feminino,26,1.664463,102.781971,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1849,Feminino,26,1.602025,104.899348,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1850,Feminino,26,1.632896,104.988925,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1851,Feminino,18,1.771043,137.044959,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1852,Feminino,22,1.789555,137.767787,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1853,Feminino,18,1.801746,141.166265,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1854,Feminino,20,1.787195,151.975864,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1855,Feminino,26,1.644141,111.942544,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1856,Feminino,26,1.643355,111.600553,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1857,Feminino,26,1.623707,105.037463,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1858,Feminino,26,1.610636,105.423532,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1859,Feminino,26,1.629491,104.839068,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1860,Feminino,25,1.684768,104.821175,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1861,Feminino,26,1.66494,110.92217,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+1862,Feminino,26,1.655646,110.21734,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+1863,Feminino,19,1.666194,124.805868,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+1864,Feminino,21,1.707508,121.864326,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1865,Feminino,22,1.754174,133.783955,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1866,Feminino,21,1.714193,131.866734,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1867,Feminino,26,1.62439,110.008636,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1868,Feminino,26,1.638836,110.970479,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1869,Feminino,26,1.621245,111.267334,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1870,Feminino,26,1.623514,109.980145,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+1871,Feminino,21,1.736215,132.145549,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1872,Feminino,22,1.732951,132.904884,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1873,Feminino,24,1.69135,114.480696,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1874,Feminino,24,1.635062,113.277388,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1875,Feminino,18,1.746061,128.261402,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1876,Feminino,20,1.746529,129.363771,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1877,Feminino,21,1.746516,144.302261,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1878,Feminino,21,1.751118,149.291106,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1879,Feminino,19,1.741014,132.57927,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1880,Feminino,22,1.748533,133.94608,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1881,Feminino,24,1.694726,112.776612,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1882,Feminino,26,1.674515,112.879662,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1883,Feminino,26,1.631332,111.829957,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1884,Feminino,26,1.641918,111.86899,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1885,Feminino,26,1.640125,111.539494,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1886,Feminino,26,1.649178,111.914361,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1887,Feminino,26,1.603404,105.031908,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1888,Feminino,26,1.644199,105.036075,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1889,Feminino,26,1.628909,106.875927,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1890,Feminino,26,1.628019,108.265922,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+1891,Feminino,21,1.71818,133.466763,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1892,Feminino,21,1.708581,131.274851,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1893,Feminino,23,1.724983,132.94066,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1894,Feminino,23,1.739991,133.485478,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1895,Feminino,26,1.568543,102.000122,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1896,Feminino,26,1.579893,102.134646,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1897,Feminino,20,1.782714,154.618446,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1898,Feminino,19,1.793824,160.935351,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1899,Feminino,26,1.659557,111.999096,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1900,Feminino,26,1.65782,111.95611,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1901,Feminino,26,1.684082,104.592372,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1902,Feminino,25,1.68395,104.846817,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1903,Feminino,19,1.716521,127.642324,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+1904,Feminino,20,1.680762,125.418548,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+1905,Feminino,26,1.623303,110.81746,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1906,Feminino,26,1.631856,110.804337,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1907,Feminino,22,1.747479,136.516648,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1908,Feminino,21,1.782453,137.852618,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1909,Feminino,22,1.809871,152.394739,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1910,Feminino,22,1.803677,160.639405,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1911,Feminino,18,1.745602,133.554686,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1912,Feminino,20,1.751038,133.843033,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1913,Feminino,26,1.631547,111.588625,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1914,Feminino,26,1.635905,111.571076,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1915,Feminino,26,1.616975,104.846218,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1916,Feminino,26,1.62788,104.92057,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1917,Feminino,22,1.76416,133.888629,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1918,Feminino,21,1.763847,133.937873,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1919,Feminino,26,1.608808,102.083964,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1920,Feminino,26,1.610488,102.174953,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1921,Feminino,26,1.621231,104.986792,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1922,Feminino,26,1.642392,104.988082,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1923,Feminino,19,1.801983,138.034526,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1924,Feminino,22,1.787614,137.858254,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1925,Feminino,20,1.801478,151.417292,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1926,Feminino,18,1.807576,152.567671,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1927,Feminino,26,1.650125,111.939671,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1928,Feminino,26,1.652674,111.919155,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1929,Feminino,26,1.663632,105.122109,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+1930,Feminino,26,1.627818,105.428628,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1931,Feminino,26,1.66877,104.774144,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1932,Feminino,26,1.642098,104.966758,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1933,Feminino,26,1.65757,109.931233,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+1934,Feminino,26,1.643111,109.910012,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+1935,Feminino,21,1.675562,121.639178,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+1936,Feminino,23,1.661415,120.748213,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1937,Feminino,21,1.713133,133.735889,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1938,Feminino,21,1.7199,133.886031,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1939,Feminino,26,1.622701,109.982692,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1940,Feminino,26,1.622468,110.400847,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1941,Feminino,26,1.618867,110.777391,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1942,Feminino,26,1.600905,110.074946,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1943,Feminino,21,1.730636,131.902591,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1944,Feminino,21,1.729719,131.877558,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1945,Feminino,23,1.677672,114.470482,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1946,Feminino,24,1.637524,113.90506,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1947,Feminino,21,1.738717,128.114161,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1948,Feminino,21,1.741193,128.763843,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1949,Feminino,20,1.792833,152.43563,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1950,Feminino,20,1.810427,152.217135,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1951,Feminino,19,1.743589,133.281333,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1952,Feminino,20,1.747962,133.936535,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1953,Feminino,24,1.71146,113.372851,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1954,Feminino,25,1.685482,113.451224,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1955,Feminino,26,1.639251,111.927001,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1956,Feminino,26,1.654784,111.933152,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1957,Feminino,26,1.641209,111.856492,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1958,Feminino,26,1.643167,111.894229,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1959,Feminino,26,1.63073,104.790549,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1960,Feminino,26,1.649867,104.791035,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1961,Feminino,26,1.613574,107.012256,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+1962,Feminino,26,1.627532,106.69053,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1963,Feminino,21,1.726606,131.76807,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1964,Feminino,21,1.721476,131.042274,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1965,Feminino,24,1.742901,132.8071,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1966,Feminino,24,1.737313,133.166595,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1967,Feminino,26,1.62414,102.233445,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1968,Feminino,26,1.644078,102.277765,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1969,Feminino,26,1.592529,102.874549,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1970,Feminino,26,1.607734,102.305767,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1971,Feminino,19,1.817271,141.917802,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1972,Feminino,18,1.808765,140.292018,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1973,Feminino,20,1.817231,152.371911,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1974,Feminino,18,1.819728,151.278532,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1975,Feminino,26,1.656465,111.949972,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1976,Feminino,26,1.648143,111.950113,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1977,Feminino,26,1.622703,111.216192,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1978,Feminino,26,1.640606,111.036881,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1979,Feminino,25,1.683502,104.759643,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1980,Feminino,26,1.669039,104.593929,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+1981,Feminino,25,1.673665,104.704707,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1982,Feminino,26,1.668931,104.768318,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+1983,Feminino,21,1.700996,126.490236,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+1984,Feminino,21,1.734092,125.117633,True,True,3,3,1,False,2,False,1,0,1,Transporte público,6
+1985,Feminino,21,1.708291,130.986338,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1986,Feminino,21,1.716497,130.871127,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1987,Feminino,26,1.62495,111.00492,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1988,Feminino,26,1.594776,110.640929,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1989,Feminino,26,1.626503,110.818757,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1990,Feminino,26,1.624576,110.803117,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+1991,Feminino,22,1.729099,134.842656,True,True,3,3,1,False,1,False,2,1,1,Transporte público,6
+1992,Feminino,22,1.73581,135.346677,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1993,Feminino,21,1.748524,133.878843,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+1994,Feminino,21,1.748951,133.662583,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1995,Feminino,20,1.777971,137.785027,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+1996,Feminino,21,1.73995,135.693381,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1997,Feminino,20,1.816868,153.959945,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+1998,Feminino,21,1.8002,155.242672,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+1999,Feminino,21,1.74647,133.644711,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+2000,Feminino,19,1.759091,133.903612,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2001,Feminino,21,1.752531,133.618706,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2002,Feminino,21,1.761773,133.903469,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2003,Feminino,26,1.633195,111.883747,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2004,Feminino,26,1.633945,111.9307,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2005,Feminino,26,1.641601,111.830924,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2006,Feminino,26,1.641132,111.841706,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2007,Feminino,26,1.638218,104.810024,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+2008,Feminino,26,1.627483,104.881994,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2009,Feminino,26,1.610225,104.936381,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2010,Feminino,26,1.61739,105.013901,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2011,Feminino,23,1.744319,133.45249,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2012,Feminino,23,1.755467,133.478611,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2013,Feminino,19,1.746416,133.747012,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2014,Feminino,19,1.746411,133.676663,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+2015,Feminino,26,1.611452,102.363149,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2016,Feminino,26,1.596813,102.320437,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2017,Feminino,26,1.610126,102.686908,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2018,Feminino,26,1.623113,102.555691,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2019,Feminino,26,1.618348,104.94582,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2020,Feminino,26,1.609401,104.854928,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+2021,Feminino,26,1.621671,105.313967,True,True,3,3,1,False,1,False,0,0,1,Transporte público,6
+2022,Feminino,26,1.614484,104.999403,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2023,Feminino,19,1.789143,138.202869,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2024,Feminino,20,1.774207,138.143162,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+2025,Feminino,21,1.792933,137.832414,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2026,Feminino,22,1.758959,137.79299,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+2027,Feminino,18,1.807406,141.799429,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2028,Feminino,19,1.75091,142.545183,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2029,Feminino,20,1.805803,153.149491,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2030,Feminino,21,1.796538,152.473675,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2031,Feminino,26,1.634894,111.946321,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2032,Feminino,26,1.639524,111.945588,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2033,Feminino,26,1.643017,111.720238,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2034,Feminino,26,1.641849,111.682693,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2035,Feminino,26,1.621167,104.947703,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2036,Feminino,26,1.638075,105.036522,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2037,Feminino,26,1.60937,105.407313,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+2038,Feminino,26,1.608283,105.359688,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2039,Feminino,26,1.629442,104.835346,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2040,Feminino,26,1.629225,104.838425,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+2041,Feminino,25,1.680218,104.807284,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2042,Feminino,25,1.686033,104.772164,True,True,3,3,1,False,1,False,0,1,1,Transporte público,6
+2043,Feminino,26,1.662978,110.930509,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2044,Feminino,26,1.675185,110.621723,True,True,3,3,1,False,1,False,0,0,1,Transporte público,6
+2045,Feminino,26,1.62456,110.10589,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2046,Feminino,26,1.626179,110.074019,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2047,Feminino,19,1.682594,127.427458,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+2048,Feminino,19,1.669354,126.088301,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+2049,Feminino,21,1.68838,121.889803,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+2050,Feminino,21,1.694439,122.813033,True,True,3,3,1,False,1,False,1,1,1,Transporte público,6
+2051,Feminino,22,1.755476,133.870501,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2052,Feminino,22,1.748106,133.259033,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2053,Feminino,21,1.719913,131.567481,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2054,Feminino,21,1.723587,131.929712,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2055,Feminino,26,1.623812,109.996742,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2056,Feminino,26,1.624099,109.978402,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2057,Feminino,26,1.632983,111.157811,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2058,Feminino,26,1.640745,110.919646,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2059,Feminino,26,1.629727,111.275646,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2060,Feminino,26,1.624134,111.531208,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2061,Feminino,26,1.623938,109.984263,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2062,Feminino,26,1.593321,110.168166,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2063,Feminino,21,1.730333,132.116491,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2064,Feminino,21,1.721057,132.054793,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2065,Feminino,22,1.71978,132.262558,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2066,Feminino,22,1.699315,133.10761,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2067,Feminino,24,1.681394,114.479459,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2068,Feminino,24,1.697421,114.482386,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+2069,Feminino,24,1.650726,113.774198,True,True,3,3,1,False,3,False,0,1,1,Transporte público,6
+2070,Feminino,25,1.667383,112.982549,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2071,Feminino,19,1.746277,128.705761,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2072,Feminino,18,1.735461,126.798173,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2073,Feminino,20,1.747714,128.148108,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2074,Feminino,20,1.71582,129.466541,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2075,Feminino,21,1.747987,147.296186,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2076,Feminino,20,1.817917,142.559161,True,True,3,3,1,False,3,False,2,1,1,Transporte público,6
+2077,Feminino,19,1.80835,150.51648,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2078,Feminino,21,1.739457,150.37757,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2079,Feminino,19,1.742062,133.779919,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2080,Feminino,18,1.741925,133.017105,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2081,Feminino,22,1.751067,133.845064,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2082,Feminino,22,1.749118,133.955091,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2083,Feminino,24,1.663341,113.077187,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2084,Feminino,25,1.668537,112.555456,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2085,Feminino,26,1.668951,112.249699,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2086,Feminino,26,1.661712,112.098616,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2087,Feminino,26,1.633442,111.821817,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2088,Feminino,26,1.63302,111.863186,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2089,Feminino,26,1.633887,111.878132,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2090,Feminino,26,1.643421,111.939983,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2091,Feminino,26,1.640535,111.555967,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2092,Feminino,26,1.626483,111.357062,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2093,Feminino,26,1.64599,111.922491,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2094,Feminino,26,1.643892,111.884535,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2095,Feminino,26,1.617817,104.950776,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2096,Feminino,26,1.626449,104.879602,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2097,Feminino,26,1.62658,105.037203,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2098,Feminino,26,1.606474,104.954291,True,True,3,3,1,False,2,False,0,1,1,Transporte público,6
+2099,Feminino,26,1.628855,108.090006,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2100,Feminino,26,1.628205,107.378702,True,True,3,3,1,False,3,False,0,0,1,Transporte público,6
+2101,Feminino,26,1.62847,107.218949,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2102,Feminino,26,1.627839,108.10736,True,True,3,3,1,False,2,False,0,0,1,Transporte público,6
+2103,Feminino,21,1.724268,133.033523,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2104,Feminino,22,1.732383,133.043941,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2105,Feminino,21,1.72692,131.335786,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2106,Feminino,21,1.71073,131.408528,True,True,3,3,1,False,2,False,2,1,1,Transporte público,6
+2107,Feminino,22,1.748584,133.742943,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2108,Feminino,23,1.752206,133.689352,True,True,3,3,1,False,2,False,1,1,1,Transporte público,6
+2109,Feminino,24,1.73945,133.346641,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
+2110,Feminino,24,1.738836,133.472641,True,True,3,3,1,False,3,False,1,1,1,Transporte público,6
