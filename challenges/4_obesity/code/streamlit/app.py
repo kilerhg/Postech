@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import joblib
 
 import random
 
 
 DICT_VALUE_OBESITY_TRANSLATION = {
-    "Feminino": "Female",
-    "Masculino": "Male",
+    "Feminino": 0,
+    "Masculino": 1,
     "Transporte público": "Public_Transportation",
     "Caminhada": "Walking",
     "Automóvel": "Automobile",
@@ -37,6 +38,10 @@ DICT_YES_NO_TO_BOOL = {
   'Não': False
 }
 
+DICT_GENDER = {
+    'Male'
+}
+
 apptitle = 'Postech Obesity Predictor'
 
 st.set_page_config(page_title=apptitle, page_icon=":eyeglasses:")
@@ -45,6 +50,17 @@ st.title('Obesity Predictor')
 
 def process_data_from_user(dict_values_user):
     dict_processed = {}
+
+    dict_processed['mtrans_Automóvel'] = 0.0
+    dict_processed['mtrans_Bicicleta'] = 0.0
+    dict_processed['mtrans_Caminhada'] = 0.0
+    dict_processed['mtrans_Motocicleta'] = 0.0
+    dict_processed['mtrans_Transporte público'] = 0.0
+    key_mtrans = f'mtrans_{dict_values_user['mtrans']}'
+    if key_mtrans in dict_processed:
+        dict_processed[key_mtrans] = 1.0
+    else:
+        print(f'not found: {key_mtrans}')
 
     dict_processed['gender'] = DICT_VALUE_OBESITY_TRANSLATION[dict_values_user['gender']]
     dict_processed['age'] = dict_values_user['age']
@@ -61,7 +77,6 @@ def process_data_from_user(dict_values_user):
     dict_processed['faf'] = dict_values_user['faf']
     dict_processed['tue'] = dict_values_user['tue']
     dict_processed['calc'] = DICT_FREQUENCY_OBESITY[dict_values_user['calc']]
-    dict_processed['mtrans'] = DICT_VALUE_OBESITY_TRANSLATION[dict_values_user['mtrans']]
 
     return dict_processed
 
@@ -69,14 +84,20 @@ def process_data_from_user(dict_values_user):
 def generate_prediction():
 
     dict_processed = process_data_from_user(dict_values_user)
-    
-    print(dict_processed)
-    
-    predict = random.choice(list(DICT_RESULT.values()))
-    
-    print(f'A previsão é: {predict}')
+
+    model = joblib.load('/home/lucas-nunes/workspace/Postech/challenges/4_obesity/code/model/forest.joblib')
+
+    df = pd.DataFrame.from_records([dict_processed])
+
+    result = model.predict(df)
+
+    if result[0]:
+        predict = 'Obeso'
+    else:
+        predict = 'Não Obeso'
 
     st.write(f'A previsão é: {predict}')
+    st.write(df)
 
 
 with st.sidebar.form(key='obesity_predictor'):
