@@ -85,7 +85,7 @@ def generate_prediction():
 
     dict_processed = process_data_from_user(dict_values_user)
 
-    model = joblib.load('/home/lucas-nunes/workspace/Postech/challenges/4_obesity/code/model/forest.joblib')
+    model = joblib.load('./model.joblib')
 
     df = pd.DataFrame.from_records([dict_processed])
 
