@@ -69,3 +69,4 @@ tzdata==2025.1
 urllib3==2.3.0
 utilsforecast==0.2.12
 wcwidth==0.2.13
+joblib==1.4.2
