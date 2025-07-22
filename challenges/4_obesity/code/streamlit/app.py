@@ -1,9 +1,9 @@
+import os
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-
-import random
 
 
 DICT_VALUE_OBESITY_TRANSLATION = {
@@ -85,7 +85,11 @@ def generate_prediction():
 
     dict_processed = process_data_from_user(dict_values_user)
 
-    model = joblib.load('./model.joblib')
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+
+    full_path_joblib = os.path.join(dir_path, 'model.joblib')
+    
+    model = joblib.load(full_path_joblib)
 
     df = pd.DataFrame.from_records([dict_processed])
 
