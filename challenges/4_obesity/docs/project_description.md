@@ -23,8 +23,7 @@
   ●family_history: Algum membro da família sofreu ou sofre de excesso de
   peso?
   ●FAVC: Você come alimentos altamente calóricos com frequência?
-  ●FCVC: Você costuma comer vegetais nas suas refeições?Tech Challenge
-  Página 3 de 5
+  ●FCVC: Você costuma comer vegetais nas suas refeições?
   ●NCP: Quantas refeições principais você faz diariamente?
   ●CAEC: Você come alguma coisa entre as refeições?
   ●SMOKE: Você fuma?
