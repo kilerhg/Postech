@@ -2,6 +2,10 @@
 
 ![Project Design](./docs/project_design.png)
 
+## URL Projeto
+
+- [Obesity Predictor - Produção](https://postech-4-obesity-detection.streamlit.app/)
+
 ## Visão Geral do Projeto
 
 Este projeto tem como objetivo desenvolver um sistema preditivo para auxiliar médicos e médicas na previsão de obesidade em pacientes. A obesidade é uma condição médica caracterizada pelo acúmulo excessivo de gordura corporal, que pode prejudicar a saúde. O sistema utiliza um modelo de Machine Learning treinado com dados de pacientes para prever o nível de obesidade e fornecer insights personalizados para a equipe médica.
