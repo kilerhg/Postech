@@ -143,9 +143,9 @@ def calculate_personal_insights(dict_processed):
     if dict_processed['family_history']:
         dict_personal_insights['suggestion'].append('Histórico familiar pode influenciar o inicio e a gravidade da obesidade')
 
-    if dict_processed['fcvc'] == 0:
+    if dict_processed['fcvc'] == 1:
         dict_personal_insights['suggestion'].append('Evite a absência do consumo de frutas e verduras')
-    elif dict_processed['fcvc'] == 2:
+    elif dict_processed['fcvc'] == 3:
         dict_personal_insights['good'].append('Consumo de vegetais frequente')
 
     if dict_processed['faf'] == 0:
