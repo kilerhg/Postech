@@ -4,6 +4,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import plotly.graph_objects as go
+
+
 
 
 DICT_VALUE_OBESITY_TRANSLATION = {
@@ -55,9 +58,14 @@ apptitle = 'Postech Obesity Predictor'
 st.set_page_config(page_title=apptitle, page_icon=":eyeglasses:")
 
 
+
 # header = st.container()
 st.title('Obesity Predictor')
 body = st.container()
+insights = st.container()
+
+positive, to_improve = insights.columns(2)
+
 with st.expander('Veja Mais'):
     extra = st.container()
 
@@ -119,12 +127,30 @@ def calculate_personal_insights(dict_processed):
     dict_personal_insights['bmi'] = calculate_bmi(dict_processed)
     dict_personal_insights['ideal_water_intake'] = calculate_water_intake(dict_processed)
     dict_personal_insights['suggestion'] = []
+    dict_personal_insights['good'] = []
 
     if dict_processed['favc']:
         dict_personal_insights['suggestion'].append('Ingestão de alimentos altamente calóricos podem ter alto impacto na obesidade')
+    else:
+        dict_personal_insights['good'].append('Não está comendo alimentos altamente calóricos ')
+    
     if dict_personal_insights['ideal_water_intake'] > dict_processed['ch2o']:
         dict_personal_insights['suggestion'].append(f'Ingestão de Agua menor do que deveria para o seu peso - atual: {dict_processed['ch2o']}L - deveria ser: {dict_personal_insights['ideal_water_intake']}L')
+    else:
+        dict_personal_insights['good'].append('Ingestão de água ideal')
 
+    if dict_processed['family_history']:
+        dict_personal_insights['suggestion'].append('Histórico familiar pode influenciar o inicio e a gravidade da obesidade')
+
+    if dict_processed['fcvc'] == 0:
+        dict_personal_insights['suggestion'].append('Evite a absência do consumo de frutas e verduras')
+    elif dict_processed['fcvc'] == 2:
+        dict_personal_insights['good'].append('Consumo de vegetais frequente')
+
+    if dict_processed['faf'] == 0:
+        dict_personal_insights['suggestion'].append('A falta de exercício físico está diretamente relacionada a chance de obesidade')
+    elif dict_processed['faf'] >= 3:
+        dict_personal_insights['good'].append('Atividades física frequentes')
 
     return dict_personal_insights
 
@@ -154,10 +180,54 @@ def generate_prediction():
     body.write(f'A previsão é: {predict}')
     body.write(f'Seu IMC Atual é de: {dict_personal_insights["bmi"]}')
     body.write(f'Seu consumo ideal de agua é de: {dict_personal_insights["ideal_water_intake"]}')
-    body.write(f'Insights:')
+    
+    body.subheader(f'Insights')
+
+    positive.write('Está correto')
+    to_improve.write('Atenção')
+
     for insight in dict_personal_insights['suggestion']:
-        body.write(f'Atenção: {insight}')
+        to_improve.warning(insight)
+    
+    for insight in dict_personal_insights['good']:
+        positive.success(insight)
+
+    fig = go.Figure(go.Indicator(
+    mode = "gauge+number",
+    value = dict_personal_insights["bmi"],
+    domain = {'x': [0, 1], 'y': [0, 1]},
+    title = {'text': "IMC", 'font': {'size': 24}},
+    gauge = {
+        'axis': {'range': [0, 50], 'tickwidth': 1, 'tickcolor': "darkblue"},
+        'bar': {'color': "darkblue"},
+        'bgcolor': "white", 
+        'borderwidth': 2,
+        'bordercolor': "gray",
+        'steps': [
+            {'range': [0, 18.5], 'color': 'red'},
+            {'range': [18.5, 24.9], 'color': 'green'},
+            {'range': [25, 29.9], 'color': 'orange'},
+            {'range': [30, 34.9], 'color': 'yellow'},
+            {'range': [35, 39.9], 'color': 'red'},
+            {'range': [40, 50], 'color': 'red'}
+            ],
+        'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 24.9}
+        }
+    ))
+
+    body.plotly_chart(fig)
+
     extra.write(df)
+
+#     Underweight: BMI less than 18.5. 
+# Healthy Weight: BMI between 18.5 and 24.9. 
+# Overweight: BMI between 25 and 29.9. 
+# Obesity: BMI of 30 or higher. 
+
+#     Class 1 (Low-risk) Obesity: BMI 30 to 34.9. 
+
+# Class 2 (Moderate-risk) Obesity: BMI 35 to 39.9. 
+# Class 3 (High-risk) Obesity: BMI 40 or greater
 
 
 with st.sidebar.form(key='obesity_predictor'):
