@@ -169,10 +169,10 @@ with st.sidebar.form(key='obesity_predictor'):
             ['Masculino', 'Feminino']
         )
 
-    dict_values_user['age'] = st.sidebar.number_input('Idade', placeholder=25, min_value=1, max_value=120, step=1)
+    dict_values_user['age'] = st.sidebar.number_input('Idade', placeholder=25, min_value=1, max_value=120, step=1, value=25)
 
-    dict_values_user['height'] = st.sidebar.number_input('Altura (Metros)', placeholder=1.80, min_value=0.0, max_value=5.0, step=0.01)
-    dict_values_user['weight'] = st.sidebar.number_input('Peso (KG)', placeholder=90, min_value=0, max_value=200, step=1)
+    dict_values_user['height'] = st.sidebar.number_input('Altura (Metros)', placeholder=1.80, min_value=1.0, max_value=5.0, step=0.01, value=1.80)
+    dict_values_user['weight'] = st.sidebar.number_input('Peso (KG)', placeholder=90, min_value=1, max_value=200, step=1, value=90)
 
     dict_values_user['family_history'] = st.sidebar.checkbox('Algum membro da família sofreu ou sofre de excesso de peso?')
 
@@ -211,24 +211,3 @@ with st.sidebar.form(key='obesity_predictor'):
         )
 
     st.sidebar.button('Predict', on_click=generate_prediction)
-
-# with st.expander("See notes"):
-
-#     st.markdown("""
-# A Q-transform plot shows how a signal’s frequency changes with time.
-
-#  * The x-axis shows time
-#  * The y-axis shows frequency
-
-# The color scale shows the amount of “energy” or “signal power” in each time-frequency pixel.
-
-# A parameter called “Q” refers to the quality factor.  A higher quality factor corresponds to a larger number of cycles in each time-frequency pixel.  
-
-# For gravitational-wave signals, binary black holes are most clear with lower Q values (Q = 5-20), where binary neutron star mergers work better with higher Q values (Q = 80 - 120).
-
-# See also:
-
-#  * [GWpy q-transform](https://gwpy.github.io/docs/latest/examples/timeseries/qscan/)
-#  * [Reading Time-frequency plots](https://labcit.ligo.caltech.edu/~jkanner/aapt/web/math.html#tfplot)
-#  * [Shourov Chatterji PhD Thesis](https://dspace.mit.edu/handle/1721.1/34388)
-# """)

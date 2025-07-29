@@ -166,3 +166,4 @@ cython_debug/
 
 # Big csv folder, ignoring, if required rebuild bronze.parquet, download base files again
 challenges/3_covid19/data
+.venv/

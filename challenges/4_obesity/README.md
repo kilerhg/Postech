@@ -1,5 +1,13 @@
 # Challenge 4 - Previsão Obesidade
 
+# To do
+
+- [ ] Docker File & Docker compose
+- [ ] Melhor Legibilidade Alertas
+- [ ] Grafico com report
+- [ ] Melhorar campos default
+- [ ] Peso e altura > 0
+
 
 ![alt text](./docs/image.png)
 
