@@ -63,6 +63,7 @@ st.set_page_config(page_title=apptitle, page_icon=":eyeglasses:")
 st.title('Obesity Predictor')
 body = st.container()
 insights = st.container()
+plots = st.container()
 
 positive, to_improve = insights.columns(2)
 
@@ -177,9 +178,9 @@ def generate_prediction():
     print(f'dict_personal_insights: {dict_personal_insights}')
     print(result, predict)
 
-    body.write(f'A previsão é: {predict}')
-    body.write(f'Seu IMC Atual é de: {dict_personal_insights["bmi"]}')
-    body.write(f'Seu consumo ideal de agua é de: {dict_personal_insights["ideal_water_intake"]}')
+    body.markdown(f'## A previsão é: **{predict}**')
+    body.markdown(f'## Seu IMC Atual é de: **{dict_personal_insights["bmi"]}**')
+    body.markdown(f'## Seu consumo ideal de agua é de: **{dict_personal_insights["ideal_water_intake"]}L**')
     
     body.subheader(f'Insights')
 
@@ -215,21 +216,14 @@ def generate_prediction():
         }
     ))
 
-    body.plotly_chart(fig)
+    plots.plotly_chart(fig)
 
     extra.write(df)
-
-#     Underweight: BMI less than 18.5. 
-# Healthy Weight: BMI between 18.5 and 24.9. 
-# Overweight: BMI between 25 and 29.9. 
-# Obesity: BMI of 30 or higher. 
-
-#     Class 1 (Low-risk) Obesity: BMI 30 to 34.9. 
-
-# Class 2 (Moderate-risk) Obesity: BMI 35 to 39.9. 
-# Class 3 (High-risk) Obesity: BMI 40 or greater
-
-
+    extra.write(f'predict: {predict}')
+    extra.write(f'dict_processed: {dict_processed}')
+    extra.write(f'dict_personal_insights: {dict_personal_insights}')
+    extra.write(f'full_path_joblib: {full_path_joblib}')
+    
 with st.sidebar.form(key='obesity_predictor'):
 
     dict_values_user = {}
