@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "joblib>=1.5.1",
+    "nltk>=3.9.1",
     "numpy>=2.3.2",
     "pandas>=2.3.1",
     "plotly>=6.2.0",
