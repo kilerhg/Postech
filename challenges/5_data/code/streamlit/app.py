@@ -25,7 +25,6 @@ def load_glossary():
     try:
         with open(os.path.join(dir_path, 'candidate_mapping.json'), 'r', encoding='utf-8') as f:
             glossary = json.load(f)
-        st.success(f"✅ Loaded glossary with {len(glossary)} mapping categories")
         return glossary
     except Exception as e:
         st.error(f"Error loading glossary: {str(e)}")
@@ -44,10 +43,7 @@ def load_real_data():
     try:
         # Load the parquet file
         
-        df_full = pd.read_parquet(os.path.join(dir_path, 'talent_pool.parquet'))
-        
-        # Take first 100 records
-        df_candidates = df_full.head(100).copy()
+        df_candidates = pd.read_parquet(os.path.join(dir_path, 'talent_pool_sample.parquet'))
         
         # Add index and prospect_code if not present
         if 'index' not in df_candidates.columns:
@@ -79,9 +75,7 @@ def load_real_data():
             else:
                 # Fill NaN values with defaults
                 df_candidates[col] = df_candidates[col].fillna(default_value)
-        
-        st.success(f"✅ Loaded {len(df_candidates)} real candidate records from parquet file")
-        
+                
         return df_candidates
         
     except Exception as e:
@@ -265,7 +259,7 @@ def standardize_candidate_data(df, glossary):
     
     return df_standardized
 
-def create_match_score_gauge(score, title="Match Score"):
+def create_match_score_gauge(score, title="Pontuação de Compatibilidade"):
     """Create a gauge chart for match scores"""
     fig = go.Figure(go.Indicator(
         mode="gauge+number",
@@ -295,11 +289,10 @@ def create_match_score_gauge(score, title="Match Score"):
     return fig
 
 def main():
-    st.title('🎯 Job Fit - Talent Recommendation System')
-    st.markdown("**Find the best talent matches for your job descriptions or discover similar candidates**")
+    st.title('🎯 Decision Job Fit - Sistema de Recomendação de Talentos')
+    st.markdown("**Encontre os melhores talentos compatíveis com suas descrições de vagas ou descubra candidatos similares**")
     
     # Load glossary and real data for development
-    st.info("📊 **Real Data Mode** - Loading candidate data and glossary")
     
     with st.spinner('Loading glossary and candidate data...'):
         glossary = load_glossary()
@@ -321,7 +314,7 @@ def main():
     df_application_std = standardize_candidate_data(df_application, glossary)
     
     # Main Job Description Matching Interface
-    st.header("🔍 Find Candidates for Job Description")
+    st.header("🔍 Encontrar Candidatos para Descrição da Vaga")
     
     # Sidebar Filters
     st.sidebar.header("🔧 Filtros")
@@ -487,9 +480,9 @@ def main():
     # Main content area (full width now)
     # Job description input
     job_description = st.text_area(
-        "Enter Job Description:",
+        "Descrição da Vaga:",
         height=200,
-        placeholder="""Example:
+        placeholder="""Exemplo:
 Procuramos um desenvolvedor Python sênior com experiência em:
 - Desenvolvimento web com Django ou Flask
 - Bancos de dados PostgreSQL e MongoDB
@@ -498,7 +491,7 @@ Procuramos um desenvolvedor Python sênior com experiência em:
 - Machine Learning com scikit-learn
 - Experiência com AWS ou Azure
 """,
-        help="Describe the job requirements, skills, and qualifications needed"
+        help="Descreva os requisitos da vaga, habilidades e qualificações necessárias"
     )
     
     # Search parameters
@@ -569,7 +562,7 @@ Procuramos um desenvolvedor Python sênior com experiência em:
                     
                     # Display results
                     for i, candidate in enumerate(filtered_matches, 1):
-                        with st.expander(f"#{i} - {candidate.get('prospect_code', 'N/A')} - Score: {candidate['match_score']:.1%} - {candidate.get('nivel_profissional', 'N/A')}"):
+                        with st.expander(f"#{i} - {candidate.get('prospect_code', 'N/A')} - Pontuação: {candidate['match_score']:.1%} - {candidate.get('nivel_profissional', 'N/A')}"):
                             col_gauge, col_details = st.columns([1, 2])
                             
                             with col_gauge:
@@ -584,7 +577,7 @@ Procuramos um desenvolvedor Python sênior com experiência em:
                                 st.markdown(f"**Nível de Inglês:** {candidate.get('nivel_ingles', 'N/A')}")
                                 st.markdown(f"**Nível de Espanhol:** {candidate.get('nivel_espanhol', 'N/A')}")
                                 st.markdown(f"**Local:** {candidate.get('local', 'N/A')}")
-                                st.markdown(f"**Titulo:** {candidate.get('titulo', 'N/A')}")
+                                st.markdown(f"**Título:** {candidate.get('titulo', 'N/A')}")
                                 
                                 # Show affirmative action indicators if applicable
                                 if vaga_afirmativa_sexo or vaga_afirmativa_pcd:
@@ -604,7 +597,7 @@ Procuramos um desenvolvedor Python sênior com experiência em:
 
     # Footer
     st.markdown("---")
-    st.markdown("**Postech Job Fit System** - Built with Streamlit, scikit-learn, and advanced NLP techniques")
+    st.markdown("**Sistema Postech Job Fit** - Construído com Streamlit, scikit-learn e técnicas avançadas de NLP")
 
 if __name__ == "__main__":
     main()
