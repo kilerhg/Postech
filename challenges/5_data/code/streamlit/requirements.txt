@@ -41,5 +41,3 @@ tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
 nltk
-spacy==3.4.0
-streamlit==1.23.1 

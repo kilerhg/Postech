@@ -72,5 +72,3 @@ utilsforecast==0.2.12
 wcwidth==0.2.13
 joblib==1.4.2
 nltk
-spacy==3.4.0
-streamlit==1.23.1 
