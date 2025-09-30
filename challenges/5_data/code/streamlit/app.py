@@ -44,7 +44,7 @@ def load_real_data():
     try:
         # Load the parquet file
         
-        df_full = pd.read_parquet(os.path.join(dir_path, 'df_join_prospect_base.parquet'))
+        df_full = pd.read_parquet(os.path.join(dir_path, 'talent_pool.parquet'))
         
         # Take first 100 records
         df_candidates = df_full.head(100).copy()
@@ -222,7 +222,7 @@ class MockTalentRecommendationSystem:
                 'nivel_ingles': self.df_application.iloc[idx]['nivel_ingles'],
                 'nivel_espanhol': self.df_application.iloc[idx]['nivel_espanhol'],
                 'local': self.df_application.iloc[idx]['local'],
-                'titulo': self.df_application.iloc[idx]['titulo'][:300] + '...'
+                'titulo': self.df_application.iloc[idx]['titulo_profissional'][:300] + '...'
             }
             results.append(candidate_info)
         
