@@ -1,78 +1,112 @@
-
+import numpy as np
 import pandas as pd
-from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, OrdinalEncoder
+import re
+import nltk
+nltk.download("stopwords")
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+import random
+import time
+import string
+import unicodedata
+from sklearn.utils import shuffle
+from sklearn.model_selection import train_test_split
+from sklearn import svm
+from sklearn import metrics
+import multiprocessing
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import linear_kernel
+import glob
+import spacy.cli
+import spacy
 
+nltk.download("punkt")
+nltk.download("punkt_tab")
+nltk.download('rslp')
+spacy.cli.download("pt_core_news_sm")
 
-# Classes para pipeline
+# inicializa stemmer
+from nltk.stem import RSLPStemmer
+stemmer = RSLPStemmer()
 
-class OneHotEncodingNames(BaseEstimator,TransformerMixin):
-    def __init__(self,OneHotEncoding = ['mtrans']):
+# carregar modelo para português
+nlp = spacy.load("pt_core_news_sm")
 
-        self.OneHotEncoding = OneHotEncoding
+def normalize_accents(text: str) -> str:
+    return unicodedata.normalize("NFKD", text).encode("ASCII", "ignore").decode("utf-8")
 
-    def fit(self,df):
-        return self
+def remove_punctuation(text: str) -> str:
+    table = str.maketrans({key: " " for key in string.punctuation})
+    return text.translate(table)
 
-    def transform(self,df):
-        if (set(self.OneHotEncoding).issubset(df.columns)):
-            # função para one-hot-encoding das features
-            def one_hot_enc(df,OneHotEncoding):
-                one_hot_enc = OneHotEncoder()
-                one_hot_enc.fit(df[OneHotEncoding])
-                # obtendo o resultado dos nomes das colunas
-                feature_names = one_hot_enc.get_feature_names_out(OneHotEncoding)
-                # mudando o array do one hot encoding para um dataframe com os nomes das colunas
-                df = pd.DataFrame(one_hot_enc.transform(df[self.OneHotEncoding]).toarray(),
-                                  columns= feature_names,index=df.index)
-                return df
+def normalize_str(text: str) -> str:
+    text = text.lower()
+    text = re.sub(r"\d+", " ", text)           # remove números
+    text = remove_punctuation(text)            # remove pontuação
+    text = normalize_accents(text)             # remove acentos
+    text = re.sub(r"\s+", " ", text).strip()   # normaliza espaços
+    return text
 
-            # função para concatenar as features com aquelas que não passaram pelo one-hot-encoding
-            def concat_with_rest(df,one_hot_enc_df,OneHotEncoding):
-                # get the rest of the features
-                outras_features = [feature for feature in df.columns if feature not in OneHotEncoding]
-                # concaternar o restante das features com as features que passaram pelo one-hot-encoding
-                df_concat = pd.concat([one_hot_enc_df, df[outras_features]],axis=1)
-                return df_concat
+def remove_person_names(text: str) -> str:
+    doc = nlp(text)
+    return " ".join([token.text for token in doc if token.ent_type_ != "PER"])
 
-            # one hot encoded dataframe
-            df_OneHotEncoding = one_hot_enc(df,self.OneHotEncoding)
+def tokenizer(text: str):
+    stop_words_br = set(nltk.corpus.stopwords.words("portuguese"))
+    #stop_words_en = set(nltk.corpus.stopwords.words("english"))
+    if isinstance(text, str):
+        text = normalize_str(text)                                              # normaliza string
+        text = remove_person_names(text)                                        # remove nomes
+        tokens = word_tokenize(text, language="portuguese")                     # tokeniza para a lingua portuguesa
+        tokens = [t for t in tokens if t not in stop_words_br and len(t) > 2]
+        #tokens = [t for t in tokens if t not in stop_words_en and len(t) > 2]
+        tokens = [stemmer.stem(t) for t in tokens]                              # stemiza tokens
+        return tokens
+    return None
 
-            # retorna o dataframe concatenado
-            df_full = concat_with_rest(df, df_OneHotEncoding,self.OneHotEncoding)
-            return df_full
+def tokenize_and_vectorize_fixed(df, fitted_vectorizer, filename_prefix, batch_idx):
+    """Transform batch using the pre-fitted vectorizer"""
+    # Transform (not fit_transform) to use existing vocabulary
+    vector_matrix = fitted_vectorizer.transform(df["cv_pt_cleaned"].fillna(""))
+    
+    # Convert to DataFrame with consistent column names
+    df_tfidf = pd.DataFrame(
+        vector_matrix.toarray(), 
+        columns=fitted_vectorizer.get_feature_names_out(),
+        index=df.index  # Preserve original indices
+    )
+    
+    # Save batch
+    output_file = f"{filename_prefix}_batch_{batch_idx}.parquet"
+    df_tfidf.to_parquet(output_file)
+    print(f"Saved batch {batch_idx} with shape {df_tfidf.shape} to {output_file}")
+    
+    return df_tfidf
 
-        else:
-            print('Uma ou mais features não estão no DataFrame')
-            missing = set(self.OneHotEncoding) - set(df.columns)
-            print(f"Colunas ausentes no DataFrame: {missing}")
-            return df
-
-class OrdinalFeature(BaseEstimator,TransformerMixin):
-    def __init__(self,ordinal_feature = ['fcvc','ncp', 'caec', 'ch2o', 'faf', 'tue', 'calc']):
-        self.ordinal_feature = ordinal_feature
-    def fit(self,df):
-        return self
-    def transform(self,df):
-        for ordinal in self.ordinal_feature:
-          if ordinal in df.columns:
-              ordinal_encoder = OrdinalEncoder()
-              df[self.ordinal_feature] = ordinal_encoder.fit_transform(df[self.ordinal_feature])
-              return df
-          else:
-              print(f"{ordinal} não está no DataFrame")
-              return df
-          
-class MinMax(BaseEstimator,TransformerMixin):
-    def __init__(self,min_max_scaler  = ['age', 'weight', 'height']):
-        self.min_max_scaler = min_max_scaler
-    def fit(self,df):
-        return self
-    def transform(self,df):
-        if (set(self.min_max_scaler).issubset(df.columns)):
-            min_max_enc = MinMaxScaler()
-            df[self.min_max_scaler] = min_max_enc.fit_transform(df[self.min_max_scaler ])
-            return df
-        else:
-            print('Uma ou mais features não estão no DataFrame')
-            return df
+# Step 4: Efficient similarity computation for large datasets
+def compute_similarity_batched(df_tfidf, batch_size_sim=500, output_prefix='similarity_batch'):
+    """Compute cosine similarity in batches to handle large datasets"""
+    from sklearn.metrics.pairwise import cosine_similarity
+    import numpy as np
+    
+    n_samples = len(df_tfidf)
+    print(f"Computing similarity for {n_samples} samples in batches of {batch_size_sim}")
+    
+    # Create similarity matrix in batches to manage memory
+    similarity_files = []
+    
+    for i in range(0, n_samples, batch_size_sim):
+        batch_end = min(i + batch_size_sim, n_samples)
+        batch_data = df_tfidf.iloc[i:batch_end]
+        
+        # Compute similarity between this batch and ALL data
+        batch_similarity = cosine_similarity(batch_data, df_tfidf)
+        
+        # Save batch similarity
+        batch_file = f'/home/lucas-nunes/workspace/Postech/challenges/5_data/data/gold/{output_prefix}_{i}_{batch_end}.npy'
+        np.save(batch_file, batch_similarity)
+        similarity_files.append(batch_file)
+        
+        print(f"Computed similarity batch {i}-{batch_end}: {batch_similarity.shape}")
+    
+    return similarity_files
