@@ -1,0 +1,56 @@
+{
+    "senioridade_group": {
+        "Aprendiz": "Estagiário",
+        "Trainee": "Estagiário",
+        "Estagiário": "Estagiário",
+        "Assistente": "Assistente",
+        "Auxiliar": "Assistente",
+        "Técnico de Nível Médio": "Assistente",
+        "Júnior": "Analista Júnior",
+        "Pleno": "Analista Pleno",
+        "Analista": "Analista Pleno",
+        "Sênior": "Analista Sênior",
+        "Especialista": "Especialista",
+        "Líder": "Líder",
+        "Supervisor": "Supervisor",
+        "Coordenador": "Coordenador",
+        "Gerente": "Gerente"
+    },
+    "senioridade_lvl": {
+        "Estagiário": 1,
+        "Assistente": 2,
+        "Analista Júnior": 3,
+        "Analista Pleno": 4,
+        "Analista Sênior": 5,
+        "Especialista": 6,
+        "Líder": 7,
+        "Supervisor": 8,
+        "Coordenador": 9,
+        "Gerente": 10
+    },
+    "idioma_nvl": {
+        "Nenhum": 0,
+        "Básico": 1,
+        "Técnico": 2,
+        "Intermediário": 3,
+        "Avançado": 4,
+        "Fluente": 5
+    },
+    "nivel_academico_lvl": {
+        "Ensino Fundamental Completo": 1,
+        "Ensino Médio Incompleto": 2,
+        "Ensino Médio Completo": 3,
+        "Ensino Técnico Incompleto": 4,
+        "Ensino Técnico Cursando": 5,
+        "Ensino Técnico Completo": 6,
+        "Ensino Superior Incompleto": 7,
+        "Ensino Superior Cursando": 8,
+        "Ensino Superior Completo": 9,
+        "Pós Graduação Incompleto": 10,
+        "Pós Graduação Cursando": 11,
+        "Pós Graduação Completo": 12,
+        "Mestrado Cursando": 13,
+        "Mestrado Completo": 14,
+        "Doutorado Cursando": 15
+    }
+}
