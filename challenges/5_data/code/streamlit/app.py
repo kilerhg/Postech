@@ -10,7 +10,7 @@ import plotly.express as px
 import random
 import joblib
 from sklearn.metrics.pairwise import cosine_similarity
-from utils import TalentRecommendationSystem, tokenizer
+from utils import TalentRecommendationSystem, tokenizer, job_description_vector
 
 
 # App configuration
@@ -570,17 +570,18 @@ Procuramos um desenvolvedor Python sênior com experiência em:
                 if dict_filters_processed['nivel_profissional_filter'] is not None:
                     df_filtered = df_filtered[df_filtered['seniority_level'] >= dict_filters_processed['nivel_profissional_filter']]
                 
-                # Update talent recommender with filtered data
-                talent_recommender_filtered = TalentRecommendationSystem(df_filtered, vectorizer)
+                
                 
                 # Show filtering info
                 original_count = len(df_application_std)
                 filtered_count = len(df_filtered)
                 st.info(f"📊 Dataset filtrado: {filtered_count:,} candidatos (de {original_count:,} originais)")
                 
-
+                job_description = job_description_vector(job_description, vectorizer)
                 # Get recommendations from the pre-filtered dataset
-                all_matches = talent_recommender_filtered.recommend_for_job_description(job_description, len(df_filtered))
+                # Update talent recommender with filtered data
+                talent_recommender_filtered = TalentRecommendationSystem(df_filtered, job_description, vectorizer)
+                all_matches = talent_recommender_filtered.recommend_for_job_description(len(df_filtered))
                 
                 # Apply minimum score filter
                 filtered_matches = [match for match in all_matches if match['match_score'] >= min_score]

@@ -111,47 +111,56 @@ def compute_similarity_batched(df_tfidf, batch_size_sim=500, output_prefix='simi
     
     return similarity_files
 
+def job_description_vector(cv_input, vectorizer):
+
+    campo_vetor = 'cv_pt'
+
+    # Ensure cv_input is a list, even if it's a single string
+    if isinstance(cv_input, str):
+        cv_input = [cv_input]
+
+    df_input = pd.DataFrame({'cv_pt': cv_input})
+
+    # Transformar usando o mesmo vetorizador (não aplicar fit, apenas transform)
+    X_tfidf_input = vectorizer.transform(df_input[campo_vetor].fillna(""))
+
+    # Converter para formato de array e armazenar em um DataFrame
+    df_input_job_desc = pd.DataFrame({
+        'vetor_cv': [X_tfidf_input.toarray()[0]]  # Armazena o vetor completo
+    })
+    df_input_job_desc = df_input_job_desc.reset_index(drop=True)
+    return df_input_job_desc
+
 class TalentRecommendationSystem:
     """
-    Sistema de recomendação de talentos usando TF-IDF e similaridade do cosseno.
-    Atualizado para funcionar com dados filtrados do Streamlit.
+    Classe para recomendação de candidatos com base em similaridade de texto
+    utilizando vetores TF-IDF e similaridade do cosseno.
     """
 
-    def __init__(self, df_application, vectorizer):
+    def __init__(self, df_tfidf, df_tfidf_input, vectorizer):
         """
         Inicializa o sistema de recomendação.
 
         Parâmetros
         ----------
-        df_application : pd.DataFrame
-            DataFrame contendo os dados dos candidatos (já filtrado).
+        df_tfidf : pd.DataFrame
+            DataFrame contendo os vetores TF-IDF dos candidatos.
+        df_tfidf_input : pd.DataFrame
+            DataFrame contendo o vetor TF-IDF da descrição de vaga.
         vectorizer : TfidfVectorizer
-            Vetorizador TF-IDF treinado.
+            Vetorizador usado para transformar os textos.
         """
-        self.df_application = df_application
+        self.df_tfidf = df_tfidf
+        self.df_tfidf_input = df_tfidf_input
         self.vectorizer = vectorizer
+        self.similarity_cache = {}
 
-    def _vectorize_job_description(self, job_description):
-        """Converte descrição da vaga em vetor TF-IDF usando o vetorizador treinado"""
-        campo_vetor = 'job_description'
-        df_input = pd.DataFrame({'job_description': [job_description]})
-        
-        # Transforma usando o mesmo vetorizador (não aplicar fit, apenas transform)
-        X_tfidf_input = self.vectorizer.transform(df_input[campo_vetor].fillna(""))
-        
-        # Converte para formato de array
-        job_vector = X_tfidf_input.toarray()[0]
-        
-        return job_vector
-
-    def recommend_for_job_description(self, job_description, top_n=10):
+    def recommend_for_job_description(self, top_n=10):
         """
-        Encontra candidatos mais similares a uma descrição de vaga.
+        Encontra os candidatos mais similares a uma descrição de vaga.
 
         Parâmetros
         ----------
-        job_description : str
-            Descrição da vaga em texto.
         top_n : int, opcional, default=10
             Número de candidatos a retornar.
 
@@ -162,32 +171,28 @@ class TalentRecommendationSystem:
         """
         from sklearn.metrics.pairwise import cosine_similarity
         
-        # Converte descrição da vaga em vetor
-        job_vector = self._vectorize_job_description(job_description)
-        job_vector = job_vector.reshape(1, -1)  # Garante formato correto
+        # Obtém o vetor da vaga e garante o formato correto
+        job_vector = self.df_tfidf_input['vetor_cv'].values[0]
+        if len(job_vector.shape) == 1:
+            job_vector = job_vector.reshape(1, -1)
+            
+        # Obtém os vetores dos candidatos e garante o formato correto
+        candidate_vectors = np.vstack([v for v in self.df_tfidf['vetor_cv'].values])
         
-        # Obtém vetores dos candidatos
-        if 'vetor_cv' in self.df_application.columns:
-            # Usa vetores pré-computados se disponíveis
-            candidate_vectors = np.vstack([
-                v if isinstance(v, np.ndarray) else np.array(v) 
-                for v in self.df_application['vetor_cv'].values
-            ])
-        else:
-            # Fallback: vetoriza texto do CV usando o vetorizador
-            cv_column = self._find_cv_column()
-            if cv_column:
-                candidate_texts = self.df_application[cv_column].fillna("")
-                candidate_vectors = self.vectorizer.transform(candidate_texts).toarray()
+        # Force candidate_vectors to fit job_vector size
+        job_vector_size = job_vector.shape[1]
+        candidate_vector_size = candidate_vectors.shape[1]
+        
+        if job_vector_size != candidate_vector_size:
+            if job_vector_size < candidate_vector_size:
+                # Truncate candidate vectors to match job vector size
+                candidate_vectors = candidate_vectors[:, :job_vector_size]
             else:
-                raise ValueError("Nenhuma coluna de CV adequada encontrada nos dados")
+                # Pad candidate vectors with zeros to match job vector size
+                padding = np.zeros((candidate_vectors.shape[0], job_vector_size - candidate_vector_size))
+                candidate_vectors = np.hstack([candidate_vectors, padding])
         
-        # Garante que as dimensões sejam compatíveis
-        min_features = min(job_vector.shape[1], candidate_vectors.shape[1])
-        job_vector = job_vector[:, :min_features]
-        candidate_vectors = candidate_vectors[:, :min_features]
-        
-        # Calcula similaridade do cosseno
+        # Calcula a similaridade com todos os candidatos
         similarities = cosine_similarity(job_vector, candidate_vectors)[0]
 
         # Seleciona os melhores candidatos
@@ -199,75 +204,12 @@ class TalentRecommendationSystem:
         for idx, score in zip(top_indices, top_scores):
             candidate_info = {
                 'index': int(idx),
-                'prospect_code': self.df_application.iloc[idx].get('prospect_code', f'CAND-{idx}'),
                 'match_score': float(score),
-                'nivel_profissional': self.df_application.iloc[idx].get('nivel_profissional', 'N/A'),
-                'area_atuacao': self.df_application.iloc[idx].get('area_atuacao', 'N/A'),
-                'nivel_academico': self.df_application.iloc[idx].get('nivel_academico', 'N/A'),
-                'nivel_ingles': self.df_application.iloc[idx].get('nivel_ingles', 'N/A'),
-                'nivel_espanhol': self.df_application.iloc[idx].get('nivel_espanhol', 'N/A'),
-                'local': self.df_application.iloc[idx].get('local', 'N/A'),
-                'titulo': str(self.df_application.iloc[idx].get('cv_pt_cleaned', ''))[:300] + '...'
+                'nivel_profissional': self.df_tfidf.iloc[idx].get('nivel_profissional', 'N/A'),
+                'area_atuacao': self.df_tfidf.iloc[idx].get('area_atuacao', 'N/A'),
+                'nivel_academico': self.df_tfidf.iloc[idx].get('nivel_academico', 'N/A'),
+                'conhecimentos_preview': str(self.df_tfidf.iloc[idx].get('cv_pt', ''))[:200] + '...'
             }
             results.append(candidate_info)
 
         return results
-    
-    def get_similar_candidates(self, candidate_idx, top_n=10, similarity_threshold=0.1):
-        """Encontra candidatos similares a um candidato específico"""
-        if candidate_idx >= len(self.df_application):
-            return []
-        
-        if 'vetor_cv' not in self.df_application.columns:
-            return []
-            
-        # Obtém vetor do candidato alvo
-        target_vector = self.df_application.iloc[candidate_idx]['vetor_cv']
-        if not isinstance(target_vector, np.ndarray):
-            target_vector = np.array(target_vector)
-        target_vector = target_vector.reshape(1, -1)
-        
-        # Obtém todos os vetores dos candidatos
-        candidate_vectors = np.vstack([
-            v if isinstance(v, np.ndarray) else np.array(v) 
-            for v in self.df_application['vetor_cv'].values
-        ])
-        
-        # Calcula similaridades
-        similarities = cosine_similarity(target_vector, candidate_vectors)[0]
-        
-        # Remove candidato atual e aplica threshold
-        similarities[candidate_idx] = -1
-        valid_indices = np.where(similarities >= similarity_threshold)[0]
-        
-        if len(valid_indices) == 0:
-            return []
-        
-        # Obtém candidatos mais similares
-        sorted_indices = valid_indices[np.argsort(similarities[valid_indices])[::-1]][:top_n]
-        
-        results = []
-        for idx in sorted_indices:
-            candidate_info = {
-                'index': int(idx),
-                'prospect_code': self.df_application.iloc[idx].get('prospect_code', f'CAND-{idx}'),
-                'similarity_score': float(similarities[idx]),
-                'nivel_profissional': self.df_application.iloc[idx].get('nivel_profissional', 'N/A'),
-                'area_atuacao': self.df_application.iloc[idx].get('area_atuacao', 'N/A'),
-                'nivel_academico': self.df_application.iloc[idx].get('nivel_academico', 'N/A'),
-                'nivel_ingles': self.df_application.iloc[idx].get('nivel_ingles', 'N/A'),
-                'nivel_espanhol': self.df_application.iloc[idx].get('nivel_espanhol', 'N/A'),
-                'local': self.df_application.iloc[idx].get('local', 'N/A'),
-                'titulo': str(self.df_application.iloc[idx].get('cv_pt_cleaned', ''))[:300] + '...'
-            }
-            results.append(candidate_info)
-        
-        return results
-    
-    def _find_cv_column(self):
-        """Encontra a melhor coluna de texto do CV no dataset"""
-        possible_columns = ['cv_pt', 'cv_pt_cleaned', 'cv_text', 'cv', 'resume']
-        for col in possible_columns:
-            if col in self.df_application.columns:
-                return col
-        return None
