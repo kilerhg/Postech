@@ -17,20 +17,17 @@ import multiprocessing
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel, cosine_similarity
 import glob
-import spacy.cli
-import spacy
 
 nltk.download("punkt")
 nltk.download("punkt_tab")
 nltk.download('rslp')
-spacy.cli.download("pt_core_news_sm")
 
 # inicializa stemmer
 from nltk.stem import RSLPStemmer
 stemmer = RSLPStemmer()
 
 # carregar modelo para português
-nlp = spacy.load("pt_core_news_sm")
+# nlp = spacy.load("pt_core_news_sm")
 
 def normalize_accents(text: str) -> str:
     return unicodedata.normalize("NFKD", text).encode("ASCII", "ignore").decode("utf-8")
@@ -47,16 +44,16 @@ def normalize_str(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()   # normaliza espaços
     return text
 
-def remove_person_names(text: str) -> str:
-    doc = nlp(text)
-    return " ".join([token.text for token in doc if token.ent_type_ != "PER"])
+# def remove_person_names(text: str) -> str:
+#     doc = nlp(text)
+#     return " ".join([token.text for token in doc if token.ent_type_ != "PER"])
 
 def tokenizer(text: str):
     stop_words_br = set(nltk.corpus.stopwords.words("portuguese"))
     #stop_words_en = set(nltk.corpus.stopwords.words("english"))
     if isinstance(text, str):
         text = normalize_str(text)                                              # normaliza string
-        text = remove_person_names(text)                                        # remove nomes
+        # text = remove_person_names(text)                                        # remove nomes
         tokens = word_tokenize(text, language="portuguese")                     # tokeniza para a lingua portuguesa
         tokens = [t for t in tokens if t not in stop_words_br and len(t) > 2]
         #tokens = [t for t in tokens if t not in stop_words_en and len(t) > 2]
