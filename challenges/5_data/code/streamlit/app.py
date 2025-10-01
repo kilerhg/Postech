@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import random
 import joblib
+from sklearn.metrics.pairwise import cosine_similarity
 from utils import TalentRecommendationSystem, tokenizer
 
 
@@ -570,14 +571,13 @@ Procuramos um desenvolvedor Python sênior com experiência em:
                     df_filtered = df_filtered[df_filtered['seniority_level'] >= dict_filters_processed['nivel_profissional_filter']]
                 
                 # Update talent recommender with filtered data
-                talent_recommender_filtered = MockTalentRecommendationSystem(df_filtered)
+                talent_recommender_filtered = TalentRecommendationSystem(df_filtered, vectorizer)
                 
                 # Show filtering info
                 original_count = len(df_application_std)
                 filtered_count = len(df_filtered)
                 st.info(f"📊 Dataset filtrado: {filtered_count:,} candidatos (de {original_count:,} originais)")
                 
-                # Debug: Show applied filter criteria
 
                 # Get recommendations from the pre-filtered dataset
                 all_matches = talent_recommender_filtered.recommend_for_job_description(job_description, len(df_filtered))
@@ -604,7 +604,7 @@ Procuramos um desenvolvedor Python sênior com experiência em:
                             
                             with col_gauge:
                                 fig = create_match_score_gauge(candidate['match_score'])
-                                st.plotly_chart(fig, use_container_width=True)
+                                st.plotly_chart(fig, use_container_width=True, key=f"gauge_chart_{candidate.get('prospect_code', f'candidate_{i}')}")
                             
                             with col_details:
                                 st.markdown(f"**Código Prospect:** {candidate.get('prospect_code', 'N/A')}")
