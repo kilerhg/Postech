@@ -55,7 +55,7 @@ requests==2.32.3
 scikit-learn==1.6.1
 scipy==1.15.2
 seaborn==0.13.2
-setuptools==75.8.0
+setuptools==78.1.1
 six==1.17.0
 stack-data==0.6.3
 statsforecast==2.0.1
