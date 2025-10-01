@@ -110,3 +110,80 @@ def compute_similarity_batched(df_tfidf, batch_size_sim=500, output_prefix='simi
         print(f"Computed similarity batch {i}-{batch_end}: {batch_similarity.shape}")
     
     return similarity_files
+
+class TalentRecommendationSystem:
+    """
+    Classe para recomendação de candidatos com base em similaridade de texto
+    utilizando vetores TF-IDF e similaridade do cosseno.
+    """
+
+    def __init__(self, df_tfidf, df_tfidf_input, vectorizer):
+        """
+        Inicializa o sistema de recomendação.
+
+        Parâmetros
+        ----------
+        df_tfidf : pd.DataFrame
+            DataFrame contendo os vetores TF-IDF dos candidatos.
+        df_tfidf_input : pd.DataFrame
+            DataFrame contendo o vetor TF-IDF da descrição de vaga.
+        vectorizer : TfidfVectorizer
+            Vetorizador usado para transformar os textos.
+        """
+        self.df_tfidf = df_tfidf
+        self.df_tfidf_input = df_tfidf_input
+        self.vectorizer = vectorizer
+        self.similarity_cache = {}
+
+    def recommend_for_job_description(self, top_n=10):
+        """
+        Encontra os candidatos mais similares a uma descrição de vaga.
+
+        Parâmetros
+        ----------
+        top_n : int, opcional, default=10
+            Número de candidatos a retornar.
+
+        Retorno
+        -------
+        results : list of dict
+            Lista de dicionários com informações dos candidatos recomendados.
+        """
+        from sklearn.metrics.pairwise import cosine_similarity
+        
+        # Obtém o vetor da vaga e garante o formato correto
+        job_vector = self.df_tfidf_input['vetor_cv'].values[0]
+        if len(job_vector.shape) == 1:
+            job_vector = job_vector.reshape(1, -1)
+            
+        # Obtém os vetores dos candidatos e garante o formato correto
+        candidate_vectors = np.vstack([v for v in self.df_tfidf['vetor_cv'].values])
+        
+        # Garante que as dimensões sejam compatíveis
+        if job_vector.shape[1] != candidate_vectors.shape[1]:
+            raise ValueError(
+                f"As dimensões dos vetores não coincidem: "
+                f"vaga {job_vector.shape} vs candidatos {candidate_vectors.shape}"
+            )
+        
+        # Calcula a similaridade com todos os candidatos
+        similarities = cosine_similarity(job_vector, candidate_vectors)[0]
+
+        # Seleciona os melhores candidatos
+        top_indices = np.argsort(similarities)[::-1][:top_n]
+        top_scores = similarities[top_indices]
+
+        # Monta os resultados
+        results = []
+        for idx, score in zip(top_indices, top_scores):
+            candidate_info = {
+                'index': int(idx),
+                'match_score': float(score),
+                'nivel_profissional': self.df_tfidf.iloc[idx].get('nivel_profissional', 'N/A'),
+                'area_atuacao': self.df_tfidf.iloc[idx].get('area_atuacao', 'N/A'),
+                'nivel_academico': self.df_tfidf.iloc[idx].get('nivel_academico', 'N/A'),
+                'conhecimentos_preview': str(self.df_tfidf.iloc[idx].get(campo_vetor, ''))[:200] + '...'
+            }
+            results.append(candidate_info)
+
+        return results

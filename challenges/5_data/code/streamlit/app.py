@@ -8,6 +8,8 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 import random
+import joblib
+from utils import TalentRecommendationSystem, tokenizer
 
 
 # App configuration
@@ -16,7 +18,16 @@ st.set_page_config(page_title=apptitle, page_icon="🎯", layout="wide")
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-full_path_joblib = os.path.join(dir_path, 'candidate_mapping.json')
+@st.cache_data
+def load_vectorizer():
+    """Load TF-IDF vectorizer with error handling"""
+    try:
+        vectorizer_path = os.path.join(dir_path, 'talent_vectorizer.pkl')
+        loaded_vectorizer = joblib.load(vectorizer_path)
+        return loaded_vectorizer
+    except Exception as e:
+        print(e)
+        return None
 
 # Load glossary mappings
 @st.cache_data
@@ -43,7 +54,7 @@ def load_real_data():
     try:
         # Load the parquet file
         
-        df_candidates = pd.read_parquet(os.path.join(dir_path, 'talent_pool_sample.parquet'))
+        df_candidates = pd.read_parquet(os.path.join(dir_path, 'talent_pool_final.parquet'))
         
         # Add index and prospect_code if not present
         if 'index' not in df_candidates.columns:
@@ -288,7 +299,13 @@ def create_match_score_gauge(score, title="Pontuação de Compatibilidade"):
     fig.update_layout(height=300, margin=dict(t=30, b=0, l=0, r=0))
     return fig
 
+def handle_filters(value):
+    if value == "Todos":
+        return None
+
 def main():
+    # Load vectorizer first
+    
     st.title('🎯 Decision Job Fit - Sistema de Recomendação de Talentos')
     st.markdown("**Encontre os melhores talentos compatíveis com suas descrições de vagas ou descubra candidatos similares**")
     
@@ -297,6 +314,7 @@ def main():
     with st.spinner('Loading glossary and candidate data...'):
         glossary = load_glossary()
         df_application = load_real_data()
+        vectorizer = load_vectorizer()
 
     st.info("""
         **Como funciona:**
@@ -307,7 +325,6 @@ def main():
         4. Resultados rankeados por compatibilidade
         """)
     
-    # Initialize mock recommendation system
     talent_recommender = MockTalentRecommendationSystem(df_application)
     
     # Standardize candidate data using glossary
@@ -506,47 +523,67 @@ Procuramos um desenvolvedor Python sênior com experiência em:
         if job_description.strip():
             with st.spinner('Analisando descrição da vaga e aplicando filtros...'):
                 # Get all matches first
-                all_matches = talent_recommender.recommend_for_job_description(job_description, len(df_application))
+
+                dict_filters = dict(
+                    local_filter = local_filter,
+                    nivel_academico_filter = nivel_academico_filter,
+                    nivel_ingles_filter = nivel_ingles_filter,
+                    nivel_espanhol_filter = nivel_espanhol_filter,
+                    nivel_profissional_filter = nivel_profissional_filter
+                )
+
+                dict_filters_processed = dict_filters.copy()
+                dict_filters_processed['nivel_academico_filter'] = glossary['nivel_academico_lvl'].get(dict_filters['nivel_academico_filter'], None)
+                dict_filters_processed['nivel_ingles_filter'] = glossary['idioma_nvl'].get(dict_filters['nivel_ingles_filter'], None)
+                dict_filters_processed['nivel_espanhol_filter'] = glossary['idioma_nvl'].get(dict_filters['nivel_espanhol_filter'], None)
+                dict_filters_processed['nivel_profissional_filter'] = glossary['senioridade_lvl'].get(dict_filters['nivel_profissional_filter'], None)
+
+                # Apply filters to df_application_std (pre-filter the dataset)
+                df_filtered = df_application_std.copy()
                 
-                # Apply filters to the matches using standardized data
-                filtered_matches = []
-                for match in all_matches:
-                    candidate = df_application_std.iloc[match['index']]
-                    
-                    # Apply general filters
-                    if local_filter != "Todos":
-                        if candidate.get('local', '') != local_filter:
-                            continue
-                    
-                    if nivel_academico_filter != "Todos":
-                        if candidate.get('nivel_academico', '') != nivel_academico_filter:
-                            continue
-                    
-                    if nivel_ingles_filter != "Todos":
-                        if candidate.get('nivel_ingles', '') != nivel_ingles_filter:
-                            continue
-                    
-                    if nivel_espanhol_filter != "Todos":
-                        if candidate.get('nivel_espanhol', '') != nivel_espanhol_filter:
-                            continue
-                    
-                    if nivel_profissional_filter != "Todos":
-                        # Use standardized professional level for filtering
-                        if candidate.get('nivel_profissional_std', '') != nivel_profissional_filter:
-                            continue
-                    
-                    # Apply affirmative action filters
-                    if vaga_afirmativa_sexo:
-                        if candidate.get('sexo', '') != 'Feminino':
-                            continue
-                    
-                    if vaga_afirmativa_pcd:
-                        if candidate.get('pcd', '') != 'Sim':
-                            continue
-                    
-                    # Apply minimum score filter
-                    if match['match_score'] >= min_score:
-                        filtered_matches.append(match)
+                # Location filter (exact match)
+                if local_filter != "Todos":
+                    df_filtered = df_filtered[df_filtered['local'] == local_filter]
+                
+                # Gender affirmative action filter (exact match)
+                if vaga_afirmativa_sexo:
+                    df_filtered = df_filtered[df_filtered['sexo'] == 'Feminino']
+                
+                # PCD affirmative action filter (exact match)
+                if vaga_afirmativa_pcd:
+                    df_filtered = df_filtered[df_filtered['pcd'] == 'Sim']
+                
+                # Academic level filter (greater or equal - minimum requirement)
+                if dict_filters_processed['nivel_academico_filter'] is not None:
+                    df_filtered = df_filtered[df_filtered['academic_level'] >= dict_filters_processed['nivel_academico_filter']]
+                
+                # English level filter (greater or equal - minimum requirement)
+                if dict_filters_processed['nivel_ingles_filter'] is not None:
+                    df_filtered = df_filtered[df_filtered['english_level'] >= dict_filters_processed['nivel_ingles_filter']]
+                
+                # Spanish level filter (greater or equal - minimum requirement)
+                if dict_filters_processed['nivel_espanhol_filter'] is not None:
+                    df_filtered = df_filtered[df_filtered['spanish_level'] >= dict_filters_processed['nivel_espanhol_filter']]
+                
+                # Professional level filter (greater or equal - minimum seniority)
+                if dict_filters_processed['nivel_profissional_filter'] is not None:
+                    df_filtered = df_filtered[df_filtered['seniority_level'] >= dict_filters_processed['nivel_profissional_filter']]
+                
+                # Update talent recommender with filtered data
+                talent_recommender_filtered = MockTalentRecommendationSystem(df_filtered)
+                
+                # Show filtering info
+                original_count = len(df_application_std)
+                filtered_count = len(df_filtered)
+                st.info(f"📊 Dataset filtrado: {filtered_count:,} candidatos (de {original_count:,} originais)")
+                
+                # Debug: Show applied filter criteria
+
+                # Get recommendations from the pre-filtered dataset
+                all_matches = talent_recommender_filtered.recommend_for_job_description(job_description, len(df_filtered))
+                
+                # Apply minimum score filter
+                filtered_matches = [match for match in all_matches if match['match_score'] >= min_score]
                 
                 # Limit to top_n results
                 filtered_matches = filtered_matches[:top_n]
@@ -588,10 +625,18 @@ Procuramos um desenvolvedor Python sênior com experiência em:
                                         st.markdown("♿ Pessoa com Deficiência")
                                 
                 else:
-                    st.warning("Nenhum candidato encontrado com os filtros aplicados. Tente:")
-                    st.write("• Reduzir o score mínimo")
-                    st.write("• Remover alguns filtros")
-                    st.write("• Ampliar os critérios de busca")
+                    if filtered_count == 0:
+                        st.error("❌ Nenhum candidato passou pelos filtros aplicados!")
+                        st.markdown("**Sugestões:**")
+                        st.write("• Remover alguns filtros restritivos")
+                        st.write("• Reduzir os níveis mínimos exigidos")
+                        st.write("• Verificar se os critérios não são muito específicos")
+                    else:
+                        st.warning("⚠️ Nenhum candidato encontrado com score suficiente nos dados filtrados.")
+                        st.markdown("**Sugestões:**")
+                        st.write("• Reduzir o score mínimo")
+                        st.write("• Ajustar a descrição da vaga")
+                        st.write("• Ampliar os critérios de busca")
         else:
             st.error("Por favor, insira uma descrição da vaga para buscar candidatos.")
 
