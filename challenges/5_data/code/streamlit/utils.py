@@ -17,8 +17,6 @@ import multiprocessing
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel, cosine_similarity
 import glob
-import spacy.cli
-import spacy
 
 nltk.download("punkt")
 nltk.download("punkt_tab")
