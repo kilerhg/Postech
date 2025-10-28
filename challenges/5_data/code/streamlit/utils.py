@@ -23,7 +23,7 @@ import spacy
 nltk.download("punkt")
 nltk.download("punkt_tab")
 nltk.download('rslp')
-spacy.cli.download("pt_core_news_sm")
+# spacy.cli.download("pt_core_news_sm")
 
 # inicializa stemmer
 from nltk.stem import RSLPStemmer
