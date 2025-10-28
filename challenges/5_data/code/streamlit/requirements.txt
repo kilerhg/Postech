@@ -42,5 +42,4 @@ urllib3==2.5.0
 watchdog==6.0.0
 nltk
 spacy==3.4.0
-https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.4.0/pt_core_news_sm-3.4.0-py3-none-any.whl
 streamlit==1.23.1 
