@@ -72,4 +72,8 @@ utilsforecast==0.2.12
 wcwidth==0.2.13
 joblib==1.4.2
 nltk
-spacy
+spacy==3.4.0
+https://github.com/explosion/spacy-models/releases/download/de_core_news_md-3.4.0/de_core_news_md-3.4.0.tar.gz
+https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.4.0/de_core_news_lg-3.4.0.tar.gz
+https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm/pt_core_news_sm.tar.gz
+streamlit==1.23.1 
