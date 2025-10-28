@@ -16,7 +16,7 @@ import subprocess
 
 @st.cache_resource
 def download_en_core_web_sm():
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    subprocess.run(["python", "-m", "spacy", "download", "pt_core_news_sm"])
 
 # App configuration
 apptitle = 'Postech Job Fit - Talent Recommendation System'
